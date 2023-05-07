@@ -1,0 +1,46 @@
+html, body {
+  height: auto;
+  width: 100%;
+  background-size: 400%; 
+  
+}
+body {
+  background-image: url('https://storage.gra.cloud.ovh.net/v1/AUTH_728ab22ba0c842468a897907be9a7075/flipanim/anim/nynbsjv5.gif')
+  
+}
+
+h1{
+  color: white;
+}
+h2{
+  color: red;
+}
+p1{
+  color:grey;
+  Background-color:Black;
+  font-family: "Times New Roman", Times, serif;
+}
+}
+p{
+  color:grey;
+  Background-color:Black;
+}
+
+<!-- HTML !-->
+<button class="button-9" role="button">Button 9</button>
+
+.block {
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #000000;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    }
+
+
+
+
