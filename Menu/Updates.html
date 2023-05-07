@@ -1,0 +1,121 @@
+<html>
+  <center> 
+  <link rel="stylesheet" href="/style.css">
+  <body>
+    </p1>
+    <h2>
+      Updates
+    </h2>
+   <br>      
+    <p1> 
+    changed some names and buttons. Added updates
+      <br>
+    to the menu. Also made alt sites. Might do some css
+      <br>
+    idk if anyones here but hi.
+      <br>
+      5/07/23
+      <br>
+      <br>
+    added lots of rammerhead + changed buttons css
+      <br>
+      5/06/23
+      <br>
+      <br>
+      apps have a 70% chance of working
+      <br>
+      5/03/23
+      <br>
+      <br>
+      changed css and background. Added 28 games
+      <br>
+      and fixed 2-5 games. Run 3 should work.
+      <br>
+      4/30/23
+    </p1>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* i just discovered comments this is so cool */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body> 
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="/index.html">Home</a>
+  <a href="Proxies.html">Proxies</a>
+  <a href="Bookmarklets.html#">Bookmarklets & Cheats</a>
+  <a href="AboutBlank.html">aboutBlank</a>
+  <a href="games.html"> games </a>
+  <a href="Updates.html"> updates </a>
+</div>
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+  </body>
+  </body>
+  </center>
+</html>

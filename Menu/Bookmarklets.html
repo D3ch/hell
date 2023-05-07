@@ -1,0 +1,240 @@
+<html>
+       <link rel="stylesheet" href = "/style.css">
+  <body>
+  <center>
+
+     <html><head></head><body><button class="glow-on-hover" type="button">Link but hidden
+</button> <script> var urlObj = new   window.URL(window.location.href); var url ="https://Test.dach7.repl.co"; if (url) { var win; document.querySelector('button').onclick = function() { if (win) { win.focus(); } else { win = window.open(); win.document.body.style.margin = '0'; win.document.body.style.height = '100vh'; var iframe = win.document.createElement('iframe'); iframe.style.border = 'none'; iframe.style.width = '100%'; iframe.style.height = '100%'; iframe.style.margin = '0'; iframe.src = url; win.document.body.appendChild(iframe); } document.querySelector('button').style.background='#00000'; document.querySelector('button').innerHTML="Page Opened!"; }; } </script> <style> * html, body { margin: 0; padding: 0; width: 100%; height: 100vh; display: flex; flex-direction: row; justify-content: center; align-items: center; background: #000; } .glow-on-hover { width: 220px; height: 50px; border: none; outline: none; color: #fff; background: #111; cursor: pointer; position: relative; z-index: 0; border-radius: 10px; } .glow-on-hover:before { content: ''; background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000); position: absolute; top: -2px; left:-2px; background-size: 400%; z-index: -1; filter: blur(5px); width: calc(100% + 4px); height: calc(100% + 4px); animation: glowing 20s linear infinite; opacity: 0; transition: opacity .3s ease-in-out; border-radius: 10px; } .glow-on-hover:active { color: #000 } .glow-on-hover:active:after { background: transparent; } .glow-on-hover:hover:before { opacity: 1; } .glow-on-hover:after { z-index: -1; content: ''; position: absolute; width: 100%; height: 100%; background: #111; left: 0; top: 0; border-radius: 10px; } @keyframes glowing { 0% { background-position: 0 0; } 50% { background-position: 400% 0; } 100% { background-position: 0 0; } } </style>
+</body></html>
+
+    
+
+<center> 
+<h1>Bookmarklets</h1>
+</center>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: "Aeriel", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: Black;
+  width: 30%;
+  height: 400px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: White;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: Grey;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: Grey;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Khan Academy</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">History Hider</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">XtraMath</button>
+  <button class="tablinks" onclick="openCity(event,'AbtBlank')">Portable Aboutblank</button>
+  <button class="tablinks" onclick="openCity(event,'Idk')">Cookie Clicker Hack </button>
+
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>Khan Acadmey Bookmarklet</h3>
+  <p1>javascript:fetch`//raw.githubusercontent.com/beforeblazergithub/hacks/main/khan
+.js`.then(r=>r.text()).then(eval)
+</p1>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>History Hider</h3>
+  <p1>javascript:var num=prompt("History flood amount: "); done = false; x = window.location.href; for (var i=1; i<=num; i++) {history.pushState(0, 0, i==num?x:i.toString()); if(i==num){done=true}}if(done===true){alert("History flood successful! "+window.location.href+" now appears in your history "+num+(num==1?" time.":" times. (Made by JonasFlynn)"))} 
+</p1> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>XtraMath Bookmarklet</h3>
+  <p1>javascript:!function(){function t(t,a){var e=document.createElement(“script”);e.src=t;var o=document.getElementsByTagName(“head”)[0],n=!1;e.onload=e.onreadystatechange=function(){n||this.readyState&&”loaded”!=this.readyState&&”complete”!=this.readyState||(n=!0,a(),e.onload=e.onreadystatechange=null,o.removeChild(e))},o.appendChild(e)}var a=window.location.hostname;if(“localhost”==a||”xtramathcheat.gitlab.io”==a)return void alert(“Do not click it. Drag it into your bookmarks bar.”);if(“xtramath.org”!=a)return void alert(“You can only use this on xtramath.org”);var e=”https://xtramathcheat.gitlab.io/cheat/stage2.js&#8221;;document.getElementsByTagName(“body”)[0];t(e,function(){})}();
+</p1>
+</div>
+
+<div id="AbtBlank" class="tabcontent">
+  <h3>Portable AboutBlank</h3>
+  <p1>javascript: (function () {var url = prompt("Paste the link you want to be embedded into an about:blank page.", "ex. https://example.com"); var urlObj = new window.URL(window.location.href); win = window.open(); win.document.body.style.margin = "0"; win.document.body.style.height = "100vh"; var iframe = win.document.createElement("iframe"); iframe.style.border = "none"; iframe.style.width = "100%"; iframe.style.height = "100%"; iframe.style.margin = "0"; iframe.referrerpolicy = "no-referrer"; iframe.allow = "fullscreen"; iframe.src = url.toString(); win.document.body.appendChild(iframe); var script = win.document.createElement("script"); script.src = "https://3kh0.github.io/js/main.js"; win.document.body.appendChild(script); })();
+</p1>
+</div>
+
+  <div id="Idk" class="tabcontent">
+  <h3>Cookie Clicker Hack</h3>
+  <p1>
+    https://pastebin.com/4wAZTnaQ
+</p1>
+</div>
+
+  
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
+<br>
+<br>
+<br>
+  <h1>
+    Cheats
+  </h1>
+
+
+
+
+
+
+    
+      <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 500px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body> 
+  
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="/index.html">Home</a>
+  <a href="Proxies.html">Proxies</a>
+  <a href="Bookmarklets.html#">Bookmarklets & Cheats</a>
+  <a href="AboutBlank.html">aboutBlank</a>
+  <a href="games.html"> games </a>
+  <a href="Updates.html"> Updates </a>
+</div>
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</body>
+</html> 
+
+
+ </center>
+  </body>
+</html>
