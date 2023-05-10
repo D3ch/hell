@@ -1,0 +1,142 @@
+[
+    {
+        "title": "Flash",
+        "image": "/games/images/flash.jpg",
+        "location": "/games/files/flash"
+    },
+    {
+        "title": "GBA",
+        "image": "/games/images/gba.png",
+        "location": "/games/files/webretro/?core=mgba"
+    },
+    {
+        "title": "Genesis",
+        "image": "/games/images/genesis.png",
+        "location": "/games/files/webretro/?core=genesis_plus_gx"
+    },
+    {
+        "title": "NES",
+        "image": "/games/images/nes.png",
+        "location": "/games/files/webretro/?core=nestopia"
+    },
+    {
+        "title": "N64",
+        "image": "/games/images/n64.png",
+        "location": "/games/files/webretro/?core=mupen64plus_next"
+    },
+    {
+        "title": "SNES",
+        "image": "/games/images/snes.png",
+        "location": "/games/files/webretro/?core=snes9x"
+    },
+    {
+        "title": "Asteroids",
+        "image": "/games/images/asteroids.png",
+        "location": "/games/files/asteroids"
+    },
+    {
+        "title": "Astray",
+        "image": "/games/images/astray.png",
+        "location": "/games/files/astray"
+    },
+    {
+        "title": "Algaes Escapade",
+        "image": "/games/images/algaes-escapade.png",
+        "location": "/games/files/algaes-escapade"
+    },
+    {
+        "title": "Flappy Bird",
+        "image": "/games/images/flappy-bird.png",
+        "location": "/games/files/flappy-bird"
+    },
+    {
+        "title": "Friday Night Funkin'",
+        "image": "/games/images/fridaynightfunkin.jpg",
+        "location": "/games/files/fridaynightfunkin"
+    },
+    {
+        "title": "Garbage Collector",
+        "image": "/games/images/garbage-collector.png",
+        "location": "/games/files/garbage-collector"
+    },
+    {
+        "title": "Geometry Dash",
+        "image": "/games/images/geometrydash.png",
+        "location": "/games/files/geometrydash"
+    },
+    {
+        "title": "Gopher Kart",
+        "image": "/games/images/gopher-kart.png",
+        "location": "/games/files/gopher-kart"
+    },
+    {
+        "title": "Hextris",
+        "image": "/games/images/hextris.png",
+        "location": "/games/files/hextris"
+    },
+    {
+        "title": "MineKhan",
+        "image": "/games/images/minekhan.png",
+        "location": "/games/files/minekhan"
+    },
+    {
+        "title": "Pacman",
+        "image": "/games/images/pacman.jpg",
+        "location": "/games/files/pacman"
+    },
+    {
+        "title": "Space Invaders",
+        "image": "/games/images/space-invaders.png",
+        "location": "/games/files/space-invaders"
+    },
+    {
+        "title": "Syobon Action",
+        "image": "/games/images/syobon-action.jpg",
+        "location": "/games/files/syobon-action"
+    },
+    {
+        "title": "2048",
+        "image": "/games/images/2048.png",
+        "location": "/games/files/2048"
+    },
+    {
+        "title": "Justfall.lol",
+        "image": "/games/images/justfall-lol.jpg",
+        "location": "/corrosion/gateway?url=justfall.lol"
+    },
+    {
+        "title": "Paper.io",
+        "image": "/games/images/paper-io.jpg",
+        "location": "/corrosion/gateway?url=paper-io.com"
+    },
+    {
+        "title": "Shell Shockers",
+        "image": "/games/images/shellshockers.jpg",
+        "location": "/corrosion/gateway?url=shellshock.io"
+    },
+    {
+        "title": "Zombs Royale",
+        "image": "/games/images/zombsroyale.jpg",
+        "location": "/corrosion/gateway?url=zombsroyale.io"
+    },
+    {
+        "title": "1v1.lol",
+        "image": "/games/images/1v1-lol.jpg",
+        "location": "/corrosion/gateway?url=1v1.lol"
+    },
+    {
+        "title": "Achievement Unlocked",
+        "image": "/games/images/achievementunlocked.jpg",
+        "location": "/games/files/flash?swf=achievementunlocked.swf"
+    },
+    {
+        "title": "Cubefield",
+        "image": "/games/images/cubefield.jpeg",
+        "location": "/games/files/flash?swf=cubefield.swf"
+    },
+    {
+        "title": "Retro - Coming Soon!",
+        "image": "https://avatars.githubusercontent.com/u/87547936",
+        "location": "/"
+    }
+]
