@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A unique site for combating web filters and regaining internet freedom">
+    <title>Riptide</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+</head>
+<body>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div id="tabs">
+<div class="tab activetab" url="/pages/home"><div class="tabtext" onmousedown="tabclicked(this)">New Tab</div><div class="closetab activetab" onclick="removetab(this.parentElement)"><i class="fa-solid fa-xmark"></i></div></div>
+<button class="newtab" onclick="newtab()"><i class="fa-solid fa-plus"></i></button>
+</div>
+
+<div class="urlbar">
+
+<div class="navcontrols">
+
+<button class="button" id="back" onclick="back()"><span class="material-icons-outlined">arrow_back</span></button>
+<button class="button" id="forward" onclick="forward()"><span class="material-icons-outlined">arrow_forward</span></button>
+<button class="button" id="reload" onclick="reload()"><span class="material-icons-outlined">refresh</span></button>
+<button class="button" id="home" onclick="home()"><span class="material-icons-outlined">home</span></button>
+
+</div>
+
+<input id="search" class="search" placeholder="Search or type a URL" autocomplete="off"></input>
+
+<button class="morebtn" id="morebtn" onclick="more()">⋮</button>
+
+<div id="more" style="display: none;">
+<div class="moreitem homemore" onclick="newtab()">New Tab</div>
+<div class="moreitem" onclick="inspect()">Inspect Element</div>
+<div class="moreitem" onclick="fullscreenwindow()">Fullscreen</div>
+<div class="moreitem" onclick="fullscreen()">Fullscreen Tab</div>
+<div class="moreitem" onclick="printweb()">Print</div>
+<div class="moreitem" onclick="">History</div>
+<div class="moreitem" onclick="">Extensions</div>
+<div class="moreitem" onclick="">Settings</div>
+<div class="moreitem" onclick="">About</div>
+<div class="moreitem homeexit" onclick="window.close()">Exit</div>
+</div>
+
+<iframe width="100%" height="732px" src="/pages/home" id="web" onLoad="updateweb()" sandbox="allow-scripts allow-same-origin allow-top-navigation-by-user-activation allow-modals"></iframe>
+
+<script src="/index.js"></script>
+</body>
+</html>

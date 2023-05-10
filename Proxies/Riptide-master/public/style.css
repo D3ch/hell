@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: Roboto;
+}
+
+body {
+  background: #202124;
+  overflow: hidden;
+}
+
+#web {
+  position: fixed;
+  top: 77px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+  z-index: 10;
+  background: #202124;
+}
+
+.urlbar {
+  background: #2493ff;
+  height: 37px;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  display: flex;
+  user-select: none;
+}
+
+.search {
+  background: #2493ff;
+  color: black;
+  height: 26px;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+  transition: 0.3s;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 2px;
+}
+
+.material-icons-outlined {
+  font-family: Material Icons;
+}
+
+.button {
+  border: 0;
+  font-size: 20px;
+  color: black;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  padding: 0;
+  transition: 0.3s;
+  line-height: 26px;
+}
+
+#reload {
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+}
+
+#forward {
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+}
+
+#back {
+  margin-right: 2.5px;
+  margin-left: 5px;
+}
+
+#home {
+  margin-right: 5px;
+  margin-left: 2.5px;
+}
+
+::placeholder {
+  color: black;
+}
+
+.search:focus::placeholder {
+  color: transparent;
+}
+
+.navcontrols {
+  display: flex;
+  align-items: center;
+  background: #2493ff;
+  margin-bottom: 5px;
+  height: 37px;
+}
+
+.morebtn {
+  background: #2493ff;
+  color: black;
+  height: 37px;
+  outline: none;
+  border: none;
+  width: 28px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+}
+
+#more {
+  position: fixed;
+  top: 82px;
+  right: 5px;
+  background: #2493ff;
+  width: 200px;
+  height: 292px;
+  z-index: 15;
+  border-radius: 5px;
+}
+
+.moreitem {
+  color: black;
+  padding: 5px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.homemore {
+  border-radius: 5px 5px 0 0;
+}
+
+.homeexit {
+  border-radius: 0 0 5px 5px;
+}
+
+.moreitem:hover {
+  background: #5db0ff;
+}
+
+#tabs {
+  display: flex;
+  position: fixed;
+  right: 5px;
+  left: 5px;
+  top: 5px;
+}
+
+.tab {
+  background: darkslategray;
+  margin: 5px;
+  width: 200px;
+  height: 30px;
+  color: #9ca1a7;
+  line-height: 30px;
+  border-radius: 5px 5px 0 0;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.closetab {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  height: 30px;
+  width: 20px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  border-radius: 0 5px 5px 0;
+  background: darkslategray;
+  font-size: 15px;
+}
+
+.newtab {
+  user-select: none;
+  background: #2493ff;
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  border-style: initial;
+  color: black;
+  flex-shrink: 0;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.fa-xmark {
+  height: 100%;
+  line-height: 30px;
+}
+
+.activetab {
+  background: #2493ff;
+  color: black;
+}
+
+.tabtext {
+  display: inline-block;
+  width: 100%;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
