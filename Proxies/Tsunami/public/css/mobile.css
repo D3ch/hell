@@ -1,0 +1,44 @@
+@media only screen and (max-width: 730px) {
+.search {
+width: 85%;
+}
+
+#suggestions {
+width: calc(85% + 32px);
+}
+
+.navitem {
+display: none;
+}
+
+.navname {
+margin-left: auto;
+}
+
+/*
+Do In v3
+.search:focus {
+position: fixed;
+top: 10px;
+right: 10px;
+left: 10px;
+margin-right: auto;
+margin-left: auto;
+width: auto;
+}
+
+.search:focus ~ #suggestions {
+width: auto;
+top: 52px;
+right: 10px;
+left: 10px;
+position: fixed;
+margin-right: auto;
+margin-left: auto;
+}
+
+.search:focus ~ .proxies {
+display: none;
+}
+}
+*/

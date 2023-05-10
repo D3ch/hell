@@ -1,0 +1,15 @@
+{
+  "name": "Tsunami",
+  "short_name": "Tsunami",
+  "description": "An official Fog Network proxy site, made to access the blocked web",
+  "icons": [{
+    "src": "/img/app.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    }],
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "black",
+  "theme_color": "black"
+}

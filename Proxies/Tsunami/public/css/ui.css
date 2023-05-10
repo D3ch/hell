@@ -1,0 +1,16 @@
+body #closesurf {
+display: none;
+}
+
+body #reloadsurf {
+display: none;
+}
+
+body[go="classic"] #surf {
+height: 100%;
+top: 0;
+}
+
+body[go="classic"] #controls {
+display: none !important;
+}
