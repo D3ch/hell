@@ -9,15 +9,15 @@ try {
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const popup = open("about:blank", "_blank")
     if (!popup || popup.closed) {
-        alert("Allow popups and redirects to hide this from showing up in your history.")
+        alert(" The following tab shows in your history. Allow popups and redirects to hide this from showing up in your history.")
     } else {
         const doc = popup.document
         const iframe = doc.createElement("iframe")
         const style = iframe.style
         const link = doc.createElement("link")
 
-        const name = localStorage.getItem("name") || "My Drive - Google Drive";
-        const icon = localStorage.getItem("icon") || "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png";
+        const name = localStorage.getItem("name") || "Classes";
+        const icon = localStorage.getItem("icon") || "https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png";
         
         doc.title = name;
         link.rel = "icon";
