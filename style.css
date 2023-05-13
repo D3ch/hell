@@ -41,6 +41,48 @@ p{
     text-align: center;
     }
 
+ .search {
+     width: 300px;
+     height: 57px;
+     border-radius: 5px;
+     background: transparent;
+     border: none;
+     color: white;
+     font-size: 18px;
+     outline: none;
+     margin-left:10px;
+     
+     
+   }
 
+
+ 
+  ::placeholder {
+    color: white;
+    font-size: 18px;
+    border: none;
+    
+    
+  }
+
+.submit-button {
+    background: transparent;
+    border: none;
+    width: 55px;
+    height: 60px;
+    color: white;
+  margin-left:5px;
+}
+
+.searchbox{
+  width: 400px;
+  height: 60px;
+  background: #0f0f0f;
+  border-radius: 5px;
+  margin:auto;
+  border: 2px white solid;
+ 
+  
+}
 
 
