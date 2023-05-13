@@ -3,8 +3,61 @@
   <body>
     <center>
       
-    <iframe src="https://aboutblank.d3ch.repl.co/" width="100%" height="300" style="border:none;">
-</iframe>
+    <html><head>
+    
+    
+    <title>about:blank | 3kh0</title>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-98DP5VKS42"></script><script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-98DP5VKS42');</script><meta http-equiv="origin-trial" content="A727AcAeLCei/ZogJHBlJUS63SxP6AeIROo7qXrkjrxkoxBu0eSSmypAHmGYwk4HjBMQp5nxCFODzfVnUIe31AQAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjg4MDgzMTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+  <body>
+    <div class="console-container">
+      <div class="console">
+        <h1>about:blank</h1>
+        <div class="consolebody">
+          <p>Enter a URL you want to be opened in a about:blank page below:</p>
+          <p class="console-input"><input id="url-target" value="" autocomplete="on" type="text" autofocus=""></p>
+          <p>Please make sure you have the https:// on the URL, it is best to just copy the link from the actual search bar!</p>
+        </div>
+      </div>
+      <div class="button-wrapper">
+        <button id="create" class="console-button">Create page</button>
+        <button class="console-button" onclick="document.getElementById('url-target').value = ''">Clear input</button>
+      </div>
+      
+      
+    </div>
+    <script>
+      var url = document.getElementById("url-target");
+      var urlObj = new window.URL(window.location.href);
+      document.getElementById("create").onclick = function () {
+        if (url.value.substring(0, 8) !== 'https://' && url.value.substring(0, 7) !== 'http://') {
+    		url.value = 'https://' + url.value.split('https://').pop();
+        } else if (url.value.substring(0, 7) == 'http://'){
+        	url.value = 'https://' + url.value.split('http://').pop();
+        };
+        win = window.open();
+        win.document.body.style.margin = "0";
+        win.document.body.style.height = "100vh";
+        var iframe = win.document.createElement("iframe");
+        iframe.style.border = "none";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.margin = "0";
+        iframe.referrerpolicy = "no-referrer";
+        iframe.allow = "fullscreen";
+        iframe.src = url.value;
+        win.document.body.appendChild(iframe);
+        var script = win.document.createElement("script");
+        script.src = "../js/main.js";
+        win.document.body.appendChild(script);
+      };
+    </script>
+    <script src="https://3kh0.github.io/js/main.js"></script><iframe allow="join-ad-interest-group" data-tagging-id="G-98DP5VKS42" data-load-time="1684022288702" height="0" width="0" style="display: none; visibility: hidden;" src="https://td.doubleclick.net/td/ga/rul?tid=G-98DP5VKS42&amp;gacid=2090776485.1684022289&amp;gtm=45je35a0&amp;aip=1&amp;fledge=1&amp;z=147847876"></iframe>
+  
+
+</body></html>
     </center>
     <p1> type your link including https:// on the 
     <br>
