@@ -145,95 +145,86 @@ document.getElementById("defaultOpen").click();
 
 
     
-      <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {
-  font-family: "Lato", sans-serif;
-}
-
-.sidebar {
-  height: 100%;
-  width: 0;
+body {margin:0;}
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
   position: fixed;
-  z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  width: 100%;
 }
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+.navbar a {
+  float: right;
   display: block;
-  transition: 0.3s;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-.sidebar a:hover {
-  color: #f1f1f1;
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-.openbtn:hover {
-  background-color: #444;
-}
-#main {
-  transition: margin-left .5s;
+.main {
   padding: 16px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 500px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  margin-top: 30px;
+  height: 1500px; 
 }
 </style>
 </head>
-<body> 
-  
-<div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="/index.html">Home</a>
-  <a href="Proxies.html">Proxies</a>
-  <a href="Bookmarklets.html#">Bookmarklets & Cheats</a>
-  <a href="AboutBlank.html">aboutBlank</a>
-  <a href="games.html"> games </a>
-  <a href="Updates.html"> Updates </a>
-</div>
-<div id="main">
-  <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+      <body>
 
+<div class="navbar">
+  <a href="Menu/Proxies.html">Pr0xies</a>
+  <a href="Menu/Bookmarklets.html#">Bookmarklets</a>
+  <a href="Menu/AboutBlank.html">AboutBlank</a>
+  <a href="Menu/games.html"> Gxmes </a>
+  <a href="Menu/Updates.html"> Updates </a>
 </div>
-<script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-</script>
-</body>
-</html> 
+      </body>
 
+        
+  <style>
+body {margin:0;}
+.navbar1 {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+}
+.navbar1 a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar1 a:hover {
+  background: #ddd;
+  color: black;
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; 
+}
+</style>
+</head>
+      <body>
+
+<div class="navbar1">
+  <a href="/index.html">Hell.3</a>
+</div>
+      </body>
+      
 
  </center>
   </body>
