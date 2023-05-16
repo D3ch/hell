@@ -1,1 +1,1 @@
-alert("lots of games coming soon! Subway surfers, Jetpack Joyride, /ncrossy road, and vex 3,4,5,and 6 coming VERY soon!");
+alert("hey who ever is reading this. its dachxd. if u reading this then that must mean ur on my page. u could take teh games and stuff, js credit where u got it. i gon read this script in the future and wonder why i ever wrote this. anyways, its 10:26 pm and im like really bored rn so cya. &-84-  + dachxd  ");
