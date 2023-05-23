@@ -7,7 +7,8 @@ Different ways to import -
 Netlify
 Replit
 
-#Replit
+# Replit
+
 Choose to import from github. In the left side, it should say node.js
 
 Press Node.js and change it to html css javascript.
@@ -17,7 +18,8 @@ Then, import it.
 This github file is very large, so there is a slim chance that its importable to 
 replit.
 
-#Netlify
+# Netlify
+
 Importing to netlify is much simpler.
 
 First, make an account - https://www.youtube.com/watch?v=dplJKxB2U5Q
