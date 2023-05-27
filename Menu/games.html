@@ -53,12 +53,8 @@
 
 <br>
 <br>
-         <!--this is a test-->
-      <div class="search">
-        <input type="text" placeholder="Search..." oninput="">
-        <button><i class="block"></i></button>
-    </div>
-      
+      onkeyup="document.querySelectorAll('#games>a').forEach(l=>l.style.display=l.textContent.toUpperCase().includes(this.value.toUpperCase().replace(/ /g,''))?'block':'none')" autocomplete="off" spellcheck="false" placeholder="Search"
+      <div class = "games">
                  <div class="container">
              <a href="/Games/Tanuki-Sunset.html">
                     <button class="block"><b>Tanuki Sunset ★</b></button>
