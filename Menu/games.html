@@ -53,7 +53,7 @@
 
 <br>
 <br>
-        <input class = "type" onkeyup="document.querySelectorAll('#games').forEach(l=>l.style.display=l.textContent.toUpperCase().includes(this.value.toUpperCase().replace(/ /g,''))?'block':'none')" autocomplete="off" spellcheck="false" placeholder="Search" </input>
+        <input class = "type" onkeyup="searchFunc()" autocomplete="off" spellcheck="false" placeholder="Search" </input>
       <div class = "games">
          <button class = "block">Tanuki Sunset <a href = "/games/tanuki-sunset.html"> </a></button><br>
          <button class = "block">1v1.lol <a href = "/games/1v1.html"> </a></button><br>
@@ -126,7 +126,24 @@
          </div>
          
 
+<script>
+function searchfunc() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
 
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+         
       <style>
     .block {
       display: block;
