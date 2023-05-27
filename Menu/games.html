@@ -127,12 +127,12 @@
          
 
 <script>
-function searchfunc() {
+function myFunction() {
   var input, filter, ul, li, a, i;
   input = document.getElementById("mySearch");
   filter = input.value.toUpperCase();
   ul = document.getElementById("games");
-
+  li = ul.getElementsByTagName("li");
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
     if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
@@ -143,6 +143,7 @@ function searchfunc() {
   }
 }
 </script>
+
          
       <style>
     .block {
