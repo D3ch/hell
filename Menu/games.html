@@ -53,7 +53,7 @@
 
 <br>
 <br>
-        <input class = "type" id = "mySearch" onkeyup="searchFunc()" autocomplete="off" spellcheck="false" placeholder="Search" </input>
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
       <ul id = "myMenu">
          <li><button class = "block">Tanuki Sunset <a href = "/games/tanuki-sunset.html"> </a></button><br></li>
          <li><button class = "block">1v1.lol <a href = "/games/1v1.html"> </a></button><li><br>
@@ -131,7 +131,7 @@ function myFunction() {
   var input, filter, ul, li, a, i;
   input = document.getElementById("mySearch");
   filter = input.value.toUpperCase();
-  ul = document.getElementById("myMenu");
+  ul = document.getElementById("games");
   li = ul.getElementsByTagName("li");
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
