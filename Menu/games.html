@@ -54,7 +54,7 @@
 <br>
 <br>
         <input class = "type" id = "mySearch" onkeyup="searchFunc()" autocomplete="off" spellcheck="false" placeholder="Search" </input>
-      <ul id = "games">
+      <ul id = "myMenu">
          <li><button class = "block">Tanuki Sunset <a href = "/games/tanuki-sunset.html"> </a></button><br></li>
          <li><button class = "block">1v1.lol <a href = "/games/1v1.html"> </a></button><li><br>
          <li><button class = "block">2048 <a href = "/games/2048.html"> </a></button></li><br>
@@ -123,7 +123,7 @@
          <li><button class = "block">Worlds Hardest Game 2 <a href = "/games/whg2.html"> </a></button></li><br>
          <li><button class = "block">WebGL Fluid simulation <a href = "/games/fluid.html"> </a></button></li><br>
          <li><button class id = "broken" = "block">Krunker <a href = "/games/krunker.html"> </a></button><li><br>
-         </ul>
+     </ul>
          
 
 <script>
@@ -131,7 +131,7 @@ function myFunction() {
   var input, filter, ul, li, a, i;
   input = document.getElementById("mySearch");
   filter = input.value.toUpperCase();
-  ul = document.getElementById("games");
+  ul = document.getElementById("myMenu");
   li = ul.getElementsByTagName("li");
   for (i = 0; i < li.length; i++) {
     a = li[i].getElementsByTagName("a")[0];
