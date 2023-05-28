@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> -->
+	<title>Stack Ball - unblocked games at school</title>
+	<script>
+		var Module = {
+		// TOTAL_MEMORY: 734003200,
+		// errorhandler: null, // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+		// compatibilitycheck: null,
+		// dataUrl: "Build/Webgl.data",
+		// codeUrl: "Build/Webgl.js",
+		// memUrl: "Build/Webgl.mem",
+		};
+	</script>
+	<!-- <script src="TemplateData/UnityProgress.js"></script> -->
+	<script src="UnityLoader.js"></script>
+	<script src="jquery-3.5.0.min.js"></script>
+	<script src="progress.js"></script>
+	<link rel="stylesheet" href="animate.css">
+
+	<script>
+		var gameInstance = UnityLoader.instantiate("gameContainer", "StackBall2_GDistribution.json", {onProgress: UnityProgress});
+		var scaleToFit;
+		try{
+			scaleToFit = !!JSON.parse("");
+		}catch(e){
+			scaleToFit = true;
+		}
+		window.onresize = function(){
+			var canvas = gameInstance.Module.canvas;
+			var container = gameInstance.container;
+			var w;
+			var h;
+
+			if(scaleToFit){
+				w = window.innerWidth;
+				h = window.innerHeight;
+
+				var r = 768/432;
+
+				if(w * r > window.innerHeight){
+					w = Math.min(w, Math.ceil(h / r));
+				}
+				h = Math.floor(w * r);
+			}else{
+				w=432;
+				h=768;
+			}
+
+			container.style.width = canvas.style.width = w + "px";
+			container.style.height = canvas.style.height = h + "px";
+			container.style.top = Math.floor((window.innerHeight - h)/2) + "px";
+			container.style.left = Math.floor((window.innerWidth - w)/2) + "px";
+		}
+	</script>
+	<style>
+		html,body{
+			background: #000;
+			width: 100%;
+			height: 100%;
+			overflow:visible;
+			padding:0;
+			margin:0;
+		}
+		div#gameContainer{
+			background: transparent!important;
+			position: absolute;
+		}
+		div#gameContainer canvas{
+			position: absolute;
+			image-rendering: optimizeSpeed;
+            image-rendering: -webkit-crisp-edges;
+			image-rendering: -moz-crisp-edges;
+			image-rendering: -o-crisp-edges;
+			image-rendering: crisp-edges;
+			image-rendering: -webkit-optimize-contrast;
+            /* image-rendering: optimize-contrast; */
+			image-rendering: pixelated;
+			-ms-interpolation-mode: nearest-neighbor;
+		}
+	</style>
+	<style>
+		a  {
+			text-decoration: none;
+		}
+
+		.noselect {
+		-webkit-touch-callout: none; /* iOS Safari */
+			-webkit-user-select: none; /* Safari */
+			-khtml-user-select: none; /* Konqueror HTML */
+			-moz-user-select: none; /* Old versions of Firefox */
+				-ms-user-select: none; /* Internet Explorer/Edge */
+					user-select: none; /* Non-prefixed version, currently
+										supported by Chrome, Opera and Firefox */
+		}
+
+		div#loadingBox {
+			width: 100%;
+			height: 80%;
+    		bottom: 10px;
+			position: absolute;
+			/* top: 50%; */
+			margin-top: -10px;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		#blurBackground {
+			background: url(assets/images/gamelogo.png);
+			filter: blur(20px);
+			-webkit-filter: blur(20px);
+			width: 100vw;
+			height: 100vh;
+			position: absolute;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+
+		div#bgBar {
+			/*position: absolute; */
+			width: 200px;
+			/* margin-left: -100px; */
+			/* left: 50%; */
+			height: 22px;
+			display: block;
+			/* bottom: 10px; */
+			/* border-radius: 10px; */
+			background-color: #2f2f2f;
+			overflow: hidden;
+		}
+
+		div#progressBar {
+			/* left: 50%; */
+			/* position: absolute; */
+			/* margin-left: -100px; */
+			width: 0px;
+			height: 22px;
+			/* bottom: 10px; */
+			background-color: #62ff00;
+			border-radius: 10px;
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff7400+0,ffc700+100 */
+			background: #ff7400; /* Old browsers */
+			background: -moz-linear-gradient(left,  #ff7400 0%, #ffc700 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(left,  #ff7400 0%,#ffc700 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to right,  #ff7400 0%,#ffc700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7400', endColorstr='#ffc700',GradientType=1 ); /* IE6-9 */
+			transition: all 1s;
+		}
+			
+		div#bgBar {
+			border-radius: 10px;
+		}
+
+		p#loadingInfo {
+			color: #666;
+			letter-spacing: 1px;
+			/* position: absolute; */
+			width: 100%;
+			font-family: "arial", sans-serif;
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 14px;
+			margin-top: 10px;
+			color: #fff;
+		}
+
+		#gameLogo {
+    		overflow: hidden;
+		}
+
+		#gameLogo img {
+			width: 25vh;
+			border-radius: 20px;
+		}
+
+		#gameTitle {
+			font-family: "arial";
+			font-size: 20px;
+			font-weight: bold;
+			color: #ffffff;
+			text-transform: uppercase;
+			text-shadow: 0 0 10px #ffffff, 2px 2px 2px rgb(27, 99, 245);
+		}
+
+		#siteInfo {
+			position: absolute;
+			visibility: hidden;
+			position: absolute;
+			bottom: 0;
+			height: 5.2%;
+			max-height: 30px;
+			width: 20%;
+			border-radius: 7px;
+			/* background: #0006; */
+			transition: all 2.0s;
+		}
+
+		#siteInfo.show {
+			visibility: visible;
+			/* left: 0px; */
+		}
+
+		#siteInfo .siteInfoContainer {
+			height: 100%;
+			width: 100%;
+		}
+
+		#siteInfo .siteInfoContainer img {
+			height: 100%;
+		}
+
+		#gameContainer { 
+			display: none;
+		}
+
+		#gameContainer.show {
+			display: block;
+		}
+
+	</style>
+</head>
+<body onload="window.onresize();">
+
+
+	
+	<div id="blurBackground"></div>
+	<div id="loadingBox">
+		<a id="gameLogo" class="animated zoomIn  noselect" href="" target="_blank">
+			<script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"2238fabee07c408961ed7cd91ffe1fb5efaafaa0-1589298411-1800"};
+//]]>
+</script>
+<script type="text/javascript" src="../../ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+<img data-cfsrc="assets/images/gamelogo.png" alt="Logo" style="display:none;visibility:hidden;"><noscript><img src="assets/images/gamelogo.png" alt="Logo"></noscript>
+			<p id="gameTitle"></p>
+		</a>
+
+		<div id="loadingSection">
+			<div id="bgBar">
+				<div id="progressBar"></div>
+			</div>
+
+			<p id="loadingInfo">Loading...</p>
+		</div>
+
+		<a id="studioLogo" class="animated fadeIn noselect" href="" target="_blank">
+			<img data-cfsrc="assets/images/studiologo.png" alt="Roro8" style="display:none;visibility:hidden;"><noscript><img src="assets/images/studiologo.png" alt="Roro8"></noscript>
+		</a>
+	</div>
+
+	<div id="gameContainer" style="width: 432px; height: 768px;">
+	</div>
+
+	<a id="siteInfo" class="noselect" href="" target="_blank">
+		<div class="siteInfoContainer">
+			<img data-cfsrc="assets/images/site_info.png" alt="" style="display:none;visibility:hidden;"><noscript><img src="assets/images/site_info.png" alt=""></noscript>
+		</div>
+	</a>
+
+</body>
+</html>
+<div class="floating" id="moreg" style="position:fixed; top: 30%; left: 0px; z-index: 10"><a target="_blank" href="https://sites.google.com/view/unblockedgame" title="More unblocked games"><img
+            src="MoreGames.png" width="180" height="90"
+            style="cursor:pointer;" alt="More Games"></a></div>
