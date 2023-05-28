@@ -1,0 +1,60 @@
+@font-face {
+    font-family:'Recursive-SemiBold';
+    src:url('../fonts/Recursive-SemiBold.ttf') format('truetype');
+}
+
+html,
+body {
+    height:100%;
+}
+
+body {
+    background-color:black;
+    color:#009c00;
+    font-family:Recursive-SemiBold;
+    margin:0;
+    overflow:hidden;
+}
+
+a {
+    color:#fff !important;
+    text-decoration:none;
+}
+
+canvas {
+    position:absolute;
+}
+
+.loading {
+    bottom:45%;
+    font-size:5em;
+    left:0;
+    position:absolute;
+    right:0;
+    text-align:center;
+    user-select:none;
+}
+
+.show-credits {
+    bottom:15px;
+    font-size:2em;
+    left:15px;
+    position:absolute;
+    visibility:hidden;
+}
+
+.credits {
+    background-color:#000;
+    border:2px solid #0a0;
+    left:15px;
+    max-height:500px;
+    overflow-y:scroll;
+    padding:20px;
+    position:absolute;
+    top:15px;
+    visibility:hidden;
+}
+
+ul {
+    list-style-type:none;
+}

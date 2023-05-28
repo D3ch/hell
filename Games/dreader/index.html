@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dreader</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" type="image/ico" href="images/favicon.png" />
+
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <script type="module">
+            import './js/entities/computer.class.js';
+            import './js/entities/director.class.js';
+            import './js/entities/maze.class.js';
+            import './js/entities/monster.class.js';
+            import './js/entities/player.class.js';
+            import './js/entities/transition.class.js';
+            import './js/entities/world.class.js';
+
+            import './js/core/gameclient.class.js';
+        </script>
+    </head>
+    <body>
+        <canvas>Canvas is not supported</canvas>
+
+        <div class="loading">LOADING</div>
+
+        <a class="show-credits" href="#" alt="show credits">SHOW CREDITS</a>
+
+        <div class="credits">
+            <h3>Developed by <a href="https://donitz.itch.io/" target="_blank">Donitz</a></h3>
+
+            <h3>Powered by <a href="https://threejs.org/" target="_blank">Three.js</a></h3>
+
+            <h3>Human models created using <a href="http://www.makehumancommunity.org/" target="_blank">MakeHuman</a></h3>
+
+            <h3>Fonts from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>:</h3>
+            <ul>
+                <li>
+                    <a href="https://fonts.google.com/specimen/Recursive?preview.text=.%2Flookbehind&preview.text_type=custom#standard-styles" target="_blank">"Recursive"</a>
+                    by Arrow Type, Stephen Nixon licensed under the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL" target="_blank">SIL Open Font License</a>
+                </li>
+            </ul>
+
+            <h3>Models from <a href="https://sketchfab.com/" target="_blank">Sketchfab</a> - Models have been edited</h3>
+            <ul>
+                <li>
+                    <a href="https://sketchfab.com/3d-models/keyboard-b50191176b6a4509aabca39d93bf7c18" target="_blank">"Keyboard"</a>
+                    by qubert48 under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </li>
+                <li>
+                    <a href="https://sketchfab.com/3d-models/skeleton-4de7b96a351a4a35b1b6e5415277ff07" target="_blank">"Skeleton"</a>
+                    by Diego Luján García licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+                </li>
+            </ul>
+
+            <h3>Sounds effects from <a href="https://freesound.org/" target="_blank">freesound.org</a> - Most sound effects have been cropped and converted. Some sounds have had effects added.</h3>
+            <ul>
+                <li>
+                    <a href="https://freesound.org/people/bryanbulmer/sounds/255885/" target="_blank">"Deep Kick + Tension"</a>
+                    by bryanbulmer licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/kaiodeleis/sounds/233364/" target="_blank">"Suspense Cinematic Pack >> Horror_2.wav"</a>
+                    by kaiodeleis licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/BrotherMster/sounds/523984/" target="_blank">"Jumpscare_Sound.wav"</a>
+                    by BrotherMster licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/martian/sounds/19291/" target="_blank">"foley cloth rustle.wav"</a>
+                    by martian licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/ShortRecord/sounds/531448/" target="_blank">"horror >> horror sound #3.mp3"</a>
+                    by ShortRecord licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/IPaddeh/sounds/422852/" target="_blank">"Foundation Sound Effects >> Door_Unlocking.wav"</a>
+                    by IPaddeh licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/TheFlakesMaster/sounds/400659/" target="_blank">"Mouse Clicks"</a>
+                    by TheFlakesMaster licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/tgfcoder/sounds/146950/" target="_blank">"Computer sounds >> Computer Hum 3"</a>
+                    by tgfcoder licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/XxBirdoxX/sounds/52290/" target="_blank">"door knock.wav"</a>
+                    by XxBirdoxX licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 1.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/Headphaze/sounds/235205/" target="_blank">"Rising Horror Climax [static].wav"</a>
+                    by Headphaze licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/klankbeeld/sounds/212943/" target="_blank">"white noise wind >> howling wind inside 02 131230_01.wav"</a>
+                    by <a href="http://www.freesound.org/people/klankbeeld/">klankbeeld</a> licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/sandyrb/sounds/95078/" target="_blank">"THE CRASH.wav"</a>
+                    by sandyrb licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/SirBedlam/sounds/393824/" target="_blank">"Horror Hits >> Violin Scare"</a>
+                    by SirBedlam licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/kingof_thelab/sounds/340224/" target="_blank">"Foundation Sounds >> SimpleFootstepsWoodCreak.wav"</a>
+                    by kingof_thelab licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/stiffman/sounds/381964/" target="_blank">"Doors >> Bedroom wooden door close mic-ed mono - Post Squeak no knocks.wav"</a>
+                    by stiffman licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/tim.kahn/sounds/24247/" target="_blank">"Cupboard Creak Pack >> cupboard creak 6.flac"</a>
+                    by Tim Kahn licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/kwahmah_02/sounds/264104/" target="_blank">"camera >> MinoltaV300Zoom4.flac"</a>
+                    by kwahmah_02 licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/InspectorJ/sounds/427848/" target="_blank">"Glitching, Vinyl Record Player, A.wav"</a>
+                    by <a href="www.jshaw.co.uk">InspectorJ</a> licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+                <li>
+                    <a href="https://freesound.org/people/Headphaze/sounds/170604/" target="_blank">"Bio Synthesis >> Screaming Robot"</a>
+                    by Headphaze licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>
+                </li>
+            </ul>
+
+             <h3>Remaining sound effects were created using <a href="https://www.superflashbros.net/as3sfxr/" target="_blank">as3sfxr</a></h3>
+        </div>
+    </body>
+</html>
