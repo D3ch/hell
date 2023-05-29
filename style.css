@@ -1,3 +1,23 @@
+/** 
+
+NOT ALL THIS IS MY CODE
+
+Nav bar and the <li> and <ul> css code
+came from w3schools. 
+
+Others came from other sites that i forgot about.
+The only thing thats mine is the body css.
+
+The search css came from Hypersite-v2. Check
+that site out on replit.
+
+Thank you to those code i copied!
+
+-dachxd
+
+
+**/
+
 html, body {
   height: auto;
   width: 100%;
@@ -24,7 +44,10 @@ body {
   padding: 0;
   margin: 0;
 }
-
+li{
+  background-color:black;
+  color:white;
+}
 #myUL li a {
   border: 1px solid #ddd;
   margin-top: -1px; /* Prevent double borders */
@@ -85,8 +108,7 @@ p{
   Background-color:Black;
 }
 
-<!-- HTML !-->
-<button class="button-9" role="button">Button 9</button>
+
 
 .block {
     display: block;
