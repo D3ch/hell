@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>FeedVid</title>
+
+    <style>
+      html {
+        padding: 0;
+        margin: 0;
+
+        height: 100%;
+
+        user-select: none;
+        -webkit-user-select: none;
+
+        overflow: hidden;
+        background-color: black;
+      }
+
+      body {
+        padding: 0;
+        margin: 0;
+
+        background-color: black;
+
+        height: 100%;
+        overflow: hidden;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <svg>
+      <filter id="glow-filter" >
+        <feColorMatrix color-interpolation-filters="sRGB"  in="SourceGraphic"
+        type="matrix"
+        values="1 0 0 0 -0.5
+                0 1 0 0 -0.5
+                0 0 1 0 -0.5
+                0 0 0 1 0"
+          result="highlights" />
+
+          <feColorMatrix color-interpolation-filters="sRGB"  in="highlights"
+          type="matrix"
+          values="0.4 0 0 0 0
+                  0 0.4 0 0 0
+                  0 0 0.4 0 0
+                  0 0 0 1 0"
+            result="highlightsBright" />
+
+       <feGaussianBlur color-interpolation-filters="sRGB" in="highlightsBright" stdDeviation="80" edgeMode="none" out="highlightsBlur"/>
+
+        <feComposite color-interpolation-filters="sRGB" in2="SourceGraphic" in="highlightsBlur" operator="lighter"/>
+    </filter>
+    </svg>
+
+    <style>
+      .loader,
+      .loader:after {
+        border-radius: 50%;
+        width: 10em;
+        height: 10em;
+      }
+      .loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        z-index: 10;
+
+        font-size: 10px;
+
+        text-indent: -9999em;
+        border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+        border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+        border-left: 1.1em solid #ffffff;
+        transform: translate3d(-50%, -50%, 0);
+        animation: load8 1.1s infinite linear;
+      }
+      @keyframes load8 {
+        0% {
+          transform: translate3d(-50%, -50%, 0) rotate(0deg);
+        }
+        100% {
+          transform: translate3d(-50%, -50%, 0) rotate(360deg);
+        }
+      }
+    </style>
+    <div id="loading-spinner" class="loader">Loading...</div>
+  <script type="text/javascript" src="bundle.js"></script></body>
+</html>
