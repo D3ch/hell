@@ -5,6 +5,8 @@ Tired of blocked games and proxies? Tired of school? Escape Hell with Hell. Has 
 loaded bunch of games from other sites such as itch.io, scratch, classroom 6x, and from other unblocked game
 sites. feel free to steal any of the games! most of the games were from 3ch0
 
+it says like 90 percent javascript even if i dont even know javascript. thats from the game files n stuff
+
 
 
 # Importing 
