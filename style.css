@@ -37,6 +37,8 @@ body {
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
+  color:white;
+  background-color:black;
 }
 a{
   background-color:black;
@@ -57,7 +59,8 @@ li{
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
-  color: black;
+  color: white;
+  background-color:black;
   display: block
 }
 
