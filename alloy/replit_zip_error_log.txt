@@ -1,0 +1,6 @@
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/acorn","time":"2023-06-03T01:14:48Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/escodegen","time":"2023-06-03T01:14:48Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/esgenerate","time":"2023-06-03T01:14:48Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/esparse","time":"2023-06-03T01:14:48Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/esvalidate","time":"2023-06-03T01:14:48Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/acorn-globals/node_modules/.bin/acorn","time":"2023-06-03T01:14:48Z"}
