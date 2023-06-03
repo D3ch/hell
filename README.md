@@ -1,5 +1,5 @@
 # Hell
-Unblocked games and proxies with simple html. (Replit links aren't updated yet, but u can still use them).
+Unblocked games and proxies with simple html.
 Tired of blocked games and proxies? Tired of school? Escape Hell with Hell. Has a little bit of everything!
 
 loaded bunch of games from other sites such as itch.io, scratch, classroom 6x, and from other unblocked game
