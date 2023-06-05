@@ -32,20 +32,5 @@ replit.
 
 # Netlify
 
-Importing to netlify is much simpler.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/d3ch/hell.git)
 
-First, make an account - https://www.youtube.com/watch?v=dplJKxB2U5Q
-
-Then, fork this github
-
-Next, press ADD NEW SITE
-
-Choose import an existing project
-
-Autorize
-
-Then choose (username)/hell
-
-no fancy build code, js press the blue deploy button.
-
-unblocked games, and proxies yet to be unblocked.
