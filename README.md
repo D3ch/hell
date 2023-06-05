@@ -9,28 +9,8 @@ it says like 90 percent javascript even if i dont even know javascript. thats fr
 
 
 
-# Importing 
-Different ways to import - 
-vercel doesnt work.
-
-
-Netlify
-
-
-Replit
-
-# Replit
-
-Choose to import from github. In the left side, it should say node.js
-
-Press Node.js and change it to html css javascript.
-
-Then, import it.
-
-This github file is very large, so there is a slim chance that its importable to 
-replit.
-
-# Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/d3ch/hell)
+
+The deploy button to netlify works 100 percent.
 
