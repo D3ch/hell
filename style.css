@@ -21,11 +21,11 @@ Thank you to those code i copied!
 html, body {
   height: auto;
   width: 100%;
-  background-size: 400%; 
+  background-size: 100%; 
   
 }
 body {
-  background-image: url('https://storage.gra.cloud.ovh.net/v1/AUTH_728ab22ba0c842468a897907be9a7075/flipanim/anim/nynbsjv5.gif');
+  background-image: url('/backgroundanimation.gif');
   background-attachment:fixed;
 
   
