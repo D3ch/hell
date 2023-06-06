@@ -5,12 +5,23 @@
     
    <body>
      <br>
-     <p1>
-        Unblocked google. login doesnt work tho. Takes like 4 seconds to load. 
-     </p1>
      <br>
-        <iframe id="main" style="width: 100%; height: 100%" frameborder="0" src="https://notme.d3ch.repl.co/web/_aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==_/?gws_rd=ssl"></iframe> 
-    
+    <button onclick="Func()" class="block" type="button">Google (fast, but login and youtube doesnt work)</button>
+
+<script>
+function Func() {
+    var win = window.open(); var f = win.document.createElement("iframe");  window.focus(); var url = "https://notme.d3ch.repl.co/web/_aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==_/?gws_rd=ssl"; if (!url) return; f.style.width = "100%"; f.style.height = "100%"; win.document.body.appendChild(f); f.src=url; win.document.body.style.margin = '0'; f.style.border = 'none'; f.style.margin = '0'; win.document.body.style.height = '100vh'
+    }
+</script>
+     
+     <button onclick="Func2()" class="block" type="button">Google (slow, but login and youtube work)</button>
+
+<script>
+function Func2() {
+    var win = window.open(); var f = win.document.createElement("iframe");  window.focus(); var url = "https://google-tabs.dachxd.repl.co/main.html"; if (!url) return; f.style.width = "100%"; f.style.height = "100%"; win.document.body.appendChild(f); f.src=url; win.document.body.style.margin = '0'; f.style.border = 'none'; f.style.margin = '0'; win.document.body.style.height = '100vh'
+    }
+</script>
+<br>
 
     <div class="navbar">
   <a href="/Menu/Proxies.html">Pr0xies</a>
