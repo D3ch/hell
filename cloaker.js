@@ -1,5 +1,7 @@
 let inFrame
-
+// This code isnt mine obviously
+// Original code comes from interstellar
+// sorry for stealing code 
 try {
     inFrame = window !== top
 } catch (e) {
