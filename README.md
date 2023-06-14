@@ -2,13 +2,14 @@
 Unblocked games and proxies with simple html.
 Tired of blocked games and blocked proxies? Tired of school? Escape hell with hell. 
 
-- 80+ games 🎮
-- Google (uses replit) 🔎
-- Proxies (uses replit)
-- About Blank Embedder 
-- Site cloaking 🙈
+- 80+ games [🎮]
+- Google (uses replit) [🔎]
+- 6 Proxies + Alt links [🔎]
+- Site cloaking [🙈]
+- About Blank Embedder [⬜]
+- Bookmarklets 
 - Cheats
-- Dark background ⬛
+- Dark background [⬛]
 - (apps are broken but we ignore this)
 
 you should def use hell
