@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<script type="importmap">
+		{
+			"imports": {
+				"three": "../deps/three/0.128.0/build/three.module.js"
+			}
+		}
+		</script>
+		<link rel="preload" href="static/fonts/BlueNight.woff2" as="font" type="font/woff2" crossorigin>
+		<script type="module">
+			let fn = e => {
+				if (e.code == "Escape") e.preventDefault();
+			};
+			window.addEventListener("keydown", fn);
+			window.addEventListener("load", () => window.removeEventListener("keydown", fn));
+		</script>
+		<script type="module" src="js/assetWorkerPreload-ceea6c02.js"></script>
+		<script type="module" src="js/index-1fbbdae5.js"></script>
+
+		<link rel="icon" href="static/favicon.svg" sizes="any" />
+		<link rel="mask-icon" href="static/favicon.svg" sizes="any" color="#000000" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+
+		<meta name="description" content="Capture the flag medieval style!">
+		<meta name="keywords" content="3D, multiplayer, first person, shooter, capture the flag, ctf, fps, first person shooter, bow, arrow, medieval, online, pubg, fortnite, fast-paced, browser game">
+		<link rel="canonical" href="https://narrow.one">
+		<link rel="manifest" href="static/manifest.json">
+		<link rel="apple-touch-icon" href="static/icons/icon-2048.jpg">
+
+		<!--open graph stuff-->
+		<meta property="og:title" content="Narrow One">
+		<meta property="og:description" content="Capture the flag medieval style!">
+		<!-- <meta property="fb:app_id" content="371757996756993"> -->
+		<meta property="og:url" content="https://narrow.one">
+		<meta property="og:image" content="https://narrow.one/static/img/thumb.png">
+		<meta property="og:type" content="game">
+		<link rel="image_src" href="https://narrow.one/static/img/thumb.png">
+
+		<!--twitter stuff-->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@pelican_party">
+		<meta name="twitter:title" content="Narrow One">
+		<meta name="twitter:description" content="Capture the flag medieval style!">
+		<meta name="twitter:image" content="https://narrow.one/static/img/thumb.png">
+
+		<script type="application/ld+json">
+		  {"@context":"http://schema.org","@type":"VideoGame","name":"Narrow One","url":"http://narrow.one","description":"Capture the flag medieval style!","inLanguage":["English"],"genre":["FPS","First Person Shooter","CTF","Capture The Flag","MMO","Massively multiplayer online","RTS","Real-time strategy","Casual game"],"creator":{"@type":"Organization","name":"Pelican Party Studios","url":"pelicanparty.co"},"gamePlatform":"webgame","applicationCategory":["Game","webgame","GameApplication"],"operatingSystem":["Windows","OSX","Linux"],"aggregateRating":{"worstRating":1,"bestRating":5,"ratingValue":4.8346,"ratingCount":359457}}
+		</script>
+		<style>
+			body, html {
+				position: relative;
+				margin: 0;
+				height: 100%;
+				user-select: none;
+				-webkit-user-select: none;
+				-webkit-touch-callout: none;
+				font-family: sans-serif;
+			}
+
+
+			@font-face {
+				font-family: 'BlueNight';
+				font-style: normal;
+				font-weight: 400;
+				font-display: swap;
+				src: url(static/fonts/BlueNight.woff2) format('woff2');
+			}
+
+			.blueNight{
+				font-family: BlueNight, sans-serif;
+				text-transform: lowercase;
+				font-weight: lighter;
+				line-height: 0.7em;
+			}
+
+			.fullScreen{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			#loadingImage{
+				object-fit: cover;
+				filter: blur(max(1vh,1vw));
+				transform: scale(1.04);
+				pointer-events: none;
+			}
+			#loadingImageContainer{
+				transition: opacity 0.2s;
+				overflow: hidden;
+			}
+			#loadingImageContainer.hidden{
+				opacity: 0;
+			}
+
+			#mainInfoTextContainer {
+				overflow: hidden;
+			}
+			.mainInfoText{
+				font-size: 50px;
+				position: absolute;
+				left: 0;
+				width: 100%;
+				top: 50%;
+				text-align: center;
+				pointer-events: none;
+				z-index: 11;
+			}
+
+			.whiteBigText{
+				color: white;
+				-webkit-text-stroke: 1px black;
+				filter: var(--default-drop-shadow);
+			}
+
+			#mainMenuLogo{
+				background: url(static/img/logo.svg);
+				position: absolute;
+				width: 450px;
+				height: 300px;
+				left: 50%;
+				transform: translateX(-50%);
+				filter: var(--default-drop-shadow);
+				transform-origin: top;
+				pointer-events: none;
+			}
+
+			@media (max-width: 950px), (max-height: 550px){
+				#mainMenuLogo{
+					transform: translateX(-50%) scale(0.6);
+				}
+			}
+			@media (max-width: 780px) {
+				#mainMenuLogo{
+					display: none;
+				}
+			}
+
+			.scaleBounce{
+				animation: 0.7s ease-in-out infinite alternate scaleBounce;
+			}
+
+			@keyframes scaleBounce{
+				from{
+					transform: scale(1);
+				}
+
+				to{
+					transform: scale(1.1);
+				}
+			}
+
+			#mainMenu{
+				z-index: 10;
+				background: #00000040;
+				overflow: hidden;
+			}
+
+			.wrinkledPaper,
+			#qc-cmp2-ui,
+			#qc-cmp2-ui button[mode="primary"],
+			#qc-cmp2-ui button[mode="secondary"],
+			input.dialog-range-input[type=range],
+			input.dialog-range-input[type=range]::-webkit-slider-thumb {
+				background: paint(wrinkledPaper);
+			}
+
+			.wrinkledLine {
+				background: paint(wrinkledLine);
+			}
+
+			.wrinkled-paper-mask {
+				mask: paint(wrinkledPaper);
+				-webkit-mask: paint(wrinkledPaper);
+			}
+
+			.itemsTable > tbody > tr:nth-child(even){
+				background: paint(wrinkledPaper);
+			}
+		</style>
+		<noscript>
+			<style>#mainInfoText{display: none;}</style>
+		</noscript>
+	</head>
+	<body ontouchstart="">
+		<div id="mainInfoTextContainer" class="fullScreen">
+			<noscript>
+				<div class="mainInfoText blueNight whiteBigText">Enable javascript to play.</div>
+			</noscript>
+			<div id="mainInfoText" class="mainInfoText blueNight whiteBigText scaleBounce">Loading...</div>
+		</div>
+		<div id="mainMenu" class="fullScreen">
+			<div id="mainMenuLogo"></div>
+		</div>
+		<div id="loadingImageContainer" class="fullScreen" inert>
+			<picture>
+				<source srcset="static/img/loadScreen/loadThumb.webp" type="image/webp" />
+				<img src="static/img/loadScreen/loadThumb.png" id="loadingImage" class="fullScreen">
+			</picture>
+		</div>
+	</body>
+</html>
