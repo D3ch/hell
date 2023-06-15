@@ -1,5 +1,5 @@
 
-![pic (3)](https://github.com/D3ch/hell/assets/106717421/be9dd11f-a3ac-467d-bbae-9e7c17638c62)
+![My project](https://github.com/D3ch/hell/assets/106717421/f78494c8-f08b-4214-9844-9fa411a65e5c)
 
 
 
