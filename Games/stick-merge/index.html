@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stick Merge | 3kh0</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="TinyDobbins" />
+    <meta name="description" content="Stick Merge HTML5 game" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="icon" href="./splash.png" />
+    <script src="poki.js"></script>
+    <script src="/js/main.js"></script>
+
+    <script src="js/webfont.js"></script>
+    <script src="js/phaser.min.js"></script>
+    <script src="js/SpinePlugin.min.js"></script>
+    <script src="js/plugin-api-poki.js"></script>
+    <script src="js/HorizontalSlider.js"></script>
+    <script src="js/Buttons.js"></script>
+  </head>
+
+  <body>
+    <div id="game-container"></div>
+    <div id="orientation"></div>
+    <div id="banner"></div>
+    <script src="js/m.js"></script>
+    <script type="text/javascript">
+      window.SDK_OPTIONS = {
+        gameId: "k5omes2tyuy6xeziwmraeuvg1jpqo0s9",
+        onEvent: function (a) {
+          switch (a.name) {
+            case "SDK_GAME_PAUSE":
+              // pause game logic / mute audio
+              break;
+            case "SDK_GAME_START":
+              // advertisement done, resume game logic and unmute audio
+              break;
+            case "SDK_READY":
+              // when sdk is ready
+              break;
+          }
+        },
+      };
+      (function (a, b, c) {
+        var d = a.getElementsByTagName(b)[0];
+        a.getElementById(c) || ((a = a.createElement(b)), (a.id = c), (a.src = "https://api.gamemonetize.com/sdk.js"), d.parentNode.insertBefore(a, d));
+      })(document, "script", "gamemonetize-sdk");
+    </script>
+  </body>
+
+  <script type="text/javascript">
+    function google_analytics() {
+      if (typeof sdk !== "undefined" && sdk.showBanner !== "undefined") {
+        //sdk.showBanner();
+      }
+    }
+
+    function google_analytics_ID() {
+      if (typeof sdk !== "undefined" && sdk.showBanner !== "undefined") {
+        //sdk.showBanner();
+      }
+    }
+  </script>
+</html>

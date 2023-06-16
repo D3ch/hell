@@ -1,0 +1,139 @@
+
+skeleton.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: true
+  xy: 354, 2
+  size: 14, 35
+  orig: 14, 35
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: true
+  xy: 522, 3
+  size: 15, 33
+  orig: 15, 33
+  offset: 0, 0
+  index: -1
+arm3
+  rotate: true
+  xy: 557, 3
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 286, 2
+  size: 14, 66
+  orig: 14, 66
+  offset: 0, 0
+  index: -1
+empty
+  rotate: false
+  xy: 2, 12
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+gun1
+  rotate: false
+  xy: 166, 15
+  size: 118, 47
+  orig: 118, 47
+  offset: 0, 0
+  index: -1
+gun1_anfas
+  rotate: true
+  xy: 456, 35
+  size: 27, 58
+  orig: 27, 58
+  offset: 0, 0
+  index: -1
+gun2
+  rotate: false
+  xy: 286, 18
+  size: 119, 44
+  orig: 119, 44
+  offset: 0, 0
+  index: -1
+gun2_anfas
+  rotate: true
+  xy: 516, 42
+  size: 20, 60
+  orig: 20, 60
+  offset: 0, 0
+  index: -1
+gun3
+  rotate: false
+  xy: 623, 9
+  size: 93, 53
+  orig: 93, 53
+  offset: 0, 0
+  index: -1
+gun3_anfas
+  rotate: true
+  xy: 522, 20
+  size: 20, 56
+  orig: 20, 56
+  offset: 0, 0
+  index: -1
+gun4
+  rotate: false
+  xy: 2, 15
+  size: 162, 47
+  orig: 162, 47
+  offset: 0, 0
+  index: -1
+gun4_anfas
+  rotate: true
+  xy: 407, 22
+  size: 40, 47
+  orig: 40, 47
+  offset: 0, 0
+  index: -1
+hat1
+  rotate: true
+  xy: 718, 12
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+hat2
+  rotate: false
+  xy: 467, 4
+  size: 53, 29
+  orig: 53, 29
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 580, 21
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+leg1
+  rotate: true
+  xy: 391, 3
+  size: 13, 35
+  orig: 13, 35
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: true
+  xy: 428, 5
+  size: 15, 37
+  orig: 15, 37
+  offset: 0, 0
+  index: -1
+leg3
+  rotate: false
+  xy: 576, 6
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
