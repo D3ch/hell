@@ -1,0 +1,9 @@
+{
+  "TOTAL_MEMORY": 268435456,
+  "dataUrl": "cars-simulator-v2.data.unityweb",
+  "asmCodeUrl": "cars-simulator-v2.asm.code.unityweb",
+  "asmMemoryUrl": "cars-simulator-v2.asm.memory.unityweb",
+  "asmFrameworkUrl": "cars-simulator-v2.asm.framework.unityweb",
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#222C36"
+}

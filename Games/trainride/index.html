@@ -1,0 +1,46 @@
+<html>
+  <head>
+  <script>
+//document.addEventListener('load', function() {
+//  document.body.style.margin = "0px";
+//
+//  var canvas = document.createElement('canvas')
+//  canvas.id = "canvas";
+//  canvas.width = document.body.clientWidth;
+//  canvas.height = document.body.clientHeight;
+//  document.body.appendChild(canvas);
+//
+//  var script = document.createElement('script');
+//  script.src = "bin.js";
+//  document.head.appendChild(script);
+//});
+
+
+
+      window.addEventListener('load', function() {
+
+        document.body.style.margin = "0px";
+
+        var canvas = document.createElement('canvas')
+        canvas.id = "canvas";
+        canvas.width = document.body.clientWidth;
+        canvas.height = document.body.clientHeight;
+        document.body.appendChild(canvas);
+
+        window.Module = {
+          canvas: (function() {
+            var canvas = document.getElementById('canvas');
+            return canvas;
+            })(),
+        };
+
+        var s = document.createElement('script');
+        s.src = "bin.js";
+        document.head.appendChild(s);
+      });
+
+  </script>
+  </head>
+</html>
+
+<script defer src="https://static.itch.io/htmlgame.js" type="text/javascript"></script>
