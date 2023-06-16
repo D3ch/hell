@@ -21,15 +21,15 @@ Tired of blocked games and blocked proxies? Tired of school? Escape hell with he
 - (apps are broken but we ignore this)
 
 # Future Plans
-[x] Run 3
-[x] Figure out how to add multiple games at once
-[] Custom Mouse
-[] Settings
-[x] Custom Proxy
-[] Ultraviolet Proxy
-[] Fix Krunker (may never happen)
-[] Fix apps
-[] MOVIES (coming soon alrdy started)
+- [x] Run 3
+- [x] Figure out how to add multiple games at once
+- [] Custom Mouse
+- [] Settings
+- [x] Custom Proxy
+- [] Ultraviolet Proxy
+- [] Fix Krunker (may never happen)
+- [] Fix apps
+- [] MOVIES (coming soon alrdy started)
 
 you should def use hell
 
