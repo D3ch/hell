@@ -7,6 +7,9 @@
 Unblocked games and proxies with simple html.
 Tired of blocked games and blocked proxies? Tired of school? Escape hell with hell. 
 
+
+# Why hell?
+
 - 80+ games [🎮]
 - Google (uses replit) [🔎]
 - 6 Proxies + Alt links [🔎]
@@ -16,6 +19,17 @@ Tired of blocked games and blocked proxies? Tired of school? Escape hell with he
 - Cheats
 - Dark background [⬛]
 - (apps are broken but we ignore this)
+
+# Future Plans
+[x] Run 3
+[x] Figure out how to add multiple games at once
+[] Custom Mouse
+[] Settings
+[x] Custom Proxy
+[] Ultraviolet Proxy
+[] Fix Krunker (may never happen)
+[] Fix apps
+[] MOVIES (coming soon alrdy started)
 
 you should def use hell
 
