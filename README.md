@@ -29,7 +29,7 @@ you should def use hell
 - [ ] Custom Mouse
 - [ ] Settings
 - [x] Custom Proxy
-- [ ] Ultraviolet Proxy
+- [x] Ultraviolet Proxy
 - [ ] Fix Krunker (may never happen)
 - [ ] Fix apps
 - [ ] MOVIES (coming soon alrdy started)
