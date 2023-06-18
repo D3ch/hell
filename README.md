@@ -14,13 +14,14 @@ you should def use hell
 # Why hell?
 
 - 80+ games [🎮]
+- Complete Henry Stickmin series
 - Google (uses replit) [🔎]
 - 6 Proxies + Alt links [🔎]
 - Site cloaking [🙈]
 - About Blank Embedder [⬜]
 - Bookmarklets 
-- Cheats
-- Dark background [⬛]
+- Ch3ats
+- Dark background and simple looks [⬛]
 - (apps are broken but we ignore this)
 
 # Future Plans
