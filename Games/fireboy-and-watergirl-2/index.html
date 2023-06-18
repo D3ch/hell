@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Bubblez">
+    <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui,shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Fireboy & Watergirl 2 Light Temple">
+    <title>Fireboy & Watergirl 2 Light Temple</title>
+
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" sizes="60x60" href="icon-60x60.png">
+    <link rel="icon" sizes="256x256" href="icon-256x256.png">
+    <link rel="icon" sizes="512x512" href="icon-512x512.png">
+    <link rel="apple-touch-icon" href="icon-60x60.png">
+    <script type="text/javascript">
+        var gtag;
+    </script>
+
+</head>
+
+<body style="margin: 0px; overlfow: hidden">
+    <script type="text/javascript">
+        window.requireNode = window.require;
+        window.require = undefined;
+    </script>
+    <script src="bower_components/requirejs/require.js"></script>
+
+    <div id="root">
+        <div id="container"></div>
+        <div id="hammer"></div>
+        <div id="debug-fps" style="color:#ff0000; position: absolute; top: 0;"></div>
+    </div>
+
+    <script type="text/javascript">
+        var enableAnalytics;
+        var gameName = "fireboy-and-watergirl-light-temple.min.js";
+
+        //This all here is for cache busting;
+        function addScript(src, buster, callback) {
+            var s = document.createElement('script');
+            s.setAttribute('src', src + '?v=' + buster);
+            if (typeof callback === 'function') {
+                s.onload = callback;
+            }
+            document.body.appendChild(s);
+        }
+
+        var fbrqLA = false,
+            fbrqBD = 0,
+            playBtn = false,
+            fbrqSA = true,
+            libs = [],
+            version = 'watchdocs',
+            azCP = false;
+
+        require(["fireboy-and-watergirl-light-temple.min.js?v=" + version]);
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d961188c9497ba1","version":"2023.4.0","b":1,"token":"c843b8c381814d58b40d4597a1bf7962","si":100}' crossorigin="anonymous"></script>
+</body>
+
+</html>
