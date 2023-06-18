@@ -92,7 +92,7 @@ input{
       display: block;
       width: 50%;
       border: none;
-      background-color: #111;
+      background-color: #2d2d2d;
       color: white;
       padding: 14px 28px;
       font-size: 24px;
@@ -117,18 +117,6 @@ p{
 }
 
 
-
-.block {
-    display: block;
-    width: 50%;
-    border: none;
-    background-color: #000000;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    }
 
  .search {
      width: 300px;
