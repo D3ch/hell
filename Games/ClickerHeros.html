@@ -1,21 +1,40 @@
 <link rel="stylesheet" href = "/style.css">
-
-
+<script>
+            alert("If the game says 'something went wrong', press 'back to games' and then re-enter the game. it may take up to 3 tries");
+</script>
 <br>
 <br>
-<center>
-  <iframe id="main" style="width: 70%; height: 70%" frameborder="0" src="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fclicker-heroes.xml"></iframe>
-
-</center>
+<html>
+            <body>
+                <div id="ruffle"><ruffle-player style="width: 500px; height: 500px;"></ruffle-player></div>
+                <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+                <script>
+        var swfobject = {};
+        
+        swfobject.embedSWF = function(url, cont, width, height){
+            var ruffle = window.RufflePlayer.newest(),
+                player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+                    width: width,
+                    height: height,
+                    style: 'width: ' + width + 'px; height: ' + height + 'px',
+                });
+            
+            player.load({ url: url });
+        }
+        
+        swfobject.embedSWF('/games/clickerheroes/clickerheroes.swf', 'ruffle', 500, 500);
+                </script>
+            
+        </body></html>
 
 
 <div class="navbar">
-  <a href="/Menu/Proxies.html">Pr0xies</a>
-  <a href="/Menu/Bookmarklets.html">Ch3ats</a>
-  <a href="/Menu/AboutBlank.html">AboutBlank</a>
-  <a href="/Menu/games.html"> Gxmes </a>
-  <a href="/Menu/proxy.html"> Search </a>
-</div>
-<div class="navbar1">
-  <a href="/index.html">Hell.3</a>
-</div>
+    <a href="/Menu/Proxies.html">Pr0xies</a>
+    <a href="/Menu/Bookmarklets.html">Ch3ats</a>
+    <a href="/Menu/AboutBlank.html">AboutBlank</a>
+    <a href="/Menu/games.html"> Gxmes </a>
+    <a href="/Menu/proxy.html"> Search </a>
+  </div>
+  <div class="navbar1">
+    <a href="/index.html">Hell.3</a>
+  </div>
