@@ -10,6 +10,20 @@ Tired of blocked games and blocked proxies? Tired of school? Escape hell with he
 
 you should def use hell
 
+## Links
+
+Main Link
+[Link 1](https://he1l.netlify.app)
+
+First link, but embedded and much smoother transitions.
+[Link 2](https://hell3.d3ch.repl.co)
+
+Redirect to the first link
+[Link 3](https://hell2.gq)
+
+
+
+
 
 # Why hell?
 
