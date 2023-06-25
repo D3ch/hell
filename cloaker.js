@@ -11,7 +11,7 @@ try {
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const popup = open("about:blank", "_blank")
     if (!popup || popup.closed) {
-        alert(" The following tab shows in your history. Allow popups and redirects to hide this from showing up in your history.")
+        alert(" The following tab shows in your history. Allow popups and redirects to hide this from showing up in your history. If you would like to emjoy the site without redirects, go to https://hell3.d3ch.repl.co")
     } else {
         const doc = popup.document
         const iframe = doc.createElement("iframe")
