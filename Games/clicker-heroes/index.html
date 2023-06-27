@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Clicker Heroes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="generator" content="Construct 3">
+<meta name="author" content="frank">
+<link rel="manifest" href="appmanifest.json">
+<link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
+<link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
+<link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
+<link rel="icon" type="image/png" href="icons/icon-512.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+	.flex{display:flex;}
+
+
+
+</style>
+<body>
+<div id="fb-root"></div>
+<script src="lodash.custom.min.js"></script>
+<script src="tween.js"></script>
+<noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+<script src="scripts/supportcheck.js"></script>
+<script src="scripts/offlineclient.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/register-sw.js"></script>
+<script>
+
+		function Showloading() {
+			let Loading = document.getElementById("content-loading");
+			Loading.style.display = "block";
+		}
+		function Hideloading() {
+			let Loading = document.getElementById("content-loading");
+			Loading.style.display = "none";
+		}
+	</script>
+<div id="content-loading">
+<div class="flex">Loading...</div>
+<div class="flex">
+<div class="dash uno"></div>
+<div class="dash dos"></div>
+<div class="dash tres"></div>
+<div class="dash cuatro"></div>
+</div>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7de075cfae73db66","version":"2023.4.0","b":1,"token":"c843b8c381814d58b40d4597a1bf7962","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
