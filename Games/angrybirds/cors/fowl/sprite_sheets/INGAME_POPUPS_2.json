@@ -1,0 +1,5 @@
+{
+	"image": "INGAME_POPUPS_2.png",
+	"spriteCount": 1,
+	"sprite_0": { "id": "POPUP_UNLOCK_EP3", "x": 0, "y": 0, "width": 457, "height": 156, "pivotx": 228, "pivoty": 78 }
+}

@@ -1,0 +1,381 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* prevent selection */
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	user-select: none;
+	font-family: 'Terminal Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	background: #C8ECFE url(../images/bgimage.png) no-repeat top center;
+	background-size: cover;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+
+	/*  Webkit */
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	/*  Mozilla */
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	/*  Standard */
+	display: box;
+	box-orient: horizontal;
+	box-pack: center;
+	box-align: center;
+	text-align: center;
+}
+
+img {
+	border: 0px;
+}
+
+#playn-root {
+	position: relative;
+	margin: auto;
+	z-index: 100;
+	border: 2px solid #0b3657;
+	border-radius: 3px;
+	width: 640px; /* initial size for loading = SD size */
+	height: 480px;
+}
+
+#loading {
+	margin-top: 166px;
+	/* loading image height: 148, therefore: (480 / 2) - (148 / 2) = 166 */
+	text-align: center;
+}
+
+.buttons {
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+}
+
+.buttoncontainer {
+	height: 100%;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	white-space: nowrap;
+}
+
+.gamecont {
+	text-align: center;
+}
+
+.sorry-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 644px;
+	margin-left: -322px;
+	height: 484px;
+	margin-top: -242px;
+	background: #000 url(../validate/sorry-pigs.png) no-repeat bottom right;
+	text-align: left;
+}
+
+.sorry {
+	padding: 0em 1em;
+	font-size: 16pt;
+	color: #fff;
+	font-family: sans-serif;
+	color: #fff;
+	left: 50%;
+	color: #fff;
+	line-height: 1.4em;
+}
+
+.sorry .larger {
+	font-size: 1.2em;
+}
+
+.sorry .smaller {
+	font-size: 0.85em;
+}
+
+a,a:VISITED {
+	color: #3aa0ff;
+}
+
+.sorry p,.sorry table {
+	margin: 1em 0em;
+}
+
+.sorry ol {
+	margin-left: 2em;
+}
+
+.sorry li {
+	margin: 1em;
+}
+
+.content-table {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 0px;
+}
+
+.content-table td {
+	vertical-align: top;
+}
+
+.require-ipad {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 604px;
+	margin-left: -302px;
+	height: 210px;
+	margin-top: -105px;
+}
+
+.require-iphone {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 604px;
+	margin-left: -302px;
+	height: 210px;
+	margin-top: -105px;
+}
+
+.require-android {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 614px;
+	margin-left: -307px;
+	height: 210px;
+	margin-top: -105px;
+}
+
+.info-noscript {
+	width: 22em;
+	position: absolute;
+	left: 50%;
+	margin-left: -11em;
+	color: red;
+	background-color: white;
+	border: 1px solid red;
+	padding: 4px;
+	font-family: sans-serif;
+}
+
+.logo {
+	width: 66px;
+	height: 66px;
+}
+
+.versionButtons {
+	display: inline-block;
+	width: 53px;
+	height: 41px;
+	background: url(../images/INGAME_WEB_BUTTONS.png);
+}
+
+#hdActive.versionButtons {
+	background-position: -615px -1px;
+}
+
+#hdInactive.versionButtons {
+	background-position: -531px -87px;
+}
+
+#hdInactive.versionButtons:hover {
+	background-position: -531px -44px;
+}
+
+#hdInactive.versionButtons:active {
+	background-position: -615px -1px;
+}
+
+#sdActive.versionButtons {
+	background-position: -615px -87px;
+}
+
+#sdInactive.versionButtons {
+	background-position: -615px -44px;
+}
+
+#sdInactive.versionButtons:hover {
+	background-position: -670px -1px;
+}
+
+#sdInactive.versionButtons:active {
+	background-position: -615px -87px;
+}
+
+#installButton {
+	display: inline-block;
+	width: 286px;
+	height: 41px;
+	background: url(../images/INGAME_WEB_BUTTONS.png);
+	background-position: -47px -44px;
+}
+
+#installButton:hover {
+	background-position: -47px -1px;
+}
+
+#offlineInstalled {
+	display: inline-block;
+	width: 286px;
+	height: 41px;
+	background: url(../images/INGAME_WEB_BUTTONS.png);
+	background-position: -47px -87px;
+}
+
+#version-buttons {
+	display: inline-block;
+}
+
+.loginButton {
+	display: inline-block;
+	width: 96px;
+	height: 41px;
+	background: url(../images/INGAME_WEB_BUTTONS.png);
+}
+
+#login.loginButton {
+	background-position: -433px -1px;
+}
+
+#login.loginButton:hover {
+	background-position: -335px -87px;
+}
+
+#logout.loginButton {
+	background-position: -335px -44px;
+}
+
+#logout.loginButton:hover {
+	background-position: -335px -1px;
+}
+
+#social-container {
+	display: inline-block;
+	clear:both;
+	padding-left: 3px;
+}
+
+#faqButton {
+	display: inline-block;
+	background: url(../images/INGAME_WEB_BUTTONS.png);
+	width: 82px;
+	height: 41px;
+	background-position: -433px -44px;
+	vertical-align: top;
+}
+
+#faqButton:hover {
+	background-position: -433px -87px;
+}
+
+#faqButton:active {
+	background-position: -531px -1px;
+}
+
+#optimized {
+	display: inline-block;
+	background: url(../images/INGAME_WEB_BUTTONS.png);
+	width: 155px;
+	height: 17px;
+	background-position: -47px -130px;
+	vertical-align: top;
+	margin-top: 2px;
+}
+
+.twitter-share-button {
+	height: 25px !important;
+	width: 95px !important;
+}
+
+#loginInfo {
+	text-align: right;
+	height: 22px;
+}
+
+#tooltip {
+	height: 25px;
+}
+
+#spaceButton {
+	background: url(../images/INGAME_WEB_BUTTON_SPACE.png);
+	width: 286px;
+	height: 121px;
+	background-position: -259px -1px;
+	margin-left: auto;
+	margin-right: 5px;
+	margin-bottom: 29px;
+}
+
+#spaceButton:hover {
+	background-position: -259px -124px;
+	width: 286px;
+	height: 121px;
+}
+
+#spaceShopButton {
+	background: url(../images/INGAME_WEB_BUTTON_SPACE.png);
+	width: 256px;
+	height: 149px;
+	background-position: -1px -1px;
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+#spaceShopButton:hover {
+	background-position: -1px -152px;
+	width: 256px;
+	height: 149px;
+}
+
+#sidebarIframe {
+	position: relative;
+	width: 200px;
+	height: 155px;
+	z-index: 150;
+	border: none;
+	transition: opacity 1s linear;
+	transition-delay: 1.0s;
+	-webkit-transition: opacity 1s linear;
+	-webkit-transition-delay: 1.0s;
+	-moz-transition: opacity 1s linear;
+	-moz-transition-delay: 1.0s;
+	-ms-transition: opacity 1s linear;
+	-ms-transition-delay: 1.0s;
+}
+
+.openSidebarItem {
+	opacity: 1.0;
+	pointer-events: auto;
+}
+
+.closedSidebarItem {
+	pointer-events: none;
+}
+
+#videoAdContainer {
+	width: 340px;
+	background-color: black;
+	height: 250px;
+	vertical-align: middle;
+	padding: px;
+	padding-top: 10px;
+} 

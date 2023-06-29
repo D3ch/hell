@@ -1,0 +1,21 @@
+{
+	"image": "INGAME_TEXTURES_GROUND.png",
+	"spriteCount": 17,
+	"sprite_0": { "id": "GROUNDTEXTURE_POACHEDEGGS_1", "x": 1, "y": 1, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_1": { "id": "GROUNDTEXTURE_POACHEDEGGS_2", "x": 259, "y": 1, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_2": { "id": "GROUNDTEXTURE_POACHEDEGGS_3", "x": 517, "y": 1, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_3": { "id": "GROUNDTEXTURE_MIGHTYHOAX_1", "x": 775, "y": 1, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_4": { "id": "GROUNDTEXTURE_MIGHTYHOAX_2", "x": 1, "y": 259, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_5": { "id": "GROUNDTEXTURE_DANGERABOVE_1", "x": 1, "y": 517, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_6": { "id": "GROUNDTEXTURE_DANGERABOVE_2", "x": 1, "y": 775, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_7": { "id": "GROUNDTEXTURE_DANGERABOVE_3", "x": 1, "y": 1033, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_8": { "id": "GROUNDTEXTURE_CHERRYBLOSSOM_1", "x": 259, "y": 259, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_9": { "id": "GROUNDTEXTURE_SEASONSGREEDINGS_1", "x": 517, "y": 259, "width": 256, "height": 256, "pivotx": 128, "pivoty": 128 },
+	"sprite_10": { "id": "THEME_TEXTURE_E", "x": 775, "y": 259, "width": 256, "height": 256, "pivotx": 0, "pivoty": 0 },
+	"sprite_11": { "id": "THEME_GROUND_22", "x": 259, "y": 517, "width": 256, "height": 256, "pivotx": 0, "pivoty": 0 },
+	"sprite_12": { "id": "THEME_GROUND_21", "x": 259, "y": 775, "width": 256, "height": 256, "pivotx": 0, "pivoty": 0 },
+	"sprite_13": { "id": "GROUNDTEXTURE_HAMENHIGH", "x": 259, "y": 1033, "width": 256, "height": 256, "pivotx": 0, "pivoty": 0 },
+	"sprite_14": { "id": "GROUNDTEXTURE_TRICK_OR_TREAT", "x": 517, "y": 517, "width": 256, "height": 256, "pivotx": 0, "pivoty": 0 },
+	"sprite_15": { "id": "GROUNDTEXTURE_HAMOWEEN", "x": 775, "y": 517, "width": 256, "height": 256, "pivotx": 0, "pivoty": 0 },
+	"sprite_16": { "id": "GROUNDTEXTURE_MOONFESTIVAL_1", "x": 517, "y": 775, "width": 256, "height": 256, "pivotx": 0, "pivoty": 0 }
+}

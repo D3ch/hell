@@ -1,0 +1,16 @@
+{
+	"image": "INGAME_BLOCKS_CHERRYBLOSSOM.png",
+	"spriteCount": 12,
+	"sprite_0": { "id": "CHERRY_BGITEM_CLOUDS_1", "x": 195, "y": 114, "width": 131, "height": 33, "pivotx": 0, "pivoty": 0 },
+	"sprite_1": { "id": "CHERRY_BGITEM_CLOUDS_2", "x": 230, "y": 177, "width": 88, "height": 22, "pivotx": 0, "pivoty": 0 },
+	"sprite_2": { "id": "CHERRY_BGITEM_CLOUDS_3", "x": 230, "y": 149, "width": 75, "height": 26, "pivotx": 0, "pivoty": 0 },
+	"sprite_3": { "id": "B_SHOGUN_HELMET", "x": 1, "y": 1, "width": 192, "height": 154, "pivotx": 96, "pivoty": 77 },
+	"sprite_4": { "id": "B_SAKURAFLOWER_CENTER_1", "x": 195, "y": 149, "width": 33, "height": 30, "pivotx": 16, "pivoty": 15 },
+	"sprite_5": { "id": "B_SAKURAFLOWER_PETAL_1", "x": 165, "y": 157, "width": 25, "height": 35, "pivotx": 12, "pivoty": 17 },
+	"sprite_6": { "id": "B_RICEBALL_1", "x": 114, "y": 157, "width": 49, "height": 42, "pivotx": 24, "pivoty": 21 },
+	"sprite_7": { "id": "B_CANDYSTICK_1", "x": 305, "y": 1, "width": 20, "height": 70, "pivotx": 10, "pivoty": 35 },
+	"sprite_8": { "id": "B_MISO_1", "x": 53, "y": 157, "width": 59, "height": 56, "pivotx": 29, "pivoty": 28 },
+	"sprite_9": { "id": "B_JAPANESE_UMBRELLA_1", "x": 195, "y": 1, "width": 108, "height": 111, "pivotx": 54, "pivoty": 55 },
+	"sprite_10": { "id": "B_SUSHICHEF_BANDANNA_1", "x": 230, "y": 201, "width": 82, "height": 22, "pivotx": 41, "pivoty": 11 },
+	"sprite_11": { "id": "B_SUSHI_1", "x": 1, "y": 157, "width": 50, "height": 63, "pivotx": 25, "pivoty": 31 }
+}

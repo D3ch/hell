@@ -1,0 +1,18 @@
+{
+	"image": "INGAME_MENU_LEVELEND.png",
+	"spriteCount": 14,
+	"sprite_0": { "id": "LEVELEND_STAR_1", "x": 233, "y": 1, "width": 201, "height": 202, "pivotx": 100, "pivoty": 101 },
+	"sprite_1": { "id": "LEVELEND_STAR_2", "x": 1, "y": 1, "width": 230, "height": 226, "pivotx": 115, "pivoty": 113 },
+	"sprite_2": { "id": "LEVELEND_STAR_3", "x": 233, "y": 205, "width": 196, "height": 194, "pivotx": 98, "pivoty": 97 },
+	"sprite_3": { "id": "LEVELEND_HIGHSCORE", "x": 122, "y": 437, "width": 108, "height": 116, "pivotx": 54, "pivoty": 58 },
+	"sprite_4": { "id": "LEVELEND_STARHOLE_1", "x": 390, "y": 401, "width": 119, "height": 127, "pivotx": 59, "pivoty": 63 },
+	"sprite_5": { "id": "LEVELEND_STARHOLE_2", "x": 233, "y": 401, "width": 155, "height": 136, "pivotx": 77, "pivoty": 68 },
+	"sprite_6": { "id": "LEVELEND_STARHOLE_3", "x": 1, "y": 437, "width": 119, "height": 126, "pivotx": 59, "pivoty": 63 },
+	"sprite_7": { "id": "LEVELEND_THREESTARS_1", "x": 436, "y": 144, "width": 40, "height": 12, "pivotx": 20, "pivoty": 6 },
+	"sprite_8": { "id": "LEVELEND_THREESTARS_2", "x": 436, "y": 158, "width": 40, "height": 12, "pivotx": 20, "pivoty": 6 },
+	"sprite_9": { "id": "LEVELEND_THREESTARS_3", "x": 436, "y": 172, "width": 40, "height": 12, "pivotx": 20, "pivoty": 6 },
+	"sprite_10": { "id": "LEVELEND_FEATHER", "x": 552, "y": 1, "width": 31, "height": 48, "pivotx": 15, "pivoty": 24 },
+	"sprite_11": { "id": "LEVELEND_PIG", "x": 1, "y": 229, "width": 209, "height": 206, "pivotx": 104, "pivoty": 103 },
+	"sprite_12": { "id": "BUTTON_LEVELEND_FUJITV", "x": 436, "y": 1, "width": 114, "height": 141, "pivotx": 57, "pivoty": 84 },
+	"sprite_13": { "id": "BUTTON_LEVELEND_FUJITV_HOVER", "x": 431, "y": 205, "width": 114, "height": 141, "pivotx": 57, "pivoty": 84 }
+}

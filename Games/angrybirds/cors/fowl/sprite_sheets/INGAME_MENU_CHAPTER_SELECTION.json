@@ -1,0 +1,8 @@
+{
+	"image": "INGAME_MENU_CHAPTER_SELECTION.png",
+	"spriteCount": 4,
+	"sprite_0": { "id": "CHAPTER_SELECTION_DOT_BLACK", "x": 211, "y": 1, "width": 16, "height": 8, "pivotx": 4, "pivoty": 0 },
+	"sprite_1": { "id": "CHAPTER_SELECTION_DOT_WHITE", "x": 211, "y": 11, "width": 16, "height": 8, "pivotx": 4, "pivoty": 0 },
+	"sprite_2": { "id": "CHAPTER_SELECTION_BUTTON_BACK_HOVER", "x": 1, "y": 1, "width": 103, "height": 94, "pivotx": 51, "pivoty": 47 },
+	"sprite_3": { "id": "CHAPTER_SELECTION_BUTTON_BACK", "x": 106, "y": 1, "width": 103, "height": 94, "pivotx": 51, "pivoty": 47 }
+}

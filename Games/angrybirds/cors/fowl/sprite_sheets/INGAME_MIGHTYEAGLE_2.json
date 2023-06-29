@@ -1,0 +1,10 @@
+{
+	"image": "INGAME_MIGHTYEAGLE_2.png",
+	"spriteCount": 6,
+	"sprite_0": { "id": "ME_POPUP_CONGRATS", "x": 1, "y": 1, "width": 654, "height": 363, "pivotx": 0, "pivoty": 0 },
+	"sprite_1": { "id": "ME_MINI", "x": 1, "y": 607, "width": 248, "height": 121, "pivotx": 124, "pivoty": 60 },
+	"sprite_2": { "id": "ME_SUNBEAM", "x": 657, "y": 1, "width": 289, "height": 278, "pivotx": 148, "pivoty": 143 },
+	"sprite_3": { "id": "METER_ME_EMPTY", "x": 517, "y": 367, "width": 413, "height": 132, "pivotx": 206, "pivoty": 85 },
+	"sprite_4": { "id": "METER_ME_FILL", "x": 517, "y": 503, "width": 413, "height": 132, "pivotx": 206, "pivoty": 85 },
+	"sprite_5": { "id": "METER_ME_FULL", "x": 2, "y": 367, "width": 511, "height": 237, "pivotx": 256, "pivoty": 138 }
+}

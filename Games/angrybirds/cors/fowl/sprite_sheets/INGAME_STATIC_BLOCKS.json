@@ -1,0 +1,18 @@
+{
+	"image": "INGAME_STATIC_BLOCKS.png",
+	"spriteCount": 14,
+	"sprite_0": { "id": "TERRAIN_TEXTURED_HILLS_10X10_1", "x": 199, "y": 1, "width": 194, "height": 196, "pivotx": 0, "pivoty": 0 },
+	"sprite_1": { "id": "TERRAIN_TEXTURED_HILLS_5X5_1", "x": 395, "y": 102, "width": 97, "height": 97, "pivotx": 0, "pivoty": 0 },
+	"sprite_2": { "id": "TERRAIN_TEXTURED_HILLS_32X2_1", "x": 1, "y": 236, "width": 642, "height": 32, "pivotx": 0, "pivoty": 0 },
+	"sprite_3": { "id": "BREAKABLE_STATIC_BLOCK_32X2_1", "x": 1, "y": 270, "width": 642, "height": 32, "pivotx": 0, "pivoty": 0 },
+	"sprite_4": { "id": "TERRAIN_TEXTURED_HILLS_1X1_1", "x": 496, "y": 168, "width": 20, "height": 20, "pivotx": 0, "pivoty": 0 },
+	"sprite_5": { "id": "CHROME_PLATFORM_TAB2_1", "x": 496, "y": 48, "width": 220, "height": 45, "pivotx": 0, "pivoty": 0 },
+	"sprite_6": { "id": "CHROME_PLATFORM_TAB1_1", "x": 496, "y": 1, "width": 225, "height": 45, "pivotx": 0, "pivoty": 0 },
+	"sprite_7": { "id": "TERRAIN_TEXTURED_HILLS_10X2_1", "x": 1, "y": 201, "width": 194, "height": 33, "pivotx": 0, "pivoty": 0 },
+	"sprite_8": { "id": "TERRAIN_TEXTURED_HILLS_5X2_1", "x": 597, "y": 132, "width": 97, "height": 32, "pivotx": 0, "pivoty": 0 },
+	"sprite_9": { "id": "BREAKABLE_STATIC_BLOCK_10X10_1", "x": 1, "y": 1, "width": 196, "height": 198, "pivotx": 0, "pivoty": 0 },
+	"sprite_10": { "id": "BREAKABLE_STATIC_BLOCK_10X2_1", "x": 496, "y": 95, "width": 196, "height": 35, "pivotx": 0, "pivoty": 0 },
+	"sprite_11": { "id": "BREAKABLE_STATIC_BLOCK_1X1_1", "x": 694, "y": 95, "width": 22, "height": 22, "pivotx": 0, "pivoty": 0 },
+	"sprite_12": { "id": "BREAKABLE_STATIC_BLOCK_5X2_1", "x": 496, "y": 132, "width": 99, "height": 34, "pivotx": 0, "pivoty": 0 },
+	"sprite_13": { "id": "BREAKABLE_STATIC_BLOCK_5X5_1", "x": 395, "y": 1, "width": 99, "height": 99, "pivotx": 0, "pivoty": 0 }
+}
