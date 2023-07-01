@@ -30,16 +30,17 @@ Redirect to the first link
 
 # Why hell?
 
-- 80+ games [🎮]
+- 100+ games [🎮]
 - Complete Henry Stickmin series
-- Google (uses replit) [🔎]
+- Games are easy to steal
+- Working Ultraviolet Proxy [🔎]
 - 6 Proxies + Alt links [🔎]
 - Site cloaking [🙈]
 - About Blank Embedder [⬜]
 - Bookmarklets 
 - Ch3ats
 - Dark background and simple looks [⬛]
-- (apps are broken but we ignore this)
+- ~~(apps are broken but we ignore this)~~
 
 # Future Plans
 - [x] Run 3
@@ -53,7 +54,9 @@ Redirect to the first link
 - [ ] MOVIES (coming soon alrdy started)
 
 
-game sources - itch io, scratch, 3ch0, and classroom 6x
+game sources - itch io, scratch, 3ch0, binbashbanana, and classroom 6x
+
+proxy source - tiw
 
 skidded nav bar and most css from w3 schools
 
