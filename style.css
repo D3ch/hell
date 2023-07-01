@@ -101,6 +101,12 @@ input{
       cursor: pointer;
       text-align: center;
     }
+.block:hover {
+  color:#383838;
+  background-color:#181818;
+  opacity: 0.3;
+  transition: 0.7s;
+}
 h1{
   color: white;
 }
