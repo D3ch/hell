@@ -1,166 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Draggable and Resizable Windows</title>
-    <link rel="stylesheet" href="/style.css">
-    <script>
-
-    </script>
+  <title>Games but Windows</title>
+  <link rel="stylesheet" href = "/style.css">
 </head>
 <body>
-  <center> 
-    <button class="toggle-button" onclick="toggleWindow('window1')">Cookie Clicker</button><br>
-  
-    <button class="toggle-button" onclick="toggleWindow('window2')">1v1 Lol</button><br>
+  <button onclick="loadPath('/games/1v1lol/index.html')">1v1 lol</button>
+  <button onclick="loadPath('/Games/2048/index.html')">2048</button>
 
-    <button class="toggle-button" onclick="toggleWindow('window3')">2048</button><br>
-    
-    <button class="toggle-button" onclick="toggleWindow('window4')">Achievement Unlocked</button><br>
-
-    <button class="toggle-button" onclick="toggleWindow('acsii')">Acsiispace</button><br>
-
-    <button class="toggle-button" onclick="toggleWindow('ages-of-conflict')">Ages Of Conflict</button><br>
-
-    <button class="toggle-button" onclick="toggleWindow('at1')">Awesome Tanks 1</button><br>
-
-    <button class="toggle-button" onclick="toggleWindow('at2')">Awesome Tanks 2</button><br>
-
-    <button class="toggle-button" onclick="toggleWindow('br')">Backrooms</button><br>
-
-    <button class="toggle-button" onclick="toggleWindow('bacon')">Bacon May Die 2016</button><br>
-    <button class="toggle-button" onclick="toggleWindow('bi1')">Bad Ice Cream 1</button><br>
-  </center>
-
-
-  
-  <!--
-  
-  STEPS - 
-  
-  
-  Everytime i would like to add a game, i would need to make a button for it.
-  
-  
-  Eg, if i were to make idk bitlife, i would need to first
-
-  - Make an html for it
-  - If thats already included (like /game/bitlife/index.html),   
-    then i would just need to embed the index html in the window.
-
-  once i have game files done,  make a button to show the "window"
-
-  <button class="toggle-button" onclick="toggleWindow('nameOfGameHere OR windowNumber')">Name of Game</button>
-
-  NOW, copy this. 
-
-  <div class="window" id="SAME NAME AS THE BUTTON">
-        <span class="close-button" onclick="closeWindow('SAME NAME AS THE BUTTON AND ID')">X</span>
-        <h2>Title</h2>
-        <p>(Description Here) Press the button with the same name.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="src path HERE"></iframe>
+  <div id="window" class="window">
+    <div class="window-header" onmousedown="dragWindow(event)">
+      Game Window
+      <span class="close-btn" onclick="closeWindow()">X</span>
     </div>
-
-  
-  -->
-
-
-
-
-
-
-
-  <!--
-
-     These <div class = "window"> make the windows have like stuff inside of em.
-
-    chat gpt may or may not have made this code.
-  -->
-  
-    <div class="window" id="window1">
-        <span class="close-button" onclick="closeWindow('window1')">-</span>
-        <h2>Cookie Clicker</h2>
-        <p>Click cookies! X doesnt work? Press the button with the same name.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/cookie-clicker/index.html"></iframe>
+    <div class="window-content">
+      <iframe id="iframe" width="100%" height="100%"></iframe>
     </div>
-
-    <div class="window" id="window2">
-        <span class="close-button" onclick="closeWindow('window2')">-</span>
-        <h2>1v1 Lol</h2>
-        <p>Fornite but cheaper</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/games/1v1lol/index.html"></iframe>
-    </div>
-
-    <div class="window" id="window3">
-        <span class="close-button" onclick="closeWindow('window3')">-</span>
-        <h2>2048</h2>
-        <p>Press the button with the same name as the game if the - button doesnt work.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/2048/index.html"></iframe>
-    </div>
-
-    <div class="window" id="window4">
-        <span class="close-button" onclick="closeWindow('window4')">-</span>
-        <h2>Achievement Unlocked</h2>
-        <p>Press the button with the same name as the game if the - button doesnt work.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/achievementunlocked/index.html"></iframe>
-    </div>
-
-    <div class="window" id="window4">
-        <span class="close-button" onclick="closeWindow('window4')">-</span>
-        <h2>Achievement Unlocked</h2>
-        <p>Press the button with the same name as the game if the - button doesnt work.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/achievementunlocked/index.html"></iframe>
-    </div>
-
-    <div class="window" id="acsii">
-        <span class="close-button" onclick="closeWindow('acsii')">-</span>
-        <h2>Acsiispace</h2>
-        <p>Press the button with the same name as the game if the - button doesnt work.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/acsiispace/index.html"></iframe>
-    </div>
-
-    <div class="window" id="ages-of-conflict">
-        <span class="close-button" onclick="closeWindow('ages-of-conflict')">-</span>
-        <h2>Age of conflict</h2>
-        <p>Press the button with the same name as the game if the - button doesnt work.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/ages-of-conflict/index.html"></iframe>
-    </div>
-
-    <div class="window" id="at1">
-        <span class="close-button" onclick="closeWindow('at1')">-</span>
-        <h2>Awesome Tanks 1</h2>
-        <p>Press the button with the same name as the game if the - button doesnt work.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/awesometanksfiles/index.html"></iframe>
-    </div>
-
-    <div class="window" id="at2">
-        <span class="close-button" onclick="closeWindow('at2')">-</span>
-        <h2>Awesome Tanks 2</h2>
-        <p>Press the button with the same name as the game if the - button doesnt work.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/awesometanks2/index.html"></iframe>
-    </div>
-
-    <div class="window" id="br">
-        <span class="close-button" onclick="closeWindow('br')">-</span>
-        <h2>Backrooms</h2>
-        <p>Press the button with the same name as the game if the - button doesnt work.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/backrooms/index.html"></iframe>
-    </div>
-
-    <div class="window" id="bacon">
-        <span class="close-button" onclick="closeWindow('bacon')">-</span>
-        <h2>Bacons May Die</h2>
-        <p>Press the button with the same name as the game if the - button doesnt work.</p>
-      <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/bacon-may-die/index.html"></iframe>
-    </div>
-
-    <div class="window" id="bi1">
-      <span class="close-button" onclick="closeWindow('bi1')">-</span>
-      <h2>Bacons May Die</h2>
-      <p>Press the button with the same name as the game if the - button doesnt work.</p>
-    <iframe id="main" style="width: 90%; height: 90%" frameborder="0" src="/Games/bad-ice-cream/index.html"></iframe>
   </div>
 
-
-    <script src ="/window.js"></script>
+  <script src = "/window.js"></script>
 </body>
 </html>
