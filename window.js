@@ -50,7 +50,6 @@
 
         // Close button functionality
         function closeWindow(windowId) {
-            //const window = document.getElementById(windowId);
-            //window.style.display = 'none';
-            void(0);
+            const window = document.getElementById(windowId);
+            window.style.display = 'none';
         }
