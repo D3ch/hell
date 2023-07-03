@@ -255,7 +255,7 @@ body {margin:0;}
 .window {
   width: 800px;
   height: 500px;
-  background-color: #f2f2f2;
+  background-color:black;
   border: 1px solid #ccc;
   position: absolute;
   top: 50px;
@@ -269,10 +269,12 @@ body {margin:0;}
 
 .window-content {
   padding: 10px;
+  height:500px;
+
 }
 
 .window-header {
-  background-color: #e2e2e2;
+  background-color:darkgray;
   padding: 5px;
   cursor: move;
 }
