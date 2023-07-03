@@ -253,8 +253,8 @@ body {margin:0;}
   height: 1500px; 
 }
 .window {
-  width: 300px;
-  height: 200px;
+  width: 800px;
+  height: 500px;
   background-color: #f2f2f2;
   border: 1px solid #ccc;
   position: absolute;
