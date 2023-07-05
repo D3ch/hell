@@ -30,8 +30,6 @@ html, body {
 body {
   background-image: url('/backgroundanimation.gif');
   background-attachment:fixed;
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 #myInput {
   background-image: url('/css/searchicon.png');
