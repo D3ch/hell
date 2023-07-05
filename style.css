@@ -30,12 +30,8 @@ html, body {
 body {
   background-image: url('/backgroundanimation.gif');
   background-attachment:fixed;
-  body {
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-  }
-
-  
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 #myInput {
   background-image: url('/css/searchicon.png');
@@ -127,7 +123,7 @@ p{
   Background-color:Black;
   font-family: "Times New Roman", Times, serif;
 }
-}
+
 p{
   color:grey;
   Background-color:Black;
