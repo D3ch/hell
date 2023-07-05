@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/static/tiw/',
-    bare: 'https://sheilassunshades.site/bare/',
+    bare: 'https://84.dachxd.repl.co/bare/',
     /*https://baresw.starttiw.org */
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
