@@ -40,7 +40,6 @@ Redirect to the first link
 - Bookmarklets 
 - Ch3ats
 - Dark background and simple looks [⬛]
-- ~~(apps are broken but we ignore this)~~
 
 # Future Plans
 - [x] Run 3
@@ -50,13 +49,11 @@ Redirect to the first link
 - [x] Custom Proxy
 - [x] Ultraviolet Proxy
 - [ ] Fix Krunker (may never happen)
-- [ ] Fix apps
-- [ ] MOVIES (coming soon alrdy started)
 
 
 game sources - itch io, scratch, 3ch0, binbashbanana, and classroom 6x
 
-proxy source - tiw
+proxy source - tiw + replit
 
 skidded nav bar and most css from w3 schools
 

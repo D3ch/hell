@@ -1,7 +1,11 @@
 let inFrame
 // This code isnt mine obviously
 // Original code comes from interstellar
-// sorry for stealing code 
+// sorry for skidding code 
+// check there site out since ur alrdy here
+// discord.gg/gointerstellar
+
+
 try {
     inFrame = window !== top
 } catch (e) {
