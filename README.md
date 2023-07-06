@@ -30,9 +30,9 @@ Redirect to the first link
 
 # Why hell?
 
-- 100+ games [🎮]
-- Complete Henry Stickmin series
-- Games are easy to steal
+- 150+ games [🎮]
+- Gameboy, flash, and html5 Games
+- Easy-to-steal code
 - Working Ultraviolet Proxy [🔎]
 - 6 Proxies + Alt links [🔎]
 - Site cloaking [🙈]
