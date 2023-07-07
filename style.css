@@ -21,6 +21,10 @@ recognize it
 #broken{
   color:red;
     }
+#subtitle{
+  color:white;
+  background-color:#000000;
+}
 html, body {
   height: auto;
   width: 100%;
