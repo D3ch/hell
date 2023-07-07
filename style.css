@@ -23,7 +23,6 @@ recognize it
     }
 #subtitle{
   color:white;
-  background-color:#000000;
 }
 html, body {
   height: auto;
@@ -215,7 +214,7 @@ body {margin:0;}
   background: #ddd;
   color: black;
   opacity: 0.3;
-  transition: 0.7s;
+  transition: 1.2s;
 }
 .main {
   padding: 16px;
@@ -241,13 +240,13 @@ body {margin:0;}
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
 }
 .navbar1 a:hover {
   background: #ddd;
   color: black;
   opacity: 0.3;
-  transition: 0.7s;
+  transition: 1.2s;
 }
 .main {
   padding: 16px;
@@ -263,25 +262,4 @@ body {margin:0;}
   top: 50px;
   left: 50px;
   display: none;
-}
-
-.window.active {
-  display: block;
-}
-
-.window-content {
-  padding: 10px;
-  height:500px;
-
-}
-
-.window-header {
-  background-color:darkgray;
-  padding: 5px;
-  cursor: move;
-}
-
-.close-btn {
-  float: right;
-  cursor: pointer;
 }

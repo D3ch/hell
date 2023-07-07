@@ -32,12 +32,11 @@ Redirect to the first link
 
 - 150+ games [🎮]
 - Gameboy, flash, and html5 Games
-- Easy-to-steal code
 - Working Ultraviolet Proxy [🔎]
-- 6 Proxies + Alt links [🔎]
+- Open Source [🚪]
 - Site cloaking [🙈]
 - About Blank Embedder [⬜]
-- Bookmarklets 
+- Bookmarklets [📚]
 - Ch3ats
 - Dark background and simple looks [⬛]
 
