@@ -1,0 +1,265 @@
+/** 
+
+NOT ALL THIS IS MY CODE
+
+Nav bar and the <li> and <ul> css code
+came from w3schools. 
+
+Others came from other sites that i forgot about.
+The only thing thats mine is the body + html css.
+
+The search css came from Hypersite-v2. Check
+that site out on replit.
+
+sorry for skidding ur code if u happen to 
+recognize it
+
+-dachxd
+
+
+**/
+#broken{
+    color:red;
+      }
+  #subtitle{
+    color:black;
+  }
+  html, body {
+    height: auto;
+    width: 100%;
+    background-size: 100%; 
+    
+  }
+  body {
+    background-color:white;
+  }
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    color:white;
+    background-color:white;
+  }
+  a{
+    background-color:white;
+  }
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    background-color:black;
+    color:white;
+  }
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color:black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  input{
+    margin:auto;
+    width: 400px;
+    height: 60px;
+    background: #0f0f0f;
+    border-radius: 5px;
+    margin:auto;
+    border: 2px black solid;
+    width: 300px;
+    height: 57px;
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 18px;
+    outline: none;
+    margin-left:10px;
+  }
+  .block {
+        display: block;
+        width: 50%;
+        border: none;
+        background-color:white;
+        color: black;
+        padding: 14px 28px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+      }
+  .block:hover {
+    color:lightgray;
+    background-color:grey;
+    opacity: 0.3;
+    transition: 0.7s;
+  }
+  h1{
+    color: black;
+  }
+  h2{
+    color: red;
+  }
+  p1{
+    color:lightgray;
+    Background-color:white;
+    font-family: "Times New Roman", Times, serif;
+  }
+  p{
+    color:lightgray;
+    Background-color:white;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  p{
+    color:grey;
+    Background-color:Black;
+  }
+  
+  
+  
+   .search {
+       width: 300px;
+       height: 57px;
+       border-radius: 5px;
+       background: transparent;
+       border: none;
+       color: black;
+       font-size: 18px;
+       outline: none;
+       margin-left:10px;
+       
+       
+     }
+  
+  
+   
+    ::placeholder {
+      color: black;
+      font-size: 18px;
+      border: none;
+      margin:auto;
+      width: 400px;
+      height: 60px;
+      background: white;
+      border-radius: 5px;
+      margin:auto;
+      border: 2px black solid;
+      width: 300px;
+      height: 57px;
+      border-radius: 5px;
+      background: transparent;
+      border: none;
+      color: black;
+      font-size: 18px;
+      outline: none;
+      margin-left:10px;
+      text-align:center;
+      
+    }
+  
+  .submit-button {
+      background: transparent;
+      border: none;
+      width: 55px;
+      height: 60px;
+      color: black;
+    margin-left:5px;
+  }
+  
+  .searchbox{
+    width: 400px;
+    height: 60px;
+    background: white;
+    border-radius: 5px;
+    margin:auto;
+    border: 2px black solid;
+   
+    
+  }
+  
+  body {margin:0;}
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .navbar a:hover {
+    background: black;
+    color: white;
+    opacity: 0.3;
+    transition: 1.2s;
+  }
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; 
+  }
+  
+  
+  
+  body {margin:0;}
+  .navbar1 {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+  }
+  .navbar1 a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .navbar1 a:hover {
+    background: black;
+    color: white;
+    opacity: 0.3;
+    transition: 1.2s;
+  }
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; 
+  }
+  .window {
+    width: 800px;
+    height: 500px;
+    background-color:white;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: none;
+  }
+  
