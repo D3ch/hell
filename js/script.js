@@ -19,15 +19,15 @@ function changeTheme(theme) {
   
   // Event listener for the theme buttons
   document.getElementById('darkThemeBtn').addEventListener('click', function() {
-    changeTheme('dark');
+    changeTheme('/dark');
   });
   
   document.getElementById('lightThemeBtn').addEventListener('click', function() {
-    changeTheme('light');
+    changeTheme('/light');
   });
   
   document.getElementById('lightThemeBtn').addEventListener('click', function() {
-    changeTheme('default');
+    changeTheme('/default');
   });
   
   // Clear the saved theme from localStorage
