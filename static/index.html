@@ -7,6 +7,30 @@
     </form>  
 </div>
 </center>
+  <button class ="block"onclick="insertTextAndEnter()">https://example.com</button>
+
+  <script>
+    function insertTextAndEnter() {
+      var searchInput = document.querySelector('.form_input');
+      var textToInsert = 'Your text https://example.com';
+
+      if (searchInput) {
+        searchInput.value = textToInsert;
+        searchInput.focus();
+
+        var enterKeyEvent = new KeyboardEvent('keydown', {
+          key: 'Enter',
+          code: 'Enter',
+          keyCode: 13,
+          which: 13,
+          bubbles: true,
+          cancelable: true,
+        });
+
+        searchInput.dispatchEvent(enterKeyEvent);
+      }
+    }
+  </script>
 
 <script src="/static/uv/uv.bundle.js" defer=""></script>
 <script src="/static/uv/uv.config.js" defer=""></script>
