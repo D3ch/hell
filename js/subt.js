@@ -10,7 +10,7 @@ const say = [
     "the comma key looks like a comma",
     "xd xd xd xd",
     "you look like a CHAIR",
-    "walking my way downtown walking fast pace is fast",
+    "making my way downtown. walking fast, pace is fast",
     "reminder to stay hydrated",
     "the best unblocked games",
     "unblocked games idk",
@@ -47,6 +47,10 @@ const say = [
     "c's get degrees a's and b's succeed",
     "sometimes i wonder why i write code knowing some day its not gonna matter",
     "october 12",
+    "you should do something productive like playing run 3 or smt",
+    "sometimes i wonder why we exist",
+    "hell = unblocked games. remember that",
+    "you dont deserve a subtitle",
   ];
   /*
   hi skidder or person looking at my code
