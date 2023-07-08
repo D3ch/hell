@@ -36,6 +36,17 @@ const say = [
     "im not out of subtitles you're out of subtitles",
     "he1l.netlify.app",
     "hell2.gq",
+    "balisong flipping is fun you should try it",
+    "'go to hell!' sm goofy ahh person",
+    "fun fact i dont care if you read these",
+    "its not wasting your life if you enjoy it",
+    "lifes short go and do smt stupid",
+    "imagine spending hours on github",
+    "'oh it takes money to host this' - sm dude hosting it on a free hosting site",
+    "im not adding roblox touch grass",
+    "c's get degrees a's and b's succeed",
+    "sometimes i wonder why i write code knowing some day its not gonna matter",
+    "october 12",
   ];
   /*
   hi skidder or person looking at my code
