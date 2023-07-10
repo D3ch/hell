@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>DachXD | Santy is Home</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #601527"></canvas>
+    <script src="Build/WebGL.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WebGL.data.gz",
+        frameworkUrl: "Build/WebGL.framework.js.gz",
+        codeUrl: "Build/WebGL.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Kulu",
+        productName: "Santy is Home",
+        productVersion: "0.1",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+  </body>
+</html>

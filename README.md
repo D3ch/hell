@@ -4,11 +4,14 @@
 
 
 # Hell
-Unblocked games and proxies with simple html.
 
-Tired of blocked games and blocked proxies? Tired of school? Escape hell with hell. 
+Unblocked games and proxy with simple html.
 
-you should def use hell
+Tired of games and searching being blocked?
+
+Then use Hell! With over 180 unblocked games and even a working
+
+ultraviolet proxy, bypassing has never been so much easier. 
 
 ## Links
 
@@ -16,13 +19,9 @@ Main Link
 
 [Link 1](https://he1l.netlify.app)
 
-First link, but embedded and much smoother transitions.
-
-[Link 2](https://hell3.d3ch.repl.co)
-
 Redirect to the first link
 
-[Link 3](https://hell2.gq)
+[Link 2](https://hell2.gq)
 
 
 
@@ -30,7 +29,7 @@ Redirect to the first link
 
 # Why hell?
 
-- 150+ games [🎮]
+- 180+ games [🎮]
 - Gameboy, flash, and html5 Games
 - Working Ultraviolet Proxy [🔎]
 - Open Source [🚪]
