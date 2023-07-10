@@ -51,6 +51,7 @@ const say = [
     "sometimes i wonder why we exist",
     "hell = unblocked games. remember that",
     "you dont deserve a subtitle",
+    "unblocked searching or smt idrc",
   ];
   /*
   hi skidder or person looking at my code
