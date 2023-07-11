@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    overflow: hidden;    
+    font-family: sans-serif;
+}
+.heyyyyyy {
+display: none;
+margin: -9px;
+overflow-x: hidden;
+overflow-y: hidden;
+width: 103vw;height: 100.9vh;border: none;
+}
+.heyyyyyy1 {
+display: none;
+margin: -9px;
+overflow-x: hidden;
+overflow-y: hidden;
+width: 103vw;height: 100.9vh;border: none;
+}
+.main {
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.gembed {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-image: url("../../../../images/1-dark-nologo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ffd {
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    background-color: #dddddd;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 2px;
+    overflow: auto;
+    z-index: 5;
+}
+
+#ffd::before {
+    opacity: 0;
+    width: 100%;
+    height: 0px;
+    background-color: #333333;
+    content: "Drop File Here";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#ffd.filehover::before {
+    opacity: 1;
+    height: 100%;
+}
+
+#ffd.filehover {
+    border: 2px dashed #dddddd;
+    background-color: #333333;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#upload+label {
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 2px;
+    padding: 4px;
+    margin: 10px;
+    font-size: 13px;
+    background-color: white;
+    display: inline-block;
+    transition: ease .1s;
+    user-select: none;
+}
+
+#upload+label:hover {
+    background-color: #eee;
+}
+
+#ffd .source {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+
+
+#menu {
+    position: fixed;
+    background-color: #ffffff;
+    transition: opacity 0.3s ease;
+    z-index: 20;
+    opacity: 0;
+}
+
+#menu:hover {
+    opacity: 0.9;
+}
+
+#menu li {
+    white-space: nowrap;
+    max-width: 250px;
+    position: relative;
+    padding: 12px 16px;
+    cursor: help;
+    display: inline-block;
+    float: left;
+}
+
+#menu li:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+#menu li input {
+    transform: scale(1.5);
+    cursor: pointer;
+    margin: 0px 12px 0px 0px;
+}
+.heyyyyyy {
+    display: none;
+    margin: -9px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 103vw;height: 100.9vh;border: none;
+    z-index: 99999999999999999;
+
+  }
+  .heyyyyyy1 {
+    display: none;
+    margin: -9px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 103vw;height: 100.9vh;border: none;
+    z-index: 99999999999999999;
+  }

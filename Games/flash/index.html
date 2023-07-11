@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="/img/rufflelogo.png" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXGG6SJL6H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XXGG6SJL6H");
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Flash | lbannana</title>
+    <script src="flashplayer.js"></script>
+  </head>
+  <body>
+    <div id="maincode">
+      <div class="main" id="mainarea">
+        <ul id="menu">
+          <li
+            title="Try to use the flash plugin (only available in browsers that still support it)"
+          >
+            <input type="checkbox" id="legacy" />Use flash object
+          </li>
+        </ul>
+        <div id="ffd" style="display: none">
+          <h2>Flash Player Emulator</h2>
+          <input type="file" id="upload" accept=".swf, .spl" />
+          <label for="upload">Choose File</label>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function opensettings() {
+        const id = document.getElementById("opensettingsid");
+        if (id.style.display === "none") {
+          id.style.display = "block";
+        } else {
+          id.style.display = "none";
+        }
+      }
+    </script>
+    <script src="/html/settings/js/index.js"></script>
+  </body>
+</html>
