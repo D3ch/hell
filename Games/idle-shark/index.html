@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett, Technoblade" />
+        <!-- Welcome to a shark. I hope you enjoy this aquatic organism. -->
+
+        <title>Shark Game</title>
+        <meta charset="utf-8" />
+        <meta property="og:title" itemprop="name" content="Shark Game" />
+        <meta property="og:description" itemprop="description" name="description" content="A web game about resources, discovery and sharks." />
+        <!-- Hosted on multiple domains
+        <meta property="og:url" content="https://cirri.al/sharks/" />
+        <meta property="og:url" content="https://shark.tobot.tech/" />
+        <meta property="og:url" content="https://spencers145.github.io/SharkGame/" />
+        -->
+        <meta property="og:url" content="https://3kh0.github.io" />
+
+        <meta property="og:image" itemprop="image" content="https://spencers145.github.io/SharkGame/img/sharkgame.png" />
+        <meta property="og:image:secure_url" itemprop="image" content="https://spencers145.github.io/SharkGame/img/sharkgame.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta
+            property="og:image:alt"
+            content="A grey-blue shark drawn in a simple lineless style swims in front of a navy blue background. There are the words Shark Game, the word Shark above the shark and the word Game below it."
+        />
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="image_src" href="https://spencers145.github.io/SharkGame/img/sharkgame.png" />
+        <link rel="apple-touch-icon" href="https://spencers145.github.io/SharkGame/img/sharkgame.png" />
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" title="default" />
+
+        <!-- load frameworks -->
+        <!-- jQuery -->
+        <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+        <!-- jQuery migrate plugin
+        <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+        -->
+        <!-- lodash -->
+        <script type="text/javascript" src="js/lib/lodash.min.js"></script>
+
+        <!-- Modified version of Jacob Rus script from 2009 -->
+        <!-- Toby, 2021 speaking. I have no idea who Jacob Rus is, so I modernized this script -->
+        <script type="text/javascript" src="js/lib/ascii85.min.js"></script>
+        <!-- Single-file version of pako, for compression/decompression -->
+        <script type="text/javascript" src="js/lib/pako.min.js"></script>
+
+        <!-- big numbers -->
+        <script type="text/javascript" src="js/lib/decimal.min.js"></script>
+
+        <!-- for aspect tree -->
+        <script type="text/javascript" src="js/lib/panzoom.js"></script>
+
+        <!-- Cirr's code starts here. I hope you find it insightful if you came here to peer at it,
+        but Javascript is hardly my most familiar language. The code here likely stinks. -->
+
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/util.js"></script>
+
+        <script type="text/javascript" src="js/data/resourcetable.js"></script>
+        <script type="text/javascript" src="js/data/homeactions.js"></script>
+        <script type="text/javascript" src="js/data/worldtypes.js"></script>
+        <script type="text/javascript" src="js/data/upgrades.js"></script>
+        <script type="text/javascript" src="js/data/events.js"></script>
+        <script type="text/javascript" src="js/data/modifiertypes.js"></script>
+        <script type="text/javascript" src="js/data/aspects.js"></script>
+        <script type="text/javascript" src="js/data/sprites.js"></script>
+
+        <script type="text/javascript" src="js/overlay.js"></script>
+        <script type="text/javascript" src="js/eventhandler.js"></script>
+        <script type="text/javascript" src="js/keybinds.js"></script>
+        <script type="text/javascript" src="js/resources.js"></script>
+        <script type="text/javascript" src="js/world.js"></script>
+        <script type="text/javascript" src="js/log.js"></script>
+        <script type="text/javascript" src="js/tabs.js"></script>
+        <script type="text/javascript" src="js/panes.js"></script>
+        <script type="text/javascript" src="js/titlebar.js"></script>
+        <script type="text/javascript" src="js/save.js"></script>
+        <script type="text/javascript" src="js/settings.js"></script>
+        <script type="text/javascript" src="js/gateway.js"></script>
+        <script type="text/javascript" src="js/aspecttree.js"></script>
+
+        <script type="text/javascript" src="js/tabs/home.js"></script>
+        <script type="text/javascript" src="js/tabs/lab.js"></script>
+        <script type="text/javascript" src="js/tabs/stats.js"></script>
+        <script type="text/javascript" src="js/tabs/recycler.js"></script>
+        <script type="text/javascript" src="js/tabs/gate.js"></script>
+        <script type="text/javascript" src="js/tabs/reflection.js"></script>
+        <script type="text/javascript" src="js/tabs/cheatdevice.js"></script>
+        <script>
+            var res = SharkGame.Resources;
+            var main = SharkGame.Main;
+            var rec = SharkGame.Recycler;
+            var gateway = SharkGame.Gateway;
+            var stats = SharkGame.Stats;
+            var world = SharkGame.World;
+            var home = SharkGame.Home;
+            var tree = SharkGame.AspectTree;
+            var log = SharkGame.Log;
+
+            var sharktext = SharkGame.TextUtil;
+            var sharkcolor = SharkGame.ColorUtil;
+            var sharkmath = SharkGame.MathUtil;
+            var sharktime = SharkGame.TimeUtil;
+            var sharkmisc = SharkGame.MiscUtil;
+
+            var cad = SharkGame.CheatsAndDebug;
+
+            var DecimalHalfRound = Decimal.clone({ rounding: Decimal.ROUND_HALF_FLOOR });
+            Decimal.set({ rounding: Decimal.ROUND_FLOOR });
+        </script>
+        <!-- This is used  by the SharkGame team to count visitors to the various versions of SharkGame -->
+        <script>
+            fetch(new URL("https://sharkapi.tobot.dev/"), { method: "POST", mode: "no-cors" });
+        </script>
+    </head>
+    <body>
+        <span id="tooltipbox" class="tooltip click-passthrough"></span>
+        <span id="updateGameBox" class="tooltip"></span>
+        <noscript>
+            <style>
+                #wrapper {
+                    display: none;
+                }
+            </style>
+            <div class="section">
+                <h1>Shark Game??</h1>
+
+                <p>Oh dear! It seems you have Javascript disabled, or that your current browser does not support scripts.</p>
+
+                <p>Shark Game requires scripts to work. Otherwise it's just a static webpage that doesn't do much.</p>
+
+                <div style="margin: auto; width: 20em">
+                    <pre>
+                ,                                   
+              .';                                   
+          .-'` .'                                   
+        ,`.-'-.`\                                   
+       ; /     '-'                                  
+       | \       ,-,                                
+       \  '-.__   )_`'._                            
+        '.     ```      ``'--._                     
+       .-' ,                   `'-.                 
+        '-'`-._           ((   o   )  - scripts plz.
+         jgs   `'--....(`- ,__..--'                 
+                        '-'`                        </pre
+                    >
+                </div>
+            </div>
+        </noscript>
+        <div id="wrapper">
+            <div id="game" class="clear-fix">
+                <header id="title">
+                    <h1 id="gameName">- SHARK GAME -</h1>
+                    <h4 id="versionNumber"></h4>
+                    <h4 id="updateGame"></h4>
+
+                    <div id="titlebackground"></div>
+                    <nav id="titlebar">
+                        <ul id="titlemenu"></ul>
+                        <ul id="subtitlemenu"></ul>
+                    </nav>
+                </header>
+                <aside id="sidebar">
+                    <div id="status"></div>
+                </aside>
+                <aside id="rightLogContainer"></aside>
+                <div id="log" class="rightlog"></div>
+                <nav id="contentMenu"></nav>
+                <main id="content"></main>
+                <div id="idle-overlay" class="click-passthrough">
+                    <h1>IDLE MODE</h1>
+                    <span
+                        >You seem to have gone inactive for more than 2 minutes!<br />Offline time is being stored in a button above the resource
+                        table.<br /><br
+                    /></span>
+                    <strong>You can permanently disable this mode in the options menu.</strong>
+                    <i>click to dismiss.</i>
+                </div>
+                <div id="overlay"></div>
+                <div id="preloadedImages"></div>
+            </div>
+            <footer id="copyright" class="copyrightNotice">
+                The above variably-named Shark Game<br />
+                &copy; <a target="_blank" href="https://cirri.al/">Cirrial</a>, 2014-2016<br />
+                &copy; <a target="_blank" href="contributors.html">The SharkGame development team</a>, 2020-2023<br />
+                All rights reserved. <a target="_blank" href="LICENSE.md">Licensed under MIT</a>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Doomori</title>
+  </head>
+  <body style="width: 100%; background: #000000; height: 100%; margin:0px; text-align: center">
+    <canvas id="unity-canvas" style="width: 100%; height: 100%; margin: 0px; background: #000000"></canvas>
+    <script src="Build/WEBGL Doomori Build.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WEBGL Doomori Build.data.gz",
+        frameworkUrl: "Build/WEBGL Doomori Build.framework.js.gz",
+        codeUrl: "Build/WEBGL Doomori Build.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Fostergames",
+        productName: "Doomori",
+        productVersion: "1",
+      });
+    </script>
+  </body>
+</html>
