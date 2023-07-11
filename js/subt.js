@@ -21,6 +21,9 @@ const say = [
     "this sites sponser is (i dont have a sponser :c)",
     "totally didn't run out of subtitles at this point",
     "hellv3.netlify.app",
+    "skull",
+    "i have a dreeam thate onday nomor blkco stff",
+    "subtle subtitle same thing",
     "github carrying this site",
     "shoutout to those who created html",
     "336 dimples are on a single golf ball i think",
@@ -60,12 +63,14 @@ const say = [
   /*
   hi skidder or person looking at my code
   
-  I STOLE THIS CODE FROM https://lioxryt.github.io/
+  stole this code from https://lioxryt.github.io/
 
   plez dont sue
   
   
     they're site cool u shd check them out
+
+    please dont sue me
   */
   
   
