@@ -39,6 +39,7 @@ const say = [
     "im not out of subtitles you're out of subtitles",
     "he1l.netlify.app",
     "hell2.gq",
+    "made by dachxd",
     "balisong flipping is fun you should try it",
     "'go to hell!' sm goofy ahh person",
     "fun fact i dont care if you read these",
@@ -55,12 +56,13 @@ const say = [
     "hell = unblocked games. remember that",
     "you dont deserve a subtitle",
     "unblocked searching or smt idrc",
-    "reading this means Hell officially has 200+ games",
+    "reading this means Hell officially has 210+ games",
     "im broke",
     "hell 🔛🔝",
     "i started hell one day cuz sm told me that i should go to hell",
     "wooooooooooooooooooooooooooo",
     "chimfkfen fjcsdk nugest",
+    "prob 2nd best game site idk",
   ];
   /*
   hi skidder or person looking at my code
