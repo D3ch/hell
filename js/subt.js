@@ -55,10 +55,12 @@ const say = [
     "hell = unblocked games. remember that",
     "you dont deserve a subtitle",
     "unblocked searching or smt idrc",
-    "reading this means Hell officially has 190+ games",
+    "reading this means Hell officially has 200+ games",
     "im broke",
     "hell 🔛🔝",
     "i started hell one day cuz sm told me that i should go to hell",
+    "wooooooooooooooooooooooooooo",
+    "chimfkfen fjcsdk nugest",
   ];
   /*
   hi skidder or person looking at my code
