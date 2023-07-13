@@ -63,6 +63,7 @@ const say = [
     "wooooooooooooooooooooooooooo",
     "chimfkfen fjcsdk nugest",
     "prob 2nd best game site idk",
+    "stop procastinating",
   ];
   /*
   hi skidder or person looking at my code

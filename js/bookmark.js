@@ -1,9 +1,9 @@
 var button1 = document.getElementById("toggleButton1");
 var text1 = document.getElementById("textToToggle1");
 
-button1.addEventListener("click", function() {
-  ext1.classList.toggle("hidden");
-});
+  button1.addEventListener("click", function() {
+    ext1.classList.toggle("hidden");
+  });
 
   var button2 = document.getElementById("toggleButton2");
   var text2 = document.getElementById("textToToggle2");
