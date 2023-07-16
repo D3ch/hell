@@ -64,6 +64,8 @@ const say = [
     "chimfkfen fjcsdk nugest",
     "prob 2nd best game site idk",
     "stop procastinating",
+    "i should add ads",
+    "want a game thats n ot there? clikc recommendation",
   ];
   /*
   hi skidder or person looking at my code
