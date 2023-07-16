@@ -56,7 +56,7 @@ const say = [
     "hell = unblocked games. remember that",
     "you dont deserve a subtitle",
     "unblocked searching or smt idrc",
-    "reading this means Hell officially has 210+ games",
+    "reading this means Hell officially has 220+ games",
     "im broke",
     "hell 🔛🔝",
     "i started hell one day cuz sm told me that i should go to hell",
@@ -66,6 +66,7 @@ const say = [
     "stop procastinating",
     "i should add ads",
     "want a game thats n ot there? clikc recommendation",
+    "Html, flash, gameboy, and even IO games. Who would be bored?",
   ];
   /*
   hi skidder or person looking at my code

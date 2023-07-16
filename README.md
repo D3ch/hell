@@ -29,7 +29,7 @@ Redirect to the first link
 
 # Why hell?
 
-- 190+ games [🎮]
+- 220+ games [🎮]
 - Gameboy, flash, and html5 Games
 - Working Ultraviolet Proxy [🔎]
 - Open Source [🚪]
@@ -47,11 +47,12 @@ Redirect to the first link
 - [x] Custom Proxy
 - [x] Ultraviolet Proxy
 - [ ] Fix Krunker (may never happen)
+- [ ] 300+ games
 
 
-game sources - itch io, scratch, 3ch0, binbashbanana, and classroom 6x
+game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, and classroom 6x
 
-proxy source - tiw + replit
+proxy source - tiw (source code) + replit (bare server)
 
 skidded nav bar and most css from w3 schools
 
