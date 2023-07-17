@@ -13,24 +13,13 @@ Then use Hell! With over 220+ unblocked games and even a working
 
 ultraviolet proxy, bypassing has never been so much easier. 
 
-## Links
-
-Main Link
-
-[Link 1](https://he1l.netlify.app)
-
-Redirect to the first link
-
-[Link 2](https://hell2.gq)
-
-
-
 
 
 # Why hell?
 
 - 220+ games [🎮]
 - Gameboy, flash, and html5 Games
+- No annoying ads. [🚫]
 - Working Ultraviolet Proxy [🔎]
 - Open Source [🚪]
 - Site cloaking [🙈]
@@ -57,5 +46,25 @@ proxy source - tiw (source code) + replit (bare server)
 skidded nav bar and most css from w3 schools
 
 
+## Links
+
+
+[Netlify 1 (main link)](https://he1l.netlify.app)
+
+[Netlify 2](https://hellv3.netlify.app)
+
+[Vercel 1](https://hell-alpha.vercel.app)
+
+[Vercel 2](https://hell-izxk.vercl.app)
+
+## Self Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fd3ch%2Fhell)
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/d3ch/hell)
+
+
+
+
+
 
