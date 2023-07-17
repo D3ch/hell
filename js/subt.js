@@ -49,6 +49,7 @@ const say = [
     "'oh it takes money to host this' - sm dude hosting it on a free hosting site",
     "im not adding roblox touch grass",
     "c's get degrees a's and b's succeed",
+    "tap me for a random subtitle",
     "sometimes i wonder why i write code knowing some day its not gonna matter",
     "october 12",
     "you should do something productive like playing run 3 or smt",
@@ -67,6 +68,7 @@ const say = [
     "i should add ads",
     "want a game thats n ot there? clikc recommendation",
     "Html, flash, gameboy, and even IO games. Who would be bored?",
+    "hell-alpha.vercel.app   aint no way vercel named it alpha 💀",
   ];
   /*
   hi skidder or person looking at my code
