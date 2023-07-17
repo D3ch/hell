@@ -31,7 +31,7 @@ recognize it
     
   }
   body {
-    background-image: url('/css/BackgroundAnimation.gif');
+    background-image: url('BackgroundAnimation.gif');
     background-attachment:fixed;
   }
   #myInput {
