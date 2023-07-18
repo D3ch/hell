@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hacker Typer | 3kh0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://hackertyper.com" />
+<link rel="alternate" href="https://hackertyper.com" hreflang="en" />
+<link rel="alternate" href="https://hackertyper.com" hreflang="x-default" />
+<link rel="alternate" href="https://hackertyper.com/br/" hreflang="pt-br" />
+<meta http-equiv="content-language" content="en-us">
+<meta name="keywords" content=" hacker typer, hackertyper, prank, troll friends, joke ,programming,programmer,web developer,software developer">
+<meta name="description" content="Troll your friends and coworkers with Hacker Typer's Hacker Prank Simulator. We make it look like you're coding like a real hacker. Just start typing, we'll do the rest ;)">
+<meta property="og:title" content="HackerTyper: Use This Site To Prank Your Friends With Your Coding Skills :)" />
+<meta property="og:description" content="This simulator makes it look like you're actually coding like a real pro. Just start typing, we'll take care of the rest ;)" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://hackertyper.com/" />
+<meta property="og:image" content="https://hackertyper.com/hackertyper.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+<meta property="og:image:alt" content="A web browser with C++ code sample. Above it are the words 'Hacker Typer: Just start typing...' beneath it are the words 'We'll make it look like you're actually coding'" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hacker Typer: Coding Simulator">
+<meta name="twitter:description" content="The Hacker Typer simulator makes it look like you're actually coding like a real hacker. Just start typing, we'll take care of the rest ;)">
+<meta name="twitter:image" content="https://hackertyper.com/hackertyper.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://static.cloudflareinsights.com">
+<link rel="dns-prefetch" href="https://static.cloudflareinsights.com">
+<link rel="preconnect" href="https://cdn.onesignal.com">
+<link rel="dns-prefetch" href="https://cdn.onesignal.com">
+<link rel="preconnect" href="https://static.getclicky.com">
+<link rel="dns-prefetch" href="https://static.getclicky.com">
+
+<style type="text/css">
+html, body ,a{
+        background:#000000;
+        color:#00FF00;
+        font-family:monospace;
+        height: 100%;
+        text-decoration:  none;
+}
+
+img{
+  width:100%;
+height:100%;
+max-width: max-content;
+}
+
+.inverse{
+        background:#00FF00;
+        color:#000000;
+        font-family:monospace;
+        height: 100%;
+}
+.wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -50px; /* the bottom margin is the negative value of the footer height */
+        background:#0000ff;
+}
+
+.accessGranted{
+        font-size: 2em;
+        position:fixed;
+        top:200px;
+        background:#333;
+        padding:20px;
+        border:1px solid #999;
+        width:300px;
+        left:50%;
+        margin-left:-150px;
+        text-align:center;
+        display: none;
+}
+
+.accessDenied{
+        font-size: 2em;
+        position:fixed;
+        top:200px;
+        color:#F00;
+        background:#511;
+        padding:20px;
+        border:1px solid #F00;
+        width:300px;
+        left:50%;
+        margin-left:-150px;
+        text-align:center;
+        display: none;
+}
+
+* {/* for demo only*/
+    margin:0px;
+    padding:0px
+}
+
+
+.outer {
+    margin:auto;
+    min-height:99%;
+    margin-top:0px;/*footer height - this drags the outer 40px up through the top of the monitor */
+    text-align:left;
+}
+* html .outer {
+    height:100%
+}
+#header {
+    border-top:40px solid #fff; /* soak up negative margin and allows header to start at top of page*/
+}
+.footer {/* footer now sits at bottom of window*/
+    margin:auto;
+    height:40px;/* must match negative margin of #outer */
+    clear:both;
+}
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+h1, h2, p {
+    padding:0 10px;
+}
+h3 {
+    padding:0 10px;
+    font-size: 13px;
+}
+.outer:after {/* thank you Erik J - instead of using display table for ie8*/
+    clear:both;
+    display:block;
+    height:1%;
+    content:" ";
+}
+
+.settings {
+        border: #11a91b;
+        background-color: black;
+        border-style: solid;
+        border-width: thin;
+        position: absolute;
+
+        left: 20%;
+        top: 10px;
+        
+        width: -webkit-fill-available;
+
+        min-width: 320px;
+        max-width: 550px;
+        
+        
+        padding: 5px;
+      }
+      /* //height: 600px;max-height: 610px; */
+      .settings-btn {
+        border: #11a91b;
+        border-style: solid;
+        border-width: thin;
+        position: relative;
+        left: 26%;
+        top: 2%;
+        padding: 15px;
+        width: 165px;
+        height: 15px;
+        cursor: pointer;        
+      }
+
+      .settings-btn:hover {
+        background-color: #11a91b;
+      }
+
+      .adunit {
+        top:50px;
+        position: relative;
+        cursor: pointer;
+        
+        
+      }
+
+      .adunit2 {
+        position: relative;
+        bottom: 210px;
+        cursor: pointer;
+        float:right;
+        
+      }
+      .close {
+        cursor: pointer;
+      }
+
+      .gaw {
+        display: none;
+      }      
+</style>
+<link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="style.css"></noscript>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How to get access granted in hacker typer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<a href='https://hackertyper.com/?utm_source=rsag'>Hit ALT 3 times for Access Granted</a>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "How to get access denied in hacker typer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<a href='https://hackertyper.com/?utm_source=rsad'>Hit CAPS LOCK 3 for Access Denied</a>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "How can I clear access granted or access denied?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text":"<a href='https://hackertyper.com/?utm_source=rscagd'>Hit ESCAPE to clear Access Denied/Granted</a>"
+          }
+        }]
+    }
+    </script>
+
+
+
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8RV93C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id='console' class="outer">
+</div>
+<div id='menu' class="footer">
+<span class="inverse">Sponsored Links</span>
+<table width="100%">
+<tr>
+<td width="2%"><a href="#" id="showhelp"><span class="inverse">Ctrl+H</span></td>
+<td width="20%">Help?</a></td>
+<td width="2%"><a href="https://tech.ck.page" target="_blank" data-sponSlot="ss1" rel="noopener"><span class="inverse" style="background:rgb(122, 255, 0)">Ctrl+R</span></a></td>
+<td width="20%"><a href="https://tech.ck.page" target="_blank" data-sponSlot="ss1" rel="noopener" style="color:rgb(122, 255, 0)">Free Make Money Newsletter</a></td>
+<td width="2%"><a href="https://docutyper.com/?utm_source=ht" target="_blank" data-sponSlot="ss1" rel="noopener"><span class="inverse" style="background:rgb(122, 255, 0)">Ctrl+T</span></a></td>
+<td width="20%"><a href="https://docutyper.com/?utm_source=ht" target="_blank" data-sponSlot="ss1" rel="noopener" style="color:rgb(122, 255, 0)">New Prank Site: Try DocuTyper</a></td>
+
+</tr>
+<tr>
+
+
+
+</tr>
+</table>
+</div>
+<div id='gran' class='accessGranted'><h2>ACCESS GRANTED</h2></div>
+<div id='deni' class='accessDenied'><h2>ACCESS DENIED</h2></div>
+<div id="settings" class="settings">
+<h1>
+How To Use Hacker Typer
+</h1>
+<br /><br />
+<div>
+<span style="font-weight: bold"> Quick Start Instructions:</span><br />
+Start typing on the keyboard to 'code'. For mobile, just tap on your screen.<br />
+<br />
+<h3>How to get access granted in hacker typer?</h3>
+<p>Hit ALT 3 times for "Access Granted"</p>
+<h3>How to get access denied in hacker typer?</h3>
+Hit CAPS LOCK 3 for "Access Denied" <br />
+<h3>How can I clear access granted or access denied?</h3>
+Hit ESCAPE to clear "Access Denied/Granted" <br />
+</div>
+<br><br>
+<span id="settings-btn" class="settings-btn">Start HackerTyping...</span>
+<br clear="all"><br><br>
+
+
+
+
+</div>
+<script defer src='script.js' type='text/javascript'></script>
+<script>
+ 
+ window.addEventListener('DOMContentLoaded', (event) => {
+   
+  document
+        .getElementById('settings-btn')
+        .addEventListener('click', (e)=> {
+     
+ document.querySelector('.settings').style.display = "none"
+         
+        });
+ 
+   
+
+})
+
+function isGAW(){
+  return false 
+  return window.location.href.indexOf('gclid=') > 0
+}
+</script>
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c16ffb0c07354c81bca3529e12bca759"}'></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "0ca47ea8-d791-4740-b8e6-a2d48147722b",
+    });
+  });
+
+setTimeout(function(){
+  var headID = document.getElementsByTagName("head")[0];         
+    var newScript = document.createElement('script');
+    newScript.type = 'text/javascript';
+    newScript.async = true;
+    newScript.src = 'https://cdn.onesignal.com/sdks/OneSignalSDK.js';
+    headID.appendChild(newScript);
+
+    ///gtm code
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T8RV93C');
+
+  OneSignal.push(function() {
+  OneSignal.on('subscriptionChange', function (isSubscribed) {    
+    OneSignal.getUserId( function(userId) {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'os_subscriptionChange',
+        eventAction: 'u_id ' + userId,
+        eventLabel: isSubscribed,
+        hitCallback: function() {
+          //console.log("ga os_subscriptionChange callback");
+        }
+      });
+    })
+  });
+});
+
+}, 5000);
+
+</script>
+
+
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(66417119);
+setTimeout(function(){
+  var headID = document.getElementsByTagName("head")[0];         
+    var newScript = document.createElement('script');
+    newScript.type = 'text/javascript';
+    newScript.async = true;
+    newScript.src = '//static.getclicky.com/js';
+    headID.appendChild(newScript);
+
+    var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38069369-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+}, 6000);
+</script>
+
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c16ffb0c07354c81bca3529e12bca759"}'></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vb26e4fa9e5134444860be286fd8771851679335129114" integrity="sha512-M3hN/6cva/SjwrOtyXeUa5IuCT0sedyfT+jK/OV+s+D0RnzrTfwjwJHhd+wYfMm9HJSrZ1IKksOdddLuN6KOzw==" data-cf-beacon='{"rayId":"7ad750970f1ee52c","version":"2023.3.0","r":1,"token":"8bb6449d9269435ba854dbf0b651c11f","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
