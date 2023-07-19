@@ -125,10 +125,10 @@ h3{
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color:#301934;
+  background-color: #f1f1f1;
   padding: 20px;
   border: 1px solid #ccc;
-  display: none;
+  display: none !important;
 }
 
 #closeBtn {
