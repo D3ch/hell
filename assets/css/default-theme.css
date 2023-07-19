@@ -114,6 +114,41 @@ h1{
 h2{
   color: red;
 }
+
+
+/*code for the "pop up" or notification on the home page*/
+
+h3{
+  color:white;
+}
+#popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color:#301934;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+#closeBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
 p1{
   color:grey;
   Background-color:Black;
