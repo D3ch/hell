@@ -69,6 +69,11 @@ const say = [
     "want a game thats n ot there? clikc recommendation",
     "Html, flash, gameboy, and even IO games. Who would be bored?",
     "hell-alpha.vercel.app   aint no way vercel named it alpha 💀",
+    "i think im going insane",
+    "the voices are getting lourder",
+    "dont trust them.",
+    "no not again. not again. not again.",
+    "eggo waffles and nutella tastes good 💯",
   ];
   /*
   hi skidder or person looking at my code

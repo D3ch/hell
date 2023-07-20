@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<html>
+<head>
+<title>Super Meat Boy - unblocked games at school</title>
+<link rel="stylesheet" href="style.css">
+<script>
+		var gameConfig = {
+			swfUrl: "https://isgames.github.io/earthtaken3/earthtaken3.swf"		
+		}
+</script>
+</head>
+<body>
+<div id="waflashContainer">
+<canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
+<div id="waflashStatus" style="display: none;">Playing...</div>
+<script>
+		var ua = navigator.userAgent.toLowerCase();
+		if ( (navigator.appName == 'Netscape' && ua.indexOf('trident') != -1) || (ua.indexOf("msie") != -1)) {
+    		var waf = document.getElementById('waflashStatus');
+			waf.style.display = 'block';
+			waf.innerText = 'ì¸í„°ë„· ìµìŠ¤í”Œë¡œì–´(IE) ì—ì„œëŠ” ê²Œìž„ì´ ì‹¤í–‰ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤ !\ní¬ë¡¬, ì—£ì§€ë“±ì˜ ë‹¤ë¥¸ ë¸Œë¼ìš°ì €ë¥¼ ì´ìš©í•´ì£¼ì„¸ìš”.';
+			gtag('event', 'connect_from_ie', {'event_category': 'error', 'event_label': ua });
+		}
+	</script>
+<script type="module" crossorigin="anonymous">
+		let is_mobile = /Mobi/i.test(window.navigator.userAgent);
+		if (is_mobile) {
+			function scrollToSubject() {
+				try {
+					window.scrollTo({
+						top: 100,
+						left: 0,
+						behavior: 'smooth'
+					});
+				} catch (e) {}
+			}
+			scrollToSubject();
+			window.addEventListener("orientationchange", function() {
+				setTimeout(scrollToSubject, 100);
+			});
+		} else {
+			document.getElementById('canvas').focus();
+		}
+		document.getElementById('canvas').addEventListener("keydown", function(ev) {
+			ev.preventDefault();
+			ev.stopPropagation();
+		});
+		document.getElementById('canvas').addEventListener("click", function() {
+			document.getElementById('canvas').focus();
+		});
+		document.addEventListener("mousedown", (function() {
+			const canvasElement = document.getElementById('canvas');
+			let focused = false;
+			return function(ev) {
+				if (ev.target == canvasElement) {
+					if (!focused) {
+						canvasElement.focus();
+						focused = true;
+					}
+				} else {
+					if (focused) {
+						focused = false;
+					}
+				}
+				return true;
+			}
+		})());
+		
+		var golddate=Date;
+		Date.now=function(){
+			var a=new golddate();
+			a.setFullYear('2022'); a.setMonth('06'); a.setDate('01');
+			return a.getTime();
+		}
+		
+		import {
+			createWaflash
+		} from './js/waflash-player.min.js?15';
+		createWaflash(gameConfig.swfUrl, window.wafOptions || {});
+	</script>
+</div>
+</body>
+</html>
+<div class="floating" id="moreg" style="position:fixed; top: 30%; left: 0px; z-index: 10"><a target="_blank" href="https://sites.google.com/site/unblockedgames77/" title="unblocked games 77"><img
+            src="MoreGames.png" width="180" height="90"
+            style="cursor:pointer;" alt="unblocked games 77"></a></div>

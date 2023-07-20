@@ -55,7 +55,9 @@ skidded nav bar and most css from w3 schools
 
 [Vercel 1](https://hell-alpha.vercel.app)
 
-[Vercel 2](https://hell-izxk.vercl.app)
+[Vercel 2](https://hell-lzxk.vercl.app)
+
+[Github.io link](https://dachxdd.github.io)
 
 ## Self Deploy
 

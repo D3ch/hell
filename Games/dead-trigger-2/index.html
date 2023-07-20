@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Dead Trigger 2</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <p class="header"><span>Unity WebGL Player | </span>Dead Trigger 2</p>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <br>
+      <div class="logo"></div>
+	  <!-- MFG: Added id and style to be displayed after the game is loaded. -->
+      <div class="fullscreen"
+	       id="fullscreen"
+	       style="display: none;"
+	  ><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">Dead Trigger 2</div>
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 629145600,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/DT2WebGL.data",
+    codeUrl: "Release/DT2WebGL.js",
+    memUrl: "Release/DT2WebGL.mem",
+  };
+</script>
+<script src="Release/HttpCache.js"></script>
+<script src="Release/MFGFacebookEvents.js"></script>
+<script src="Release/UnityLoader.js"></script>
+
+	
+	<!-- MFG: Added function for showing full screen button. This function is called from Unity. -->
+	<script>
+	    function ShowFullScreenButton() {
+		    document.getElementById("fullscreen").style.display = "block";
+		}
+	</script>
+  </body>
+</html>
