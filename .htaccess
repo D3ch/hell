@@ -1,4 +1,4 @@
-ErrorDocument 404 /404.html
+ErrorDocument 404 /assets/404.html
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
