@@ -1,7 +1,6 @@
 self.__uv$config = {
-    prefix: '/static/',
-    bare: 'https://99e74781-413a-4718-8a5a-ed4f0556b3cb.id.repl.co/bare/',
-    /*https://baresw.starttiw.org */
+    prefix: '/static/tiw/',
+    bare: 'https://733a1715-7f05-4a07-987b-099e7ebffac2.id.repl.co/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',

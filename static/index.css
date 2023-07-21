@@ -1,9 +1,29 @@
 /* Custom CSS for black theme */
 body {
-  background-color: #000;
   color: #fff;
   margin: 0;
   padding: 0;
+  background-attachment:fixed;
+  background-color: #000000;
+}
+
+
+.block {
+  display: block;
+  width: 50%;
+  border: none;
+  background-color: #000000;
+  color: white;
+  padding: 14px 28px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+}
+.block:hover {
+color:#383838;
+background-color:#181818;
+opacity: 0.3;
+transition: 0.7s;
 }
 
 #header {
