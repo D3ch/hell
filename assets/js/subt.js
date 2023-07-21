@@ -78,6 +78,7 @@ const say = [
     "eggo waffles and nutella tastes good 💯",
     "we have run 3 and gameboy games we the best music",
     "say sofa king out loud",
+    "chat gpt may or may not have written the javascript here",
   ];
   /*
   hi skidder or person looking at my code
