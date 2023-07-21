@@ -25,6 +25,14 @@ var text1 = document.getElementById("textToToggle1");
   button4.addEventListener("click", function() {
     text4.classList.toggle("hidden");
   });
+
+  
+  var button5 = document.getElementById("toggleButton5");
+  var text5 = document.getElementById("textToToggle5");
+
+  button5.addEventListener("click", function() {
+    text5.classList.toggle("hidden");
+ });
     /*
         Chat gpt saving me rn
 
