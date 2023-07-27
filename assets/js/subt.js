@@ -80,6 +80,7 @@ const say = [
     "say sofa king out loud",
     "chat gpt may or may not have written the javascript here",
     "hell >>>>",
+    "search the web using search (safe search is off)",
   ];
   /*
   hi skidder or person looking at my code
