@@ -1,14 +1,16 @@
-<link rel="stylesheet" href = "/assets/css/style.css">
-<center>
-<form id="uv-form">
-  <input id="uv-search-engine" value="" type="hidden"/> 
-  <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
-</form>
-</center>
-    <script src="uv/uv.bundle.js" defer></script>
-    <script src="uv/uv.config.js" defer></script>
-    <script src="error.js" defer></script>
-    <script src="register-sw.js" defer></script>
-    <script src="search.js" defer></script>
-    <script src="index.js" defer></script>
-      
+<link rel="stylesheet" href = "/assets/css/default-theme.css">
+<div id="content">
+   <form id="uv-form"">
+      <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+      <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
+    </form>
+    <div class="desc left-margin">
+      <p id="uv-error"></p>
+      <pre id="uv-error-code"></pre>
+    </div>
+</div>
+<script src="uv/uv.bundle.js" defer></script>
+<script src="uv/uv.config.js" defer></script>
+<script src="register-sw.js" defer></script>
+<script src="search.js" defer></script>
+<script src="index.js" defer></script>
