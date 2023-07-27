@@ -70,17 +70,16 @@ const say = [
     "Html, flash, gameboy, and even IO games. Who would be bored?",
     "hell-alpha.vercel.app   aint no way vercel named it alpha 💀",
     "i think im going insane",
-    "the voices are getting lourder",
-    "dont trust them.",
-    "no not again. not again. not again.",
-    "THE VOICES ARE GETTING LOUD",
-    "no i dont no no no no not again",
     "eggo waffles and nutella tastes good 💯",
     "we have run 3 and gameboy games we the best music",
     "say sofa king out loud",
     "chat gpt may or may not have written the javascript here",
     "hell >>>>",
-    "search the web using search (safe search is off)",
+    "search the web using search (safe search is on)",
+    "we the best music",
+    "if this ever gets blocked, go to hellv3.netlify.app",
+    "fried chicken on top",
+    "cant gurantee that chat gpt chat gpt",
   ];
   /*
   hi skidder or person looking at my code

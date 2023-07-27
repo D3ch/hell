@@ -20,6 +20,7 @@ ultraviolet proxy, bypassing has never been so much easier.
 - 220+ games [🎮]
 - Gameboy, flash, and html5 Games
 - No annoying ads. [🚫]
+- Easy to navigate [✔]
 - Working Ultraviolet Proxy [🔎]
 - Open Source [🚪]
 - Site cloaking [🙈]
