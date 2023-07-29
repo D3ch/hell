@@ -5,8 +5,6 @@
 
 # Hell
 
-Unblocked games and proxy with simple html.
-
 Tired of games and searching being blocked?
 
 Then use Hell! With over 220+ unblocked games and even a working
@@ -19,7 +17,7 @@ ultraviolet proxy, bypassing has never been so much easier.
 
 - 220+ games [🎮]
 - Gameboy, flash, and html5 Games
-- No annoying ads. [🚫]
+- No annoying ads and no cookies. [🚫]
 - Easy to navigate [✔]
 - Working Ultraviolet Proxy [🔎]
 - Open Source [🚪]

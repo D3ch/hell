@@ -1,0 +1,17 @@
+.popup-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+  }
+  
+  .popup-container .close-btn {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+  }

@@ -1,41 +1,12 @@
 <html>
       <link rel="stylesheet" href = "/assets/css/default-theme.css">
       <link rel="stylesheet" href = "/assets/css/footer.css">
+      <link rel="stylesheet" href = "/assets/css/pop.css"> <!-- have the "pop up" have color-->
       <title>v3</title>
 <body>
   <script src="/assets/js/cloaker.js"></script>
   <script src="/assets/js/subt.js"></script>
-  <script>
-    document.getElementById("popup").classList.add("show");
-
-  document.querySelector(".close").addEventListener("click", function() {
-    document.getElementById("popup").classList.remove("show");
-  });
-  </script>
-<style>
-  .popup {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    display: none;
-  }
-  
-  .popup .close {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .popup.show {
-    display: block;
-  }
-  </style>
+  <script src="/assets/js/pop.js"></script> <!-- Makes the "pop up" work -->
   <html>
 <head>
   <title>v3</title>
@@ -62,16 +33,17 @@
        <div id="subtitle" onclick="newSub()">tap me for a random subtitle</div>
 
             
-<div id="popup" class="popup">
-  <span class="close">&times;</span>
-<h2>Welcome to Hell</h2>
-<hr>
-  <p>Over 220+ games and unblocked searching.</p>
-  <p>No ads, no popups, and no cookies. Enjoy you're stay!</p>
-</div>
+      
+  <div class="popup-container">
+    <span class="close-btn" onclick="dismissPopup()">X</span>
+    <h3>Welcome to Hell</h3>
+    <p>Thank you for over 10k site views! No ads or cookies. Just 220+ games and unblocked searching. Enjoy!</p>
+    <!-- Additional content can be added here -->
+  </div>
 
 
-      <!-- Nav Bar html / webpage html-->
+
+      <!-- Nav Bar html / end of webpage html-->
 
       <body>
 <div class="navbar">
