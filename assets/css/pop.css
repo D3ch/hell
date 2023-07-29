@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 120px;
     right: 10px;
-    background-color: #333;
+    background-color:black;
     color: #fff;
     padding: 15px;
     width: 300px;
@@ -13,5 +13,5 @@
   .popup-container .close-btn {
     float: right;
     cursor: pointer;
-    color: #fff;
+    color:white;
   }
