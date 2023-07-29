@@ -1,5 +1,5 @@
 <html>
-      <link id = "themeLink" rel="stylesheet" href = "/assets/css/default-theme.css">
+      <link rel="stylesheet" href = "/assets/css/default-theme.css">
       <link rel="stylesheet" href = "/assets/css/footer.css">
       <title>v3</title>
 <body>
@@ -8,9 +8,9 @@
   <script>
     document.getElementById("popup").classList.add("show");
 
-document.querySelector(".close").addEventListener("click", function() {
-  document.getElementById("popup").classList.remove("show");
-});
+  document.querySelector(".close").addEventListener("click", function() {
+    document.getElementById("popup").classList.remove("show");
+  });
   </script>
 <style>
   .popup {
@@ -22,9 +22,6 @@ document.querySelector(".close").addEventListener("click", function() {
     padding: 10px;
     border-radius: 5px;
     display: none;
-  }
-  p{
-    color:lightgray;
   }
   
   .popup .close {
