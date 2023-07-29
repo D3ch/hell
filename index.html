@@ -5,10 +5,40 @@
 <body>
   <script src="/assets/js/cloaker.js"></script>
   <script src="/assets/js/subt.js"></script>
-  <script src="/assets/js/script.js"></script>
-  <script src="/assets/js/popup.js"></script>
+  <script>
+    document.getElementById("popup").classList.add("show");
 
-    
+document.querySelector(".close").addEventListener("click", function() {
+  document.getElementById("popup").classList.remove("show");
+});
+  </script>
+<style>
+  .popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+  }
+  p{
+    color:lightgray;
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .popup.show {
+    display: block;
+  }
+  </style>
   <html>
 <head>
   <title>v3</title>
@@ -34,7 +64,14 @@
        <br>
        <div id="subtitle" onclick="newSub()">tap me for a random subtitle</div>
 
-
+            
+<div id="popup" class="popup">
+  <span class="close">&times;</span>
+<h2>Welcome to Hell</h2>
+<hr>
+  <p>Over 220+ games and unblocked searching.</p>
+  <p>No ads, no popups, and no cookies. Enjoy you're stay!</p>
+</div>
 
 
       <!-- Nav Bar html / webpage html-->
@@ -56,7 +93,7 @@
      <center>   
   <br>
   <div class="footer">
-    <p>&copy; Hell v3 | Have a problem? dm <strong>dachxd or dach#7808</strong> </p><a href="https://github.com/d3ch" target ="_blank">Github </a>
+    <p>&copy; Hell v3 | </p><a href="https://github.com/d3ch" target ="_blank">Github </a>
     <a href="index.html" title="website view counter"><img src="https://counter10.optistats.ovh/private/freecounterstat.php?c=e3wfecyfabwnnfmyfx93ym25x9gx1xmn" border="0" title="website view counter" alt="website view counter"></a>
   </div>
 
