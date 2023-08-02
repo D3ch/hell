@@ -80,6 +80,7 @@ const say = [
     "if this ever gets blocked, go to hellv3.netlify.app",
     "fried chicken on top",
     "cant gurantee that chat gpt chat gpt",
+    "life is roblox - dj khalid",
   ];
   /*
   hi skidder or person looking at my code
