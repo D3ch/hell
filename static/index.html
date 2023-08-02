@@ -1,6 +1,5 @@
 <link rel="stylesheet" href = "/assets/css/default-theme.css">
 <div id="content">
-
    <form id="uv-form"">
       <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
       <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
@@ -10,8 +9,8 @@
       <pre id="uv-error-code"></pre>
     </div>
     <br>
-    
-  <h1>Quick Links</h1>
+    <center>
+  <h1>Quick Links</h1><br>
   <h1 onclick="launchURL('spotify.com')">Spotify</h1>
   <h1 onclick="launchURL('discord.com')">Discord</h1>
   <h1 onclick="launchURL('discord.com/login')">Discord Login</h1>
@@ -19,9 +18,15 @@
   <h1 onclick="launchURL('google.com')">Google</h1>
   <h1 onclick="launchURL('youtube.com')">Youtube</h1>
   <h1 onclick="launchURL('aniwatch.to')">Anime</h1>
+  </center>
 </div>
 <script src="uv/uv.bundle.js" defer></script>
 <script src="uv/uv.config.js" defer></script>
 <script src="register-sw.js" defer></script>
 <script src="search.js" defer></script>
 <script src="index.js" defer></script>
+<style>
+  h1{
+    cursor:pointer;
+  }
+</style>
