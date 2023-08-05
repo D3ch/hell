@@ -9,6 +9,11 @@
 
 
 <center> 
+  
+  <h2> Doesn't work? Press the button below. Wait for the content to load and press search.</h2><br>
+  <button onclick="Func()" class="block" type="button">Button (May take 30 seconds to load)</button>
+
+  
   <iframe id="main" style="width: 100%; height: 100%" frameborder="0" src="/static/a.html"></iframe>
   <div class="footer">
     <p>&copy; Hell v3 </p><a href="https://github.com/d3ch" target ="_blank">Github 
@@ -22,15 +27,21 @@
      -->
   
 
+     <script>
+      function Func() {
+          var win = window.open(); var f = win.document.createElement("iframe");  window.focus(); var url = "https://a0225709-5c1a-499f-ae29-3c45d158dac3.id.repl.co/bare/"; if (!url) return; f.style.width = "100%"; f.style.height = "100%"; win.document.body.appendChild(f); f.src=url; win.document.body.style.margin = '0'; f.style.border = 'none'; f.style.margin = '0'; win.document.body.style.height = '100vh'
+          }
+      </script>
 
 <!--nav bar stuff u get the point-->
 <div class="navbar">
 <!--<a href="/Menu/Proxies.html">Pr0xies</a>-->
-<a href="/r/a.html">Apps</a>
 <a href="/r/b.html">Ch3ats</a>
 <a href="/r/AboutBlank.html">AboutBlank</a>
 <a href="/r/g.html"> Gxmes </a>
 <a href="/r/p.html"> Search </a>
+<a href="/r/a.html">Apps</a>
+
 
 </div>
 <div class="navbar1">

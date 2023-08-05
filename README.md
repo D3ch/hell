@@ -38,14 +38,6 @@ ultraviolet proxy, bypassing has never been so much easier.
 - [ ] Fix Krunker (may never happen)
 - [ ] 300+ games
 
-
-game sources - itch io, scratch, 3ch0, Astroid/Vyper Group, Shuttle, binbashbanana, lbannana, and classroom 6x
-
-proxy source - tiw (source code) + replit (bare server)
-
-nav bar and css from w3 and tiw.
-
-
 ## Links / Mirrors
 
 
@@ -64,6 +56,17 @@ nav bar and css from w3 and tiw.
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fd3ch%2Fhell)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/d3ch/hell)
+
+# Credits 
+
+game sources - itch io, scratch, 3ch0, Astroid/Vyper Group, Shuttle, 
+
+binbashbanana, lbannana, and classroom 6x
+
+proxy source - tiw (source code) + replit (bare server)
+
+nav bar and css from w3 and tiw.
+
 
 
 
