@@ -7,24 +7,25 @@
 
 Tired of games and searching being blocked?
 
-Then use Hell! With over 220+ unblocked games and even a working
+Then use Hell! With over 225+ unblocked games and even a working
 
 ultraviolet proxy, bypassing has never been so much easier. 
 
 
 
+
+
 # Why hell?
 
-- 220+ games [🎮]
-- Gameboy, flash, and html5 Games
+- 225+ games [🎮]
+- Gameboy, flash, Now.gg,and html5 Games
 - No annoying ads and no cookies. [🚫]
 - Easy to navigate [✔]
 - Working Ultraviolet Proxy [🔎]
 - Open Source [🚪]
 - Site cloaking [🙈]
 - About Blank Embedder [⬜]
-- Bookmarklets [📚]
-- Ch3ats
+- Bookmarklets and Cheats [📚]
 - Dark background and simple looks [⬛]
 
 # Future Plans
@@ -38,14 +39,14 @@ ultraviolet proxy, bypassing has never been so much easier.
 - [ ] 300+ games
 
 
-game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, and classroom 6x
+game sources - itch io, scratch, 3ch0, Astroid/Vyper Group, Shuttle, binbashbanana, lbannana, and classroom 6x
 
 proxy source - tiw (source code) + replit (bare server)
 
-skidded nav bar and most css from w3 schools
+nav bar and css from w3 and tiw.
 
 
-## Links
+## Links / Mirrors
 
 
 [Netlify 1 (main link)](https://he1l.netlify.app)
