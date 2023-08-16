@@ -84,6 +84,7 @@ const say = [
     "got loads of stuff",
     "eh",
     "check out the new apps page!",
+    "Thank you for over 10k view ♥!",
   ];
   /*
   hi skidder or person looking at my code
