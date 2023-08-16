@@ -83,6 +83,7 @@ const say = [
     "life is roblox - dj khalid", 
     "got loads of stuff",
     "eh",
+    "check out the new apps page!",
   ];
   /*
   hi skidder or person looking at my code
