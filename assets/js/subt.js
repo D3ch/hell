@@ -85,6 +85,8 @@ const say = [
     "eh",
     "check out the new apps page!",
     "Thank you for over 10k view ♥!",
+    "sorry for the slow proxy. Changed bare it should be faster.",
+    "dance !",
   ];
   /*
   hi skidder or person looking at my code
