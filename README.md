@@ -18,7 +18,7 @@ ultraviolet proxy, bypassing has never been so much easier.
 # Why hell?
 
 - 225+ games [🎮]
-- Gameboy, flash, Now.gg,and html5 Games
+- Gameboy, flash, and html5 Games
 - No annoying ads and no cookies. [🚫]
 - Easy to navigate [✔]
 - Working Ultraviolet Proxy [🔎]

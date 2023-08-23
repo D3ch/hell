@@ -1,0 +1,91 @@
+body {
+    background: black;
+  }
+  
+  
+  /* Hover effect for the game card */
+  .game-card:hover {
+    background-color: #444;
+  }
+  
+  /* Style for the game title */
+  .game-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style for the play button */
+  .play-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  
+  
+  /* Style for the game card container */
+  .game-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Style for each individual game card */
+  .game-card {
+    width: 200px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #181818;
+    color: darkgrey;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the game card */
+  .game-card:hover {
+    background-color: #444;
+  }
+  
+  /* Style for the game title */
+  .game-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style for the play button */
+  .play-button {
+    background-color:blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Style for the search bar */
+  .search-bar {
+    width: 50%;
+    padding: 10px;
+    border:white;
+    background-color: #181818	;
+    border-radius: 40px;
+    margin-bottom: 70px;
+    color:white;
+  }
+  
+  /* Style for the hidden button */
+  .hide-button {
+    display: none;
+  }
+  
+  .game-card[data-id="1"] .game-title {
+    font-size: 16px;
+    /* You can adjust the font size as needed */
+  }
