@@ -1,6 +1,6 @@
 // Sample data for game cards (customize as needed)
 const gameData = [
-    { id: 0, title: "Recommendation", link: "" },
+    { id: 0, title: "Recommendation", link: "/" },
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },
     { id: 0, title: "10 Minutes Till Dawn", link: "/games/10-minutes-till-dawn" },
