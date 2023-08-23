@@ -149,26 +149,13 @@ recognize it
   
    
     ::placeholder {
-      color: white;
-      font-size: 18px;
-      border: none;
-      margin:auto;
-      width: 400px;
-      height: 60px;
-      background: #0f0f0f;
-      border-radius: 5px;
-      margin:auto;
-      border: 2px white solid;
-      width: 300px;
-      height: 57px;
-      border-radius: 5px;
-      background: transparent;
-      border: none;
-      color: white;
-      font-size: 18px;
-      margin-left:10px;
-      text-align:center;
-      
+      width: 50%;
+    padding: 10px;
+    border:white;
+    background-color: #181818	;
+    border-radius: 40px;
+    margin-bottom: 70px;
+    color:white;
     }
   
   .submit-button {
@@ -181,12 +168,13 @@ recognize it
   }
   
   .searchbox{
-    width: 400px;
-    height: 60px;
-    background: #0f0f0f;
-    border-radius: 5px;
-    margin:auto;
-    border: 2px white solid;
+    width: 50%;
+    padding: 10px;
+    border:white;
+    background-color: #181818	;
+    border-radius: 40px;
+    margin-bottom: 70px;
+    color:white;
    
     
   }
