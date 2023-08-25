@@ -91,6 +91,8 @@ const say = [
     "wow im surprsed if someone acc reads these",
     "please dont sue me",
     "stay low in a tesla",
+    "do people read these?",
+    "check out the new apps ui!",
   ];
   /*
   hi skidder or person looking at my code
