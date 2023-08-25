@@ -1,6 +1,6 @@
 <link rel="stylesheet" href = "/assets/css/style.css">
 
-<div id="content">
+<div class = "hidden" id="content">
   <form class="hidden"id="uv-form"">
      <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
      <input id="uv-address" type="text" placeholder="Search Google or type an URL" class="form__input"/>
@@ -9,15 +9,23 @@
      <p id="uv-error"></p>
      <pre id="uv-error-code"></pre>
    </div>
-   <h1 onclick="launchURL('netflix.com')">Netlifx</h1>
+   <center>
+    <h1 onclick="launchURL('netflix.com')">Netlifx</h1>
    <h1 onclick="launchURL('google.com')">Google</h1>
    <h1 onclick="launchURL('discord.com/login')">Discord</h1>
    <h1 onclick="launchURL('Youtube.com')">Youtube</h1>
    <h1 onclick="launchURL('chat.chatgptdemo.net')">Chat GPT</h1>
    <h1 onclick="launchURL('ww9.0123movies.net')">Netlifx</h1>
    <h1 onclick="launchURL('aniwatch.to')">Anime</h1>
+   <h1 onclick="launchURL('cowordle.org')">Co Wordle</h1>
 
-
+   </center>
+   
+<style>
+  .hidden {
+  display: none;
+}
+</style>
 <script src="uv/uv.bundle.js" defer></script>
 <script src="uv/uv.config.js" defer></script>
 <script src="register-sw.js" defer></script>

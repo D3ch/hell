@@ -59,13 +59,13 @@ ultraviolet proxy, bypassing has never been so much easier.
 
 # Credits 
 
-game sources - itch io, scratch, 3ch0, Astroid/Vyper Group, Shuttle, 
-
-binbashbanana, lbannana, and classroom 6x
+game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, and classroom 6x
 
 proxy source - tiw (source code) + replit (bare server)
 
-nav bar and css from w3 and tiw.
+code - vs code, github, replit sometimes, and codepen.
+
+nav bar and css i forgor.
 
 
 

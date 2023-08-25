@@ -22,7 +22,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         const style = iframe.style
         const link = doc.createElement("link")
 
-        const name = localStorage.getItem("name") || "Classes";
+        const name = localStorage.getItem("name") || "Home";
         const icon = localStorage.getItem("icon") || "https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png";
         
         doc.title = name;

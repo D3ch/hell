@@ -2,7 +2,7 @@
 
 this repo has a good amount of games.
 
-a little over 200 self hosted games but more coming soon
+a little over 225+ self hosted games but more coming soon
 
 big accomplishment rlly happy 
 

@@ -90,6 +90,7 @@ const say = [
     "check out the new UI for games!",
     "wow im surprsed if someone acc reads these",
     "please dont sue me",
+    "stay low in a tesla",
   ];
   /*
   hi skidder or person looking at my code
