@@ -1,0 +1,35 @@
+  /* Define custom properties for width, height, and colors */
+  :root {
+    --box-width: 100px;
+    --box-height: 40px;
+    --box-background: #282828;
+    --box-text-color: white;
+  }
+
+  h1 {
+    display: inline-block;
+    margin-right: 10px; /* Add a gap between h1 elements */
+    padding: var(--box-height) var(--box-width);
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: var(--box-text-color);
+    background-color: var(--box-background);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1:hover {
+    background-color: black;
+    color: grey;
+  }
+
+  body {
+    background-color: black;
+  }
+  
+  /* Add a line when h1 elements don't fit the screen */
+  @media screen and (max-width: 220px) {
+    h1 {
+      display: block;
+      margin-bottom: 10px; /* Add a line between h1 elements */
+    }
+  }
