@@ -150,7 +150,7 @@ const gameData = [
     { id: 0, title: "Plants vs Zombies 1", link: "/games/pvz1/" },
     { id: 0, title: "Rooftop Snipers", link: "/games/rooftopsnipers-master/" },
     { id: 0, title: "Retro Bowl", link: "/games/retro/" },
-    { id: 0, title: "Subway Surfers San Francisco", link: "/games/subway-surfers-sf/" },
+    { id: 0, title: "Subway Surfers San Francisco", link: "/games/subwaysurfers-sf/" },
     { id: 0, title: "Subway Surfers Beijing", link: "/games/subway-surfers-beijing/" },
     { id: 0, title: "Santy is Here", link: "/games/santy/" },
     { id: 0, title: "Superhot", link: "/games/superhot/" },
@@ -261,34 +261,6 @@ const gameData = [
     { id: 0, title: "Surviv IO", link: "/games/starve.io/" },
     { id: 0, title: "Paper IO 2", link: "/games/paperio2/" },
     { id: 0, title: "Territorial IO", link: "/games/territorial.io/" },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ];
 

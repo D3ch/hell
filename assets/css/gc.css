@@ -42,7 +42,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
     text-align: center;
-    background-color: #181818;
+    background-color:#101010;
     color: darkgrey;
     transition: background-color 0.3s ease;
   }
