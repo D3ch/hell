@@ -7,11 +7,10 @@
     
    <body>
     <center>
-    <h1>Takes ~ 15 seconds</h1>
-      <!--
+      
       <h2> Doesn't work? Press the button below. Wait for the content to load and press search.</h2><br>
       <button onclick="Func()" class="block" type="button">Button (May take 30 seconds to load)</button>
-    -->
+    
       <br>
     </center>
     <br> 
@@ -24,7 +23,11 @@
         </div> 
      </center>
      <br>
-
+     <script>
+      function Func() {
+          var win = window.open(); var f = win.document.createElement("iframe");  window.focus(); var url = "https://acfbab35-b9ba-4463-9677-89f31396725f.id.repl.co/bare/"; if (!url) return; f.style.width = "100%"; f.style.height = "100%"; win.document.body.appendChild(f); f.src=url; win.document.body.style.margin = '0'; f.style.border = 'none'; f.style.margin = '0'; win.document.body.style.height = '100vh'
+          }
+      </script>
      
 
     <div class="navbar">

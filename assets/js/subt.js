@@ -93,6 +93,7 @@ const say = [
     "stay low in a tesla",
     "do people read these?",
     "check out the new apps ui!",
+    "if you're gonna use this site, u'll need at least 2 brain cells",
   ];
   /*
   hi skidder or person looking at my code
