@@ -61,7 +61,8 @@ ultraviolet proxy, bypassing has never been so much easier.
 
 game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, and classroom 6x
 
-proxy source - tiw (source code) + replit (bare server)
+proxy source - tiw (source code) + replit, interstellar, astroid
+/vypergroup, tsunami, titaniumnetwork, and tomp (bare server)
 
 code - vs code, github, replit sometimes, and codepen.
 
