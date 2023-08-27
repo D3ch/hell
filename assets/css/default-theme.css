@@ -139,7 +139,6 @@ recognize it
   
   body {
     margin: 0;
-    overflow: hidden;
 }
 
 #space {
@@ -235,6 +234,7 @@ recognize it
   font-size: 32px;
   font-weight: bold; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  color:white;
 }
 
   .navbar {
