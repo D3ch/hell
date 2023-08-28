@@ -1,44 +1,25 @@
-/* Custom CSS for black theme */
-body {
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  background-attachment:fixed;
-  background-color: #000000;
-}
-
-
-#content {
+#uv-form {
   text-align: center;
-  padding: 20px;
-  margin-top: -4%;
+  margin: 20px auto; 
+  max-width: 400px; 
 }
 
-
-.form__input {
-  padding: 10px;
+/* eh */
+#uv-address {
+  padding: 10px; 
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  width: 300px;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  width: 100%; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   background-color: #222;
-  text-align: center;
   color: #fff;
-  cursor:cell;
 }
 
-.form__input::placeholder {
-  color: #aaa;
-  text-align: center;
+#uv-address::placeholder {
+  color: white; 
+  opacity: 0.7; 
 }
-
-.form_input:hover{
-  cursor:cell;
+#uv-search-engine {
+  display: none; 
 }
-
-.form__input:focus {
-  outline: none;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-}
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
