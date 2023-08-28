@@ -8,63 +8,12 @@ body {
 }
 
 
-.block {
-  display: block;
-  width: 50%;
-  border: none;
-  background-color: #000000;
-  color: white;
-  padding: 14px 28px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-}
-.block:hover {
-color:#383838;
-background-color:#181818;
-opacity: 0.3;
-transition: 0.7s;
-}
-
-#header {
-  background-color: #000;
-  padding: 20px;
-  text-align: center;
-}
-
-#header h1 {
-  margin: 0;
-  font-size: 24px;
-  font-family: 'Arial', sans-serif;
-  color: #fff;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-#header img {
-  width: 20%;
-  height: auto;
-}
-
 #content {
   text-align: center;
   padding: 20px;
   margin-top: -4%;
 }
 
-#content h1 {
-  font-size: 24px;
-  cursor:pointer;
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-#searchbar {
-  text-align: center;
-  margin: 20px auto;
-}
 
 .form__input {
   padding: 10px;
@@ -77,17 +26,6 @@ transition: 0.7s;
   text-align: center;
   color: #fff;
   cursor:cell;
-}
-
-a{
-  text-decoration: none;
-  color:white;
-  width:50px;
-  height:50px;
-  padding-right: 1px;
-  padding-left: 1px;
-  text-align: center;
-  align-self: center;
 }
 
 .form__input::placeholder {
@@ -104,34 +42,3 @@ a{
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-#footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: #99ccff;
-  font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  height:15px;
-  background-color: #000;
-  padding-top: 7.5px;
-  padding-bottom: 10px;
-  text-align: center;
-  color: #fff;
-  font-size: 14px;
-}
-
-#footer p {
-  margin: 0;
-}
-
-.fa {
-  font-size: 24px;
-  margin-right: 10px;
-  color: #fff;
-}
-
-.fa:hover {
-  color: #aaa;
-}

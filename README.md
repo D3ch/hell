@@ -1,6 +1,6 @@
-
+<center>
 ![My project (2)](https://github.com/D3ch/hell/assets/106717421/9f1397a8-77e9-4fad-8c60-c45d54f91070)
-
+</center>
 
 
 # Hell
@@ -19,9 +19,10 @@ ultraviolet proxy, bypassing has never been so much easier.
 
 - 225+ games [🎮]
 - Gameboy, flash, and html5 Games
-- No annoying ads and no cookies. [🚫]
+- No annoying ads and no cookies (probably). [🚫]
 - Easy to navigate [✔]
-- Working Ultraviolet Proxy [🔎]
+- Easily Deployable
+- Working Static Ultraviolet Proxy [🔎]
 - Open Source [🚪]
 - Site cloaking [🙈]
 - About Blank Embedder [⬜]
@@ -63,9 +64,10 @@ game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, and classroom 6x
 
 proxy source - tiw (source code) + replit,(for bare server)
 
-code - vs code, github, replit sometimes, and codepen.
+code - vs code, github, replit sometimes, chatgpt and codepen.
 
-nav bar and css i forgor.
+inspiration - 3kh0 and interstellar
+
 
 
 
