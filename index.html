@@ -29,17 +29,19 @@
     <div id="content-container">
       <h1>v3</h1>
       <p>Enjoy your stay.</p>
-        <button class="block"><a href="https://forms.gle/uE357bpzg3AnWL1W6" target ="_blank"></a></button>
+      <button onclick="Func()" class="block" type="button">Recommendations</button>
+
         <br>
         <br>
         <br>
       <div id="subtitle" onclick="newSub()"> tap for a subtitle</div>
       
 </div>
+</center>
 
 <nav class="navbar">
   <div class="container">
-    <h1 id = "white" class="logo"><a href="/index"></a>v3</h1>
+    <h1 id = "white" class="logo"><a href="/index">v3</a></h1>
       <ul class="nav-links">
           <li><a href="/r/a.html">Apps</a></li>
           <li><a href="/r/p.html">Search</a></li>
@@ -56,7 +58,11 @@
     <p>&copy; Hell v3  </p><a href="https://github.com/d3ch" target ="_blank">Github </a>
     <a href="index.html" title="website view counter"><img src="https://counter10.optistats.ovh/private/freecounterstat.php?c=e3wfecyfabwnnfmyfx93ym25x9gx1xmn" border="0" title="website view counter" alt="website view counter"></a>
   </div>
-
+  <script>
+    function Func() {
+        var win = window.open(); var f = win.document.createElement("iframe");  window.focus(); var url = "https://forms.gle/uE357bpzg3AnWL1W6"; if (!url) return; f.style.width = "100%"; f.style.height = "100%"; win.document.body.appendChild(f); f.src=url; win.document.body.style.margin = '0'; f.style.border = 'none'; f.style.margin = '0'; win.document.body.style.height = '100vh'
+        }
+    </script>
    </center>
 
   </body>
