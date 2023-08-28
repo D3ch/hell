@@ -18,6 +18,9 @@ recognize it
 
 
 **/
+#white{
+  color:white;
+}
 #broken{
     color:red;
       }
@@ -39,7 +42,7 @@ recognize it
   }
   input{
     margin:auto;
-    width: 400px;
+    width: 800px;
     height: 60px;
     background: #0f0f0f;
     border-radius: 5px;
@@ -93,7 +96,7 @@ recognize it
   
   
    .search {
-       width: 300px;
+       width: 800px;
        height: 57px;
        border-radius: 5px;
        background: transparent;
