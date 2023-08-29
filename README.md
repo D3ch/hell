@@ -40,21 +40,19 @@ ultraviolet proxy, bypassing has never been so much easier.
 ## Links / Mirrors
 
 
-[Netlify 1 (main link)](https://he1l.netlify.app)
+[Most instances here.](https://instances.d3ch.repl.co)
 
-[Netlify 2](https://hellv3.netlify.app)
+Made a link and wanna share it? Post it [Here!](https://forms.gle/gwxTCDRzZQRo5toH7)
 
-[Vercel 1](https://hell-alpha.vercel.app)
-
-[Vercel 2](https://hell-lzxk.vercl.app)
-
-[Github.io link](https://dachxdd.github.io)
 
 ## Self Deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fd3ch%2Fhell)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/d3ch/hell)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fd3ch%2Fhell)
+
 
 # Credits 
 
