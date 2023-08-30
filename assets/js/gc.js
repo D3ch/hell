@@ -45,7 +45,7 @@ const gameData = [
     { id: 0, title: "Cut The Rope | Time Travel", link: "/games/cuttherope-timetravel/" },
     { id: 0, title: "Cookie Clicker Alt", link: "/games/cookieclickeralt/" },
     { id: 0, title: "Cookie Clicker", link: "/games/cookieclicker/" },
-    { id: 0, title: "Chill Radio", link: "/games/chillradio/" },
+    { id: 0, title: "Chill Radio", link: "/games/chill-radio/" },
     { id: 0, title: "Clicker Heroes", link: "/games/clicker-heroes/" },
     { id: 0, title: "Cluster Rush", link: "/games/cluster-rush/" },
     { id: 0, title: "Death Run 3D", link: "/games/death-run-3d/" },
