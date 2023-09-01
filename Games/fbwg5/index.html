@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Bubblez">
+    <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui,shrink-to-fit=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+    <meta name="apple-mobile-web-app-title" content="Fireboy & Watergirl 5 Elements">
+    <title>Fireboy & Watergirl 5 Elements</title>
+
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" sizes="60x60" href="icon-60x60.png">
+    <link rel="icon" sizes="256x256" href="icon-256x256.png">
+    <link rel="icon" sizes="512x512" href="icon-512x512.png">
+    <link rel="apple-touch-icon" href="icon-60x60.png">
+
+    <script>
+        var gtag;
+    </script>
+
+</head>
+
+<body style="margin: 0px; overflow:hidden;" oncontextmenu="return false;">
+    <script type="text/javascript">
+        window.requireNode = window.require;
+        window.require = undefined;
+    </script>
+    <script src="bower_components/requirejs/require.js"></script>
+
+    <div id="root">
+        <div id="container"></div>
+        <div id="hammer"></div>
+        <div id="debug-fps" style="color:#ff0000; position: absolute; top: 0;"></div>
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        var enableAnalytics;
+        var gameName = "fireboy-and-watergirl-elements.min.js";
+
+        //This all here is for cache busting;
+        function addScript(src, buster, callback) {
+            var s = document.createElement('script');
+            s.setAttribute('src', src + '?v=' + buster);
+            if (typeof callback === 'function') {
+                s.onload = callback;
+            }
+            document.body.appendChild(s);
+        }
+
+        var fbrqLA = false,
+            fbrqBD = 0,
+            playBtn = false,
+            fbrqSA = true,
+            libs = [],
+            version = 'CoolMathGames-63',
+            azCP = false;
+
+
+
+
+
+        require(["fireboy-and-watergirl-elements.min.js?v=" + version]);
+    </script>
+</body>
+
+</html>

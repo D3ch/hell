@@ -6,7 +6,9 @@ Tired of games and searching being blocked?
 
 Then use Hell! With over 225+ unblocked games and even a working
 
-ultraviolet proxy, bypassing has never been so much easier. 
+ultraviolet proxy, bypassing has never been so much easier. It has almost
+
+everything you would want in a game site! 
 
 
 
@@ -14,11 +16,11 @@ ultraviolet proxy, bypassing has never been so much easier.
 
 # Why hell?
 
-- 225+ games [🎮]
+- Over 225 games! [🎮]
 - Gameboy, flash, and html5 Games
 - No annoying ads and no cookies (probably). [🚫]
 - Easy to navigate [✔]
-- Easily Deployable
+- Easily Deployable [🔽]
 - Working Static Ultraviolet Proxy [🔎]
 - Open Source [🚪]
 - Site cloaking [🙈]
@@ -51,6 +53,8 @@ proxy source - tiw (source code) + replit(for bare server)
 code - vs code, github, replit sometimes, chatgpt and codepen.
 
 inspiration - 3kh0 and interstellar
+
+thank you for the support!
 
 
 

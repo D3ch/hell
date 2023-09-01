@@ -72,6 +72,8 @@ const gameData = [
     { id: 0, title: "Fireboy Watergirl 1", link: "/games/fireboywatergirlforesttemple/" },
     { id: 0, title: "Fireboy Watergirl 2", link: "/games/fireboy-and-watergirl-2/" },
     { id: 0, title: "Fireboy Watergirl 3", link: "/games/fbwg3/" },
+    { id: 0, title: "Fireboy Watergirl 4", link: "/games/fbwg4/" },
+    { id: 0, title: "Fireboy Watergirl 5", link: "/games/fbwg5/" },
     { id: 0, title: "Five Nights at Winstons", link: "/games/fnaw/" },
     { id: 0, title: "FNAF 1", link: "/games/fnaf/fnaf1" },
     { id: 0, title: "FNAF 2", link: "/games/fnaf/fnaf2" },
