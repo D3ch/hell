@@ -126,6 +126,7 @@ const gameData = [
     { id: 0, title: "Monkey Mart", link: "/games/monkey-mart/" },
     { id: 0, title: "Mini Shooters", link: "/games/mini-shooters/unblocked" },
     { id: 0, title: "Mini Zombie Shooters", link: "/games/mini-zombie-shooters/" },
+    { id: 0, title: "Mike Tyson | Punch Out ", link: "/games/external/mt.html" },
     { id: 0, title: "Mr Bullet", link: "/games/mr-bullet/" },
     { id: 0, title: "My Friend Pedro", link: "/games/mfp" },
     { id: 0, title: "Narrow", link: "/games/narrow.one/" },
