@@ -48,9 +48,9 @@ Made a link and wanna share it? Post it [Here!](https://forms.gle/gwxTCDRzZQRo5t
 
 game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, and classroom 6x
 
-proxy source - tiw (source code) + replit(for bare server)
+proxy source - tiw (source code) + replit (for bare server)
 
-code - vs code, github, replit sometimes, chatgpt and codepen.
+code - vs code, github, replit, and codepen (frontend).
 
 inspiration - 3kh0 and interstellar
 
