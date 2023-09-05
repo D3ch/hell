@@ -2,6 +2,7 @@
 const gameData = [
     { id: 0, title: "Recommendation", link: "/" },
     { id: 1, title: "Made a recommendation? Check both apps and games.", link: "/games/2048/" },
+    { id: 1, title: "Added Rogue Souls.", link: "/games/2048/" },
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },
     { id: 0, title: "10 Minutes Till Dawn", link: "/games/10-minutes-till-dawn" },
@@ -253,6 +254,8 @@ const gameData = [
     { id: 0, title: "Hobo 6", link: "/games/flash/?swf=hobo6.swf" },
     { id: 0, title: "Hobo 7", link: "/games/flash/?swf=hobo7.swf" },
     { id: 0, title: "Mario Kart but Flash", link: "/games/flash/?swf=mariokartflash.swf" },
+    { id: 0, title: "Rogue Souls", link: "/games/flash/?swf=rg.swf" },
+    { id: 0, title: "Rogue Souls 2", link: "/games/flash/?swf=rgs2.swf" },
     { id: 0, title: "Papas Freezeria", link: "/games/flash/?swf=papas%20freezeria.swf" },
     { id: 0, title: "Papas Pancakeria", link: "/games/flash/?swf=papas%20pancakeria.swf" },
     { id: 0, title: "Papas Bakeria", link: "/games/flash/?swf=papasbakeria.swf" },
