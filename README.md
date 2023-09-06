@@ -4,7 +4,7 @@
 
 Tired of games and searching being blocked?
 
-Then use Hell! With over 225+ unblocked games and even a working
+Then use Hell! With over 250+ unblocked games and even a working
 
 ultraviolet proxy, bypassing has never been so much easier. It has almost
 
