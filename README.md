@@ -4,7 +4,7 @@
 
 Tired of games and searching being blocked?
 
-Then use Hell! With over 250+ unblocked games and even a working
+Then use Hell! With over 260+ unblocked games and even a working
 
 ultraviolet proxy, bypassing has never been so much easier. It has almost
 
@@ -16,7 +16,7 @@ everything you would want in a game site!
 
 # Why hell?
 
-- Over 225 games! [🎮]
+- Over 260 games! [🎮] (don't believe that? count it yourself)
 - Gameboy, flash, and html5 Games
 - No annoying ads and no cookies (probably). [🚫]
 - Easy to navigate [✔]

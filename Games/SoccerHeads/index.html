@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Soccer Heads Unblocked - ubg235 Famobi</title>
+
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #475829}
+		#openfl-content { background: #475829; width: 100%; height: 100%; }
+	</style>
+
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, false);
+		// if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+		// 	var meta = document.querySelector("meta[name=viewport]");
+		// 	meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		// }
+
+	    // Package-ID
+	    window.famobi_gameID = "soccer-heads";
+	    window.famobi_gameJS = ['js/all.js',
+	        function(){
+	            lime.embed ("openfl-content", 800, 500, "475829");
+	        }
+	    ];
+
+	    (function (document, url, fgJS, firstJS) {
+	            fgJS = document.createElement('script');
+	            firstJS = document.getElementsByTagName('script')[0];
+	            fgJS.src = url + encodeURIComponent(document.location.href);
+	            firstJS.parentNode.insertBefore(fgJS, firstJS);
+	    })(document, 'v1.js?e=');
+	</script>
+</head>
+<body>
+	<div id="openfl-content"></div>
+  <script src="js/analytics_ubg_v1_4.js"></script>
+</body>
+</html>

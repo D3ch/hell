@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:fbfa6d7c63ced65fc6fe07f638f8c3ba:a65155e636cfb736e18a16fa8b26b20f:f0b02c1fb6967572924063e8500919da$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="testSheet3.png" width="2048" height="2048">
+    <sprite n="blank.png" x="2" y="2" w="2" h="2" pX="0.5" pY="0.5"/>
+    <sprite n="leagueGlow.png" x="6" y="2" w="189" h="13" pX="0.5" pY="0.5"/>
+    <sprite n="guiNumsSmall.png" x="197" y="2" w="176" h="16" pX="0.5" pY="0.5"/>
+    <sprite n="guiNumsBig.png" x="375" y="2" w="360" h="36" pX="0.5" pY="0.5"/>
+    <sprite n="guideButUp1.png" x="737" y="2" w="196" h="38" pX="0.5" pY="0.5"/>
+    <sprite n="matchStartGfk.png" x="935" y="2" w="420" h="45" pX="0.5" pY="0.5"/>
+    <sprite n="matchOverGfk.png" x="1357" y="2" w="420" h="45" pX="0.5" pY="0.5"/>
+    <sprite n="matchGoalGfk.png" x="2" y="49" w="420" h="45" pX="0.5" pY="0.5"/>
+    <sprite n="ballSheet.png" x="424" y="49" w="192" h="48" pX="0.5" pY="0.5"/>
+    <sprite n="guideButUp0.png" x="618" y="49" w="250" h="50" pX="0.5" pY="0.5"/>
+    <sprite n="backBut.png" x="870" y="49" w="54" h="54" pX="0.5" pY="0.5"/>
+    <sprite n="puSheet.png" x="926" y="49" w="120" h="60" pX="0.5" pY="0.5"/>
+    <sprite n="puSheet2.png" x="1048" y="49" w="360" h="60" pX="0.5" pY="0.5"/>
+    <sprite n="subBut.png" x="1410" y="49" w="249" h="60" pX="0.5" pY="0.5"/>
+    <sprite n="joyStickFrontRed.png" x="1661" y="49" w="66" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="joyStickFrontYellow.png" x="1729" y="49" w="66" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="timeBut.png" x="1797" y="49" w="66" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="joyStickFrontBlank.png" x="1865" y="49" w="66" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="powerSheet.png" x="1933" y="49" w="62" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="joyStickKick.png" x="2" y="117" w="66" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="joyStickFront.png" x="70" y="117" w="66" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="colCircSheet.png" x="138" y="117" w="264" h="66" pX="0.5" pY="0.5"/>
+    <sprite n="levSelectBg2.png" x="404" y="117" w="800" h="71" pX="0.5" pY="0.5"/>
+    <sprite n="titleMoreGamesBut.png" x="1206" y="117" w="150" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="timeGfk.png" x="1358" y="117" w="172" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="butPause.png" x="1532" y="117" w="80" h="80" pX="0.5" pY="0.5"/>
+    <sprite n="butSound.png" x="1614" y="117" w="160" h="80" pX="0.5" pY="0.5"/>
+    <sprite n="butBack.png" x="1776" y="117" w="80" h="80" pX="0.5" pY="0.5"/>
+    <sprite n="bitmapFontOld.png" x="2" y="199" w="256" h="96" pX="0.5" pY="0.5"/>
+    <sprite n="playBut.png" x="260" y="199" w="96" h="96" pX="0.5" pY="0.5"/>
+    <sprite n="titleStartButCont.png" x="358" y="199" w="96" h="96" pX="0.5" pY="0.5"/>
+    <sprite n="bitmapFont.png" x="456" y="199" w="256" h="96" pX="0.5" pY="0.5"/>
+    <sprite n="titleStartBut.png" x="714" y="199" w="96" h="96" pX="0.5" pY="0.5"/>
+    <sprite n="titleStart2But.png" x="812" y="199" w="96" h="96" pX="0.5" pY="0.5"/>
+    <sprite n="obst_rect2.png" x="910" y="199" w="100" h="100" pX="0.5" pY="0.5"/>
+    <sprite n="obst_rect.png" x="1012" y="199" w="100" h="100" pX="0.5" pY="0.5"/>
+    <sprite n="obst_circ2.png" x="1114" y="199" w="100" h="100" pX="0.5" pY="0.5"/>
+    <sprite n="obst_circ.png" x="1216" y="199" w="100" h="100" pX="0.5" pY="0.5"/>
+    <sprite n="playerSheet.png" x="1318" y="199" w="100" h="100" pX="0.5" pY="0.5"/>
+    <sprite n="blackLoz.png" x="1420" y="199" w="200" h="115" pX="0.5" pY="0.5"/>
+    <sprite n="joyStickBack.png" x="1622" y="199" w="130" h="130" pX="0.5" pY="0.5"/>
+    <sprite n="levSelectBg.png" x="2" y="331" w="800" h="150" pX="0.5" pY="0.5"/>
+    <sprite n="teamLegSheet.png" x="804" y="331" w="200" h="160" pX="0.5" pY="0.5"/>
+    <sprite n="PartBangSheet.png" x="1006" y="331" w="320" h="160" pX="0.5" pY="0.5"/>
+    <sprite n="inGameBgPitch.png" x="2" y="493" w="800" h="160" pX="0.5" pY="0.5"/>
+    <sprite n="flashParticle.png" x="804" y="493" w="166" h="166" pX="0.5" pY="0.5"/>
+    <sprite n="goalSheet.png" x="972" y="493" w="60" h="175" pX="0.5" pY="0.5"/>
+    <sprite n="titleLogo.png" x="1034" y="493" w="429" h="192" pX="0.5" pY="0.5"/>
+    <sprite n="teamBodySheetSad.png" x="1465" y="493" w="250" h="200" pX="0.5" pY="0.5"/>
+    <sprite n="teamBodySheet.png" x="1717" y="493" w="250" h="200" pX="0.5" pY="0.5"/>
+    <sprite n="messyFont.png" x="2" y="695" w="256" h="202" pX="0.5" pY="0.5"/>
+    <sprite n="smokeSheet.png" x="260" y="695" w="320" h="240" pX="0.5" pY="0.5"/>
+    <sprite n="levSelTable.png" x="582" y="695" w="189" h="267" pX="0.5" pY="0.5"/>
+    <sprite n="wallEdges.png" x="773" y="695" w="342" h="269" pX="0.5" pY="0.5"/>
+    <sprite n="inGameBgTop2.png" x="1117" y="695" w="800" h="459" pX="0.5" pY="0.5"/>
+    <sprite n="inGameBgTop.png" x="2" y="1156" w="800" h="459" pX="0.5" pY="0.5"/>
+    <sprite n="tileBg.png" x="804" y="1156" w="800" h="500" pX="0.5" pY="0.5"/>
+</TextureAtlas>

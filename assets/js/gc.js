@@ -19,6 +19,7 @@ const gameData = [
     { id: 0, title: "A Small World Cup", link: "/games/smallworldcup/" },
     { id: 0, title: "Awesome Tanks 1", link: "/games/awesometanksfiles/" },
     { id: 0, title: "Awesome Tanks 2", link: "/games/awesometanks2/" },
+    { id: 0, title: "Bad Flesh", link: "/games/bad-flesh/" },
     { id: 0, title: "Bad Ice Cream", link: "/games/bad-ice-cream/" },
     { id: 0, title: "Bad Ice Cream 2", link: "/games/bad-ice-cream-2/" },
     { id: 0, title: "Bad Ice Cream 3", link: "/games/bad-ice-cream-3/" },
@@ -26,6 +27,7 @@ const gameData = [
     { id: 0, title: "Basketball Stars", link: "/games/basketball-stars/" },
     { id: 0, title: "Basketbros IO", link: "/games/bascketbros-io/" },
     { id: 0, title: "Baldis Basics", link: "/games/baldis-basics/" },
+
     { id: 0, title: "Burger and Frights", link: "/games/burger-and-frights/" },
     { id: 0, title: "Bitlife", link: "/games/bitlife-life-simulator/play" },
     { id: 0, title: "Backrooms", link: "/games/backrooms/" },
@@ -75,6 +77,9 @@ const gameData = [
     { id: 0, title: "Fireboy Watergirl 3", link: "/games/fbwg3/" },
     { id: 0, title: "Fireboy Watergirl 4", link: "/games/fbwg4/" },
     { id: 0, title: "Fireboy Watergirl 5", link: "/games/fbwg5/" },
+    { id: 1, title: "More FNF coming soon!", link: "/games/2048/" },
+
+    { id: 0, title: "Friday Night Funkin", link: "/games/fnf/" },
     { id: 0, title: "Five Nights at Winstons", link: "/games/fnaw/" },
     { id: 0, title: "FNAF 1", link: "/games/fnaf/fnaf1" },
     { id: 0, title: "FNAF 2", link: "/games/fnaf/fnaf2" },
@@ -118,9 +123,13 @@ const gameData = [
     { id: 0, title: "Learn to Fly 2", link: "/games/learntofly2/" },
     { id: 0, title: "Make Sure It's Closed", link: "/games/makesureitsclosed/" },
     { id: 0, title: "Mario 64", link: "/games/mario64/sm64/" },
+    { id: 0, title: "Mario Kart 64", link: "/games/external/mk64" },
+
     { id: 0, title: "Mandalin Stunt Cars 2", link: "/games/mandalin-stunt-cars-2/" },
     { id: 0, title: "Mandalin Stutn Cars 3", link: "/games/mandalin-stunt-cars-3/" },
     { id: 0, title: "Minecraft", link: "/games/minecraft-18/" },
+    
+
     { id: 0, title: "Moto x3m", link: "/games/motox3m/" },
     { id: 0, title: "Moto x3m | 2", link: "/games/motox3m2/" },
     { id: 0, title: "Moto x3m | Pool", link: "/games/motox3m-pool/" },
@@ -132,8 +141,12 @@ const gameData = [
     { id: 0, title: "Mike Tyson | Punch Out ", link: "/games/external/mt.html" },
     { id: 0, title: "Mr Bullet", link: "/games/mr-bullet/" },
     { id: 0, title: "My Friend Pedro", link: "/games/mfp" },
+    { id: 0, title: "My Rusty Submarine", link: "/games/myrustysubmarine/" },
+
     { id: 0, title: "Narrow", link: "/games/narrow.one/" },
     { id: 0, title: "Night Walk", link: "/games/nightwalk/" },
+    { id: 0, title: "One Night As Freddys", link: "/games/onaf/" },
+
     { id: 0, title: "Ovo", link: "/games/ovo/" },
     { id: 0, title: "Ovo 2", link: "/games/ovo2/" },
     { id: 0, title: "Pandemic 2", link: "/games/pandemic2/" },
@@ -162,6 +175,9 @@ const gameData = [
     { id: 0, title: "Slope 2", link: "/games/slope-2/" },
     { id: 0, title: "Smash Karts", link: "/games/smashkarts-main/" },
     { id: 0, title: "Snow Rider 3D", link: "/games/snow-rider3d/" },
+    { id: 0, title: "Soccer Heads", link: "/games/soccerheads/" },
+    { id: 0, title: "Super Auto Pets", link: "/games/supauto/" },
+
     { id: 0, title: "Stickman Hook", link: "/games/stickman-hook/" },
     { id: 0, title: "Stick Merge", link: "/games/stick-merge/" },
     { id: 0, title: "Tabs", link: "/games/tabs/tabs" },
@@ -184,6 +200,8 @@ const gameData = [
     { id: 0, title: "We Become What We Behold", link: "/games/webecome/html/300364/" },
     { id: 0, title: "xx142-b2exe", link: "/games/xx142-b2exe/" },
     { id: 0, title: "You Are Jeff Bezos", link: "/games/youarejeffbezos/" },
+    { id: 0, title: "Yes Grandma", link: "/games/yesg/" },
+
     { id: 1, title: "GBA Games", link: "/games/2048/" },
     { id: 1, title: "Controls | Don't know them? Go to Cheats", link: "/games/2048/" },
     { id: 0, title: "007", link: "/games/gba/launcher#007" },

@@ -1,0 +1,67 @@
+html,
+body {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+}
+
+div#gameContainer {
+    background: transparent !important;
+    position: absolute;
+}
+
+div#gameContainer canvas {
+    position: absolute;
+}
+
+#custom-logo,
+#custom-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#custom-logo {
+    background-image: url('Loading Icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+#custom-loader {
+    border-radius: 10px;
+    margin-top: 155px;
+    width: 80%;
+    height: 50px;
+    background: rgba(255, 145, 0, 0.219);
+    box-shadow: 0px 0px 15px 5px black;
+}
+
+#custom-loader .fill {
+    border-radius: 10px;
+    width: 0%;
+    height: 100%;
+    background: rgb(255, 145, 0);
+}
+
+#custom-loader .label {
+    color: white;
+    position: relative;
+    top: -44px;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif, calibri;
+}
+
+#custom-loader .help {
+    color: white;
+    position: relative;
+    padding-top: 16px;
+    text-align: center;
+}

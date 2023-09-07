@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:b2a454d8d58c8c9e120337ec1278d9f6$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="testSheet.png" width="1024" height="2048">
+    <sprite n="PartBangSheet.png" x="2" y="2" w="320" h="160"/>
+    <sprite n="ballSheet.png" x="324" y="2" w="30" h="30"/>
+    <sprite n="bitmapFont.png" x="356" y="2" w="256" h="96"/>
+    <sprite n="blank.png" x="614" y="2" w="2" h="2"/>
+    <sprite n="goalSheet.png" x="618" y="2" w="60" h="175"/>
+    <sprite n="guiNumsBig.png" x="2" y="179" w="361" h="37"/>
+    <sprite n="guiNumsSmall.png" x="365" y="179" w="176" h="16"/>
+    <sprite n="inGameBg.png" x="2" y="218" w="740" h="480"/>
+    <sprite n="playerSheet.png" x="744" y="218" w="100" h="100"/>
+    <sprite n="powerSheet.png" x="846" y="218" w="62" h="66"/>
+    <sprite n="smokeSheet.png" x="2" y="700" w="320" h="240"/>
+    <sprite n="teamBodySheet.png" x="324" y="700" w="80" h="112"/>
+    <sprite n="teamLegSheet.png" x="406" y="700" w="20" h="40"/>
+    <sprite n="tileBg.png" x="2" y="942" w="740" h="480"/>
+    <sprite n="titleLogo.png" x="2" y="1424" w="334" h="163"/>
+    <sprite n="titleStartBut.png" x="338" y="1424" w="183" h="77"/>
+</TextureAtlas>

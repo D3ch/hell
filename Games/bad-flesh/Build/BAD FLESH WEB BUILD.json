@@ -1,0 +1,16 @@
+{
+"companyName": "DanMcGrath",
+"productName": "bad flesh.",
+"productVersion": "1",
+"dataUrl": "BAD FLESH WEB BUILD.data.unityweb",
+"wasmCodeUrl": "BAD FLESH WEB BUILD.wasm.code.unityweb",
+"wasmFrameworkUrl": "BAD FLESH WEB BUILD.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.18f1"
+}

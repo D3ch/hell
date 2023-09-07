@@ -1,0 +1,16 @@
+{
+"companyName": "SoerbGames",
+"productName": "MyRustySubmarine",
+"productVersion": "0.1",
+"dataUrl": "MyRustySubmarineWebGL.data.unityweb",
+"wasmCodeUrl": "MyRustySubmarineWebGL.wasm.code.unityweb",
+"wasmFrameworkUrl": "MyRustySubmarineWebGL.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#00002B",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.0f6"
+}
