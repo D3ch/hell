@@ -16,7 +16,7 @@ everything you would want in a game site!
 
 # Why hell?
 
-- Over 260 games! [🎮] (don't believe that? count it yourself)
+- Over 260 games [🎮] (don't believe that? count it yourself)
 - Gameboy, flash, and html5 Games
 - No annoying ads and no cookies (probably). [🚫]
 - Easy to navigate [✔]
