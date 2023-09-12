@@ -60,6 +60,7 @@ const say = [
     "im broke",
     "hell 🔛🔝",
     "i started hell one day cuz sm told me that i should go to hell",
+    "IM NOT ADDING FORNITE STOP",
     "wooooooooooooooooooooooooooo",
     "chimfkfen fjcsdk nugest",
     "prob 2nd best game site idk",

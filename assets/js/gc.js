@@ -2,7 +2,7 @@
 const gameData = [
     { id: 0, title: "Recommendation", link: "/" },
     { id: 1, title: "Made a recommendation? Check both apps and games.", link: "/games/2048/" },
-    { id: 1, title: "Added Rogue Souls.", link: "/games/2048/" },
+    { id: 1, title: "I'M NOT ADDING FORNITE", link: "/games/2048/" },
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },
     { id: 0, title: "10 Minutes Till Dawn", link: "/games/10-minutes-till-dawn" },
@@ -112,6 +112,8 @@ const gameData = [
     { id: 0, title: "Getaway Shootout", link: "/games/getaway-shootout/" },
     { id: 0, title: "Happy Wheels", link: "/games/happwheels/" },
     { id: 0, title: "Horde Killer", link: "/games/horde-killer-you-vs-100/" },
+    { id: 0, title: "House of Hazards", link: "/games/hoh/" },
+
     { id: 0, title: "Hungry Lamu", link: "/games/hungryl/" },
     { id: 0, title: "Impossible Quiz 1", link: "/games/impossiblequiz.html" },
     { id: 0, title: "Impossible Quiz 2", link: "/games/tiq2.html" },
@@ -271,7 +273,10 @@ const gameData = [
     { id: 0, title: "Hobo 5", link: "/games/flash/?swf=hobo5.swf" },
     { id: 0, title: "Hobo 6", link: "/games/flash/?swf=hobo6.swf" },
     { id: 0, title: "Hobo 7", link: "/games/flash/?swf=hobo7.swf" },
+    { id: 0, title: "Madness | Project Nexus", link: "/games/flash/?swf=mgnex.swf" },
+
     { id: 0, title: "Mario Kart but Flash", link: "/games/flash/?swf=mariokartflash.swf" },
+    
     { id: 0, title: "Rogue Souls", link: "/games/flash/?swf=rg.swf" },
     { id: 0, title: "Rogue Souls 2", link: "/games/flash/?swf=rgs2.swf" },
     { id: 0, title: "Papas Freezeria", link: "/games/flash/?swf=papas%20freezeria.swf" },
