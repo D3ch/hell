@@ -1,0 +1,218 @@
+/* ----------------------------------------------------------------- Transitions -- */
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .25s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.slidein-enter-active, .slidein-leave-active {
+	transition: 1s;
+	bottom: 10em;
+}
+
+.slidein-enter, .slidein-leave-to {
+	bottom: 0em;
+}
+
+.fadeout-leave-active {
+  transition: opacity .5s;
+}
+.fadeout-leave-to {
+  opacity: 0;
+}
+
+.fadeout-enter-active {
+  transition: opacity .0s;
+}
+.fadeout-enter  {
+  opacity: 1;
+}
+
+/* always present */
+.expand-transition {
+  transition: all .3s ease;
+  height: 30px;
+  padding: 10px;
+  background-color: #eee;
+  overflow: hidden;
+}
+/* .expand-enter defines the starting state for entering */
+/* .expand-leave defines the ending state for leaving */
+.expand-enter, .expand-leave {
+  height: 0;
+  padding: 0 10px;
+  opacity: 0;
+}
+
+.bounce-enter-active {
+  animation: bounce-in .25s;
+}
+.bounce-leave-active {
+  animation: bounce-in .25s reverse;
+}
+.egg-store-sale-notify button {
+	animation: balloon 1.9s ease-in-out infinite;
+}
+@keyframes balloon {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1)
+	}
+}
+@keyframes bounce-in {
+	0% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1.25);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+
+.wiggle_l {
+    animation: wiggle_left 1s infinite linear;
+	-moz-animation: wiggle_left 1s infinite linear; /* Firefox */
+    -webkit-animation: wiggle_left 1s infinite linear; /* Safari and Chrome */
+}
+
+.wiggle_r {
+
+    animation: wiggle_right 1s infinite linear;
+	-moz-animation: wiggle_right 1s infinite linear; /* Firefox */
+    -webkit-animation: wiggle_right 1s infinite linear; /* Safari and Chrome */
+}
+
+@keyframes wiggle_left
+{
+	0% {margin-left: -5px;}
+	50% {margin-left: -10px;}
+	100% {margin-left: -5px;}
+}
+@-moz-keyframes wiggle_left
+{
+	0% {margin-left: -5px;}
+	50% {margin-left: -10px;}
+	100% {margin-left: -5px;}
+}
+@-webkit-keyframes wiggle_left
+{
+	0% {margin-left: -5px;}
+	50% {margin-left: -10px;}
+	100% {margin-left: -5px;}
+}
+
+@keyframes wiggle_right
+{
+	0% {margin-left: -7px;}
+	50% {margin-left: -2px;}
+	100% {margin-left: -7px;}
+}
+@-moz-keyframes wiggle_right
+{
+	0% {margin-left: -7px;}
+	50% {margin-left: -2px;}
+	100% {margin-left: -7px;}
+}
+@-webkit-keyframes wiggle_right
+{
+	0% {margin-left: -7px;}
+	50% {margin-left: -2px;}
+	100% {margin-left: -7px;}
+}
+
+.blink {
+  animation: blinker 1s ease-out infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ------------------------------------------------------------------------------------------ Pop Visible --*/
+
+@-webkit-keyframes popVisible {
+	0% { transform: scale(0); }
+	2% { transform: scale(1.1); }
+	3% { transform: scale(1); }
+	40% { transform: scale(1); }
+	41% { transform: scale(1.1); }
+	43% { transform: scale(0); }
+	100% { transform: scale(0); }
+} 
+
+@keyframes popVisible {
+	0% { transform: scale(0); }
+	2% { transform: scale(1.1); }
+	3% { transform: scale(1); }
+	40% { transform: scale(1); }
+	41% { transform: scale(1.1); }
+	43% { transform: scale(0); }
+	100% { transform: scale(0); }
+}
+
+/* ------------------------------------------------------------------------------------------ Spin --*/
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.spinner {
+	animation: spin 2.75s linear infinite;
+}
+
+.pure-wiggle {
+	animation: wiggle 3000ms ease-in-out infinite alternate;
+	-moz-animation: wiggle 3000ms ease-in-out infinite alternate;
+	-webkit-animation: wiggle 3000ms ease-in-out infinite alternate;
+}
+
+.pure-wiggle:hover {
+	animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes wiggle {
+	0% {-webkit-transform: rotate(1deg);}
+	25% {-webkit-transform: rotate(-1deg);}
+	50% {-webkit-transform: rotate(1deg);}
+	75% {-webkit-transform: rotate(-1deg);}
+	100% {-webkit-transform: rotate(0deg);}
+  }
+  
+  @-moz-keyframes wiggle {
+	0% {-webkit-transform: rotate(1deg);}
+	25% {-webkit-transform: rotate(-1deg);}
+	50% {-webkit-transform: rotate(1deg);}
+	75% {-webkit-transform: rotate(-1deg);}
+	100% {-webkit-transform: rotate(0deg);}
+  }
+  
+  @keyframes wiggle {
+	0% {transform: rotate(1deg);}
+	25% {transform: rotate(-1deg);}
+	50% {transform: rotate(1deg);}
+	75% {transform: rotate(-1deg);}
+	100% {transform: rotate(0deg);}
+  }
+

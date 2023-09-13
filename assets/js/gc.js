@@ -142,6 +142,8 @@ const gameData = [
     { id: 0, title: "Mini Zombie Shooters", link: "/games/mini-zombie-shooters/" },
     { id: 0, title: "Mike Tyson | Punch Out ", link: "/games/external/mt.html" },
     { id: 0, title: "Mr Bullet", link: "/games/mr-bullet/" },
+    { id: 0, title: "Mr.Mine", link: "/games/mrm/0-mr-mine/play" },
+
     { id: 0, title: "My Friend Pedro", link: "/games/mfp" },
     { id: 0, title: "My Rusty Submarine", link: "/games/myrustysubmarine/" },
 
@@ -169,6 +171,8 @@ const gameData = [
     { id: 0, title: "Plants vs Zombies 1", link: "/games/pvz1/" },
     { id: 0, title: "Rooftop Snipers", link: "/games/rooftopsnipers-master/" },
     { id: 0, title: "Retro Bowl", link: "/games/retro/" },
+    { id: 0, title: "Shell Shockers", link: "/games/shellshock/" },
+
     { id: 0, title: "Subway Surfers San Francisco", link: "/games/subwaysurfers-sf/" },
     { id: 0, title: "Subway Surfers Beijing", link: "/games/subway-surfers-beijing/" },
     { id: 0, title: "Santy is Here", link: "/games/santy/" },

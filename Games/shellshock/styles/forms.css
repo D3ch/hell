@@ -1,0 +1,658 @@
+/* ----------------------------------------------------------------- Range Slider -- */
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 14em; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 0.25em solid var(--ss-white);
+  height: 1em;
+  width: 1em;
+  border-radius: 1em;
+  background: var(--ss-yolk);
+  cursor: pointer;
+  margin-top: -0.35em; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+	border: 0.25em solid var(--ss-white);
+  height: 1em;
+  width: 1em;
+  border-radius: 1em;
+  background: var(--ss-yolk);
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 0.2em;
+  cursor: pointer;
+  background: var(--ss-white);
+  border-radius: 1em;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 0.2em;
+  cursor: pointer;
+  background: var(--ss-white);
+  border-radius: 1em;
+}
+
+.ss_slider {
+	margin-bottom: 0.5em;
+}
+
+.ss_slider.label {
+	width: 2em;
+	color: var(--ss-white);
+}
+
+/* ----------------------------------------------------------------- CheckBoxes -- */
+
+/* Customize the label (the container) */
+.ss_checkbox {
+	display: block !important;
+	position: relative;
+	padding-left: 2.3em;
+	padding-top: 0;
+	margin: 0.4em 0em 0.7em 0em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ss_checkbox.label {
+	padding-left: 2.75em;
+	text-align: left;
+    white-space: normal;
+}
+
+/* Hide the browser's default checkbox */
+.ss_checkbox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1.9em;
+	width: 1.9em;
+	background-color: var(--ss-white);
+	border-radius: var(--ss-space-md);
+}
+
+/* On mouse-over, add a grey background color */
+.ss_checkbox:hover input ~ .checkmark {
+	background-color: var(--ss-blue0);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.ss_checkbox input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.ss_checkbox .checkmark:after {
+	left: 0.55em;
+	top: 0.2em;
+	width: 0.4em;
+	height: 1em;
+	border: solid var(--ss-blue4);
+	border-width: 0 0.4em 0.4em 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* ----------------------------------------------------------------- Radio Buttons -- */
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    color: var(--ss-white);
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid var(--ss-white);
+    border-radius: 100%;
+    background: var(--ss-white);
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 0.75em;
+    height: 0.75em;
+    background: var(--ss-yolk);
+    position: absolute;
+    top: 0.24em;
+    left: 0.2em;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/* ----------------------------------------------------------------- Fields -- */
+
+input:focus, textarea:focus { outline: none; }
+
+.ss_keybind {
+	border-radius: var(--ss-space-md);
+	border: none;
+	margin: 0 0 var(--ss-space-sm) 0;
+	padding: var(--ss-space-sm);
+	color: var(--ss-blue4);
+	background: var(--ss-white);
+	font-weight: bold;
+	width: 9em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.ss_keybind:hover {
+	background-color: var(--ss-blue0);
+}
+
+.ss_keybind:focus {
+	color: var(--ss-blue2);
+}
+
+.ss_keybind_undefined {
+	font-style: italic;
+	color: var(--ss-red);
+}
+
+.ss_buttonbind_icon {
+	height: 0.85em;
+}
+
+.label {
+	display: inline;
+	color: var(--ss-blue4);
+	font-weight: bold;
+	margin-left: var(--ss-space-md);
+	font-size: 1em;
+}
+
+.ss_select {
+	border-radius: var(--ss-space-sm);
+	border: var(--ss-common-border-width) solid var(--ss-blue4);
+	margin: 0 0 var(--ss-space-md) 0;
+	padding: var(--ss-space-sm);
+	box-shadow: 
+		inset 3px 3px 10px var(--ss-blue1),
+		0.1em 0.1em 3px var(--ss-blue3);
+	background: var(--ss-white);
+	color: var(--ss-blue3);
+	font-weight: bold;
+	min-height: 2.45em;
+}
+
+.ss_field {
+	border-radius: var(--ss-space-sm);
+	border: var(--ss-common-border-width) solid var(--ss-blue4);
+	margin: 0 0 var(--ss-space-md) 0;
+	padding: var(--ss-space-sm) var(--ss-space-md);
+	box-shadow: inset 0.3em .3em .03em rgba(11,147,189, .3);
+	background: var(--ss-white);
+	color: var(--ss-blue3);
+	font-weight: bold;
+	min-height: 2.45em;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: var(--ss-blue2);
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: var(--ss-blue2);
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: var(--ss-blue2);
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: var(--ss-blue2);
+}
+
+.fld_number {
+	height: 2em;
+	font-size: 1.4em;
+	width: 3em;
+	margin: 0 var(--ss-space-lg);
+	text-align: center;
+	font-weight: bold;
+}
+
+/* ----------------------------------------------------------------- Tabs -- */
+
+.ss_tab {
+	border-radius: var(--ss-space-sm);
+	border: var(--ss-common-border-width) solid var(--ss-blue5);
+	background: var(--ss-blue3);
+	color: var(--ss-white);
+	text-align: center;
+	font-weight: bold;
+	line-height: 1em;
+	padding: var(--ss-space-sm) var(--ss-space-lg);
+	box-shadow: 0.1em 0.1em 3px var(--ss-blue4);
+	margin: 0 0 var(--ss-space-md) 0;
+	cursor: pointer;
+	min-width: 10em;
+}
+
+/* ----------------------------------------------------------------- Buttons -- */
+
+#btn_horizontal {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: var(--ss-space-lg);
+}
+
+.ss_button {
+	font-family: 'Nunito', sans-serif;
+	border-radius: var(--border-radius);
+	border-width: var(--ss-common-border-width);
+	border-style: solid;
+	border-color: var(--ss-blue5);
+	background: var(--ss-blue3);
+	color: var(--ss-white);
+	text-align: center;
+	font-weight: 700;
+	line-height: 1em;
+	padding: var(--ss-space-sm) var(--ss-space-lg);
+	box-shadow: 0.1em 0.1em 3px var(--ss-blue4);
+	margin: 0 0 var(--ss-space-md) 0;
+	cursor: pointer;
+	/* white-space: nowrap; */
+	text-shadow: var(--ss-btn-common-txt-shadow);
+}
+
+.ss_button:disabled:hover {
+	cursor: not-allowed;
+}
+
+.ss_button_as_text {
+	background: none;
+    border: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+.ss_button_as_text:hover {
+	cursor: pointer;	
+}
+
+#btn_horizontal:not(.pause-popup--btn-group) .ss_button {
+	margin: 0 var(--ss-space-md) 0 0;
+}
+
+#btn_horizontal:not(.pause-popup--btn-group) .ss_button:first-child {
+	margin-left: var(--ss-space-md) !important;
+}
+
+.btn_green {
+	background: var(--ss-green1);
+	border-color: var(--ss-green2);
+}
+
+.btn_red {
+	background-color: var(--ss-red-btn-fill);
+	border-color: var(--ss-red-btn-outline);
+}
+
+.btn_pink {
+	background-color: var(--ss-pink);
+	border-color: var(--ss-pink1);
+}
+
+.btn_blue {
+	background-color: var(--ss-blue3);
+	border-color: var(--ss-blue5);
+}
+
+.btn_blue_light, .btn-selected {
+	background-color: var(--ss-blue7);
+	border-color: var(--ss-blue5);
+}
+
+.btn_yolk {
+	background: var(--ss-yolk);
+	border-color: var(--ss-brown);
+}
+
+.btn_vip-button {
+	background: var(--ss-vip-blue);
+	border-color: var(--ss-blue5);
+}
+
+.btn_toggleoff {
+	color: var(--ss-blue5) !important;
+	text-shadow: none !important;
+}
+
+.btn_toggleoff:hover {
+	color: var(--ss-blue1) !important;
+}
+
+.btn_toggleon {
+	border-color: var(--ss-white) !important;
+	color: var(--ss-white) !important;
+	background: var(--ss-yolk) !important;
+    text-shadow: var(--ss-btn-common-txt-shadow);
+
+	box-shadow: 
+		0.05em 0.05em 0.3em var(--ss-blue4),
+		inset -0.1em -0.1em 0.3em var(--ss-yolk2),
+		inset 0.1em 0.1em 0.3em var(--ss-yolk0) !important;
+}
+
+.btn_medium {
+	font-size: 1.3em;
+	padding: var(--ss-space-md) var(--ss-space-md);
+	border-radius: 0.3em;
+	font-family: 'Sigmar One', Sans-Serif;
+	font-weight: 100;
+	min-width: 9em;
+	text-transform: uppercase;
+}
+
+.btn_big {
+	height: 1.8em;
+	font-size: 2em;
+	padding: 0 var(--ss-space-sm);
+	border-radius: var(--ss-border-radius-sm);
+	font-family: 'Sigmar One', Sans-Serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	border-width: calc(var(--ss-common-border-width)/2);
+}
+
+.btn_play_w_friends {
+	line-height: 1;
+}
+
+.btn_game_mode {
+    line-height: 1.3;
+}
+
+.btn_game_mode h3, .btn_game_mode p {
+    margin: 0 !important;
+    padding-left: 0.55em;
+}
+
+.btn_game_mode h3 {
+    font-size: .434em;
+}
+
+.btn_game_mode p {
+	font-family: Nunito, sans-serif;
+	font-size: .355em;
+	font-weight: 700;
+}
+
+.btn_game_mode .open-close {
+	right: var(--ss-space-md)}
+
+.btn_game_mode .open-close i {
+	font-size: calc(var(--ss-space-lg)*2);
+	transition: transform .3s ease-in-out;
+	color: var(--ss-blue5);
+
+}
+
+.btn_height_auto {
+	height: auto;
+}
+
+.btn_sm {
+	width: auto;
+	font-size: .7em;
+	text-shadow: var(--ss-btn-common-txt-shadow-blur);
+	border-width: 0.24em;
+	min-width: 7em;
+}
+.btn_md { min-width: 8em;  }
+.btn_lg { min-width: 15em; }
+.btn_wfull { width: 100% !important; }
+
+.btn-media {
+	font-size: 60%;
+	min-width: auto;
+}
+
+.btn-twitch {
+	background: var(--twitch-lt-purple);
+	border-color: var(--ss-twitch);
+}
+
+.btn-twitch:hover {
+	background: var(--ss-twitch);
+	border-color: var(--twitch-lt-purple);
+
+}
+
+.twitch-btn-pink:hover {
+	background: var(--twitch-dk-pink);
+}
+
+.twitch-btn-purple {
+    background-color: var(--twitch-lt-purple);
+    border: 0.15em solid var(--twitch-dk-purple);
+}
+
+.twitch-btn-purple:hover {
+	background: var(--twitch-dk-purple);
+}
+
+.btn-account-w-icon,
+.btn-account-status  {
+	height: calc(var(--ss-space-lg)*3);
+	padding: 0;
+	margin: 0 0 0 calc(var(--ss-space-lg)/3);
+}
+
+.btn-account-status.btn_vip svg {
+	width: 2.4em;
+    height: 2.4em;
+    vertical-align: bottom;
+	fill: var(--ss-white);
+	filter: drop-shadow(var(--ss-btn-common-txt-shadow));
+}
+
+.btn-account-w-icon {
+	width: calc(var(--ss-space-lg)*3);
+}
+
+.btn-account-w-icon i {
+	font-size: 1.3em;
+}
+
+.btn-fullscreen {
+	width: 1.3em;
+    height: 1.3em;
+    fill: currentColor;
+}
+
+.btn-account-status {
+    width: 11em;
+}
+
+.btn-purchase {
+	font-size: 1.3em;
+}
+
+.btn_tutorial {
+	max-width: 12em;
+    margin-top: 0.6em;
+}
+
+.numberArrow {
+	width: 1.5em;
+	margin-bottom: -0.6em;
+}
+
+.ss_smtab {
+	color: var(--ss-blue3);
+	display: block;
+	border: 0;
+	background: var(--ss-blue2);
+	padding: calc(var(--ss-space-lg)/2);
+	cursor: pointer;
+	width: calc(var(--ss-space-lg)*2);
+	height: calc(var(--ss-space-lg)*2);
+}
+
+.ss_smtab.selected, .ss_smtab:hover {
+	background: var(--ss-white);
+}
+
+.media-tabs-wrapper {
+	height: 46vh;
+}
+
+.is-vip .media-tabs-wrapper {
+	height: calc(100vh - 14em);
+	z-index: 6;
+}
+
+.media-tabs-wrapper {
+	overflow: hidden;
+}
+
+.media-tab-container {
+	padding: 0 var(--ss-space-lg);
+	height: calc(var(--ss-space-lg)*4);
+    grid-template-columns: 2fr repeat(3, 2em);
+}
+
+.media-tab-container h4 {
+	margin: 0;
+	line-height: 1;
+}
+
+.media-tabs-content {
+	margin: 0 auto;
+	height: 17.5em;
+}
+
+.is-vip .media-tabs-content {
+	height: var(--ss-media-stats-height);
+}
+
+.btn_server {
+	top: 4em;
+    left: 0;
+}
+
+/* .media-tabs-content.front_panel.tab-news-active {
+	height: 17.5em;	
+} */
+
+.ss_bigtab {
+	height: 3em;
+	text-transform: uppercase;
+	color: var(--ss-blue5);
+	border: var(--ss-common-border-width) solid var(--ss-blue5);
+	background: var(--ss-blue3);
+	min-width: 8em;
+    padding: var(--ss-space-micro);
+	cursor: pointer;
+	/* box-shadow: none !important; */
+	box-shadow: var(--ss-box-shadow-1) !important;
+}
+
+.ss_bigtab img {
+	height: 1.5em;
+}
+
+.ss_bigtab:hover {
+	color: var(--ss-blue1);
+}
+
+.ss_bigtab:hover > img {
+	opacity: 0.75;
+}
+
+.ss_bigtab.selected > img {
+	opacity: 1;
+	filter: drop-shadow(var(--ss-btn-common-txt-shadow));
+}
+
+.ss_bigtab > img {
+	opacity: 0.5;
+}
+
+.ss_bigtab.selected {
+	background: var(--ss-yolk);
+	color: var(--ss-white);
+	border-color: var(--ss-white);
+
+	box-shadow: 
+		0.05em 0.05em 0.3em var(--ss-blue4),
+		inset -0.1em -0.1em 0.3em var(--ss-yolk2),
+		inset 0.1em 0.1em 0.3em var(--ss-yolk0) !important;
+
+}
+
+.ss_bigtab_icon { pointer-events: none; }
