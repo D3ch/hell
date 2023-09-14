@@ -1,0 +1,35 @@
+﻿{"frames": {
+
+"base0000":
+{
+	"frame": {"x":0,"y":0,"w":103,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":103,"h":59},
+	"sourceSize": {"w":103,"h":59}
+},
+"mag0000":
+{
+	"frame": {"x":0,"y":61,"w":30,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":65},
+	"sourceSize": {"w":30,"h":65}
+},
+"slide0000":
+{
+	"frame": {"x":32,"y":61,"w":83,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":83,"h":15},
+	"sourceSize": {"w":83,"h":15}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.5.0.100",
+	"image": "atlas_m93r.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":128},
+	"scale": "1"
+}
+}

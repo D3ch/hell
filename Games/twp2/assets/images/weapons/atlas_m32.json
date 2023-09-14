@@ -1,0 +1,19 @@
+﻿{"frames": {
+
+"base0000":
+{
+	"frame": {"x":0,"y":0,"w":315,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":315,"h":85},
+	"sourceSize": {"w":315,"h":85}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.5.0.100",
+	"image": "atlas_m32.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}

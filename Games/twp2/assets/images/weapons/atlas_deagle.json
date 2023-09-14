@@ -1,0 +1,35 @@
+﻿{"frames": {
+
+"base0000":
+{
+	"frame": {"x":0,"y":0,"w":121,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":69},
+	"sourceSize": {"w":121,"h":69}
+},
+"mag0000":
+{
+	"frame": {"x":99,"y":71,"w":29,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":55},
+	"sourceSize": {"w":29,"h":55}
+},
+"slide0000":
+{
+	"frame": {"x":0,"y":71,"w":97,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":21},
+	"sourceSize": {"w":97,"h":21}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.5.0.100",
+	"image": "atlas_deagle.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":128},
+	"scale": "1"
+}
+}

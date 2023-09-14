@@ -1,0 +1,187 @@
+﻿{"frames": {
+
+"muzzleFlash_1":
+{
+	"frame": {"x":229,"y":225,"w":95,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":95,"h":50},
+	"sourceSize": {"w":95,"h":50}
+},
+"muzzleFlash_2":
+{
+	"frame": {"x":422,"y":259,"w":81,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":48},
+	"sourceSize": {"w":81,"h":48}
+},
+"muzzleFlash_3":
+{
+	"frame": {"x":0,"y":256,"w":91,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":52},
+	"sourceSize": {"w":91,"h":52}
+},
+"muzzleFlash_4":
+{
+	"frame": {"x":325,"y":259,"w":96,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":49},
+	"sourceSize": {"w":96,"h":49}
+},
+"muzzleFlash_5":
+{
+	"frame": {"x":0,"y":197,"w":94,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":58},
+	"sourceSize": {"w":94,"h":58}
+},
+"muzzleFlash_6":
+{
+	"frame": {"x":166,"y":176,"w":62,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":86},
+	"sourceSize": {"w":62,"h":86}
+},
+"muzzleFlash_7":
+{
+	"frame": {"x":101,"y":176,"w":64,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":88},
+	"sourceSize": {"w":64,"h":88}
+},
+"muzzleFlash_8":
+{
+	"frame": {"x":292,"y":86,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":86,"h":86},
+	"sourceSize": {"w":86,"h":86}
+},
+"muzzleFlash_9":
+{
+	"frame": {"x":380,"y":75,"w":101,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":85},
+	"sourceSize": {"w":101,"h":85}
+},
+"projectile_bullet":
+{
+	"frame": {"x":92,"y":307,"w":177,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":19},
+	"sourceSize": {"w":177,"h":19}
+},
+"projectile_grenade":
+{
+	"frame": {"x":482,"y":75,"w":19,"h":9},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":9},
+	"sourceSize": {"w":19,"h":9}
+},
+"projectile_rocket":
+{
+	"frame": {"x":102,"y":86,"w":189,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":41},
+	"sourceSize": {"w":189,"h":41}
+},
+"smoke":
+{
+	"frame": {"x":0,"y":0,"w":101,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":123},
+	"sourceSize": {"w":101,"h":123}
+},
+"sparks_1":
+{
+	"frame": {"x":351,"y":214,"w":115,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":44},
+	"sourceSize": {"w":115,"h":44}
+},
+"sparks_2":
+{
+	"frame": {"x":101,"y":128,"w":132,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":47},
+	"sourceSize": {"w":132,"h":47}
+},
+"sparks_3":
+{
+	"frame": {"x":379,"y":161,"w":117,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":117,"h":52},
+	"sourceSize": {"w":117,"h":52}
+},
+"sparks_4":
+{
+	"frame": {"x":92,"y":265,"w":94,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":41},
+	"sourceSize": {"w":94,"h":41}
+},
+"sparks_5":
+{
+	"frame": {"x":102,"y":0,"w":158,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":76},
+	"sourceSize": {"w":158,"h":76}
+},
+"sparks_impact_1":
+{
+	"frame": {"x":0,"y":124,"w":100,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":72},
+	"sourceSize": {"w":100,"h":72}
+},
+"sparks_impact_2":
+{
+	"frame": {"x":380,"y":0,"w":123,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":74},
+	"sourceSize": {"w":123,"h":74}
+},
+"sparks_impact_3":
+{
+	"frame": {"x":261,"y":0,"w":118,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":118,"h":85},
+	"sourceSize": {"w":118,"h":85}
+},
+"sparks_impact_4":
+{
+	"frame": {"x":234,"y":173,"w":116,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":116,"h":51},
+	"sourceSize": {"w":116,"h":51}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.5.0.100",
+	"image": "atlas_effects.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}

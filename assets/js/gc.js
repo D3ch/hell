@@ -3,6 +3,7 @@ const gameData = [
     { id: 0, title: "Recommendation", link: "/" },
     { id: 1, title: "Made a recommendation? Check both apps and games.", link: "/games/2048/" },
     { id: 1, title: "I'M NOT ADDING FORNITE", link: "/games/2048/" },
+
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },
     { id: 0, title: "10 Minutes Till Dawn", link: "/games/10-minutes-till-dawn" },
@@ -25,6 +26,8 @@ const gameData = [
     { id: 0, title: "Bad Ice Cream 3", link: "/games/bad-ice-cream-3/" },
     { id: 0, title: "Bacon May Die 2016", link: "/games/bacon-may-die/" },
     { id: 0, title: "Basketball Stars", link: "/games/basketball-stars/" },
+    { id: 0, title: "Basketball Legends 2020", link: "/games/bbl/" },
+
     { id: 0, title: "Basketbros IO", link: "/games/bascketbros-io/" },
     { id: 0, title: "Baldis Basics", link: "/games/baldis-basics/" },
 
@@ -171,7 +174,7 @@ const gameData = [
     { id: 0, title: "Plants vs Zombies 1", link: "/games/pvz1/" },
     { id: 0, title: "Rooftop Snipers", link: "/games/rooftopsnipers-master/" },
     { id: 0, title: "Retro Bowl", link: "/games/retro/" },
-    { id: 0, title: "Shell Shockers", link: "/games/shellshock/" },
+    { id: 1, title: "Shell Shockers have been moved to apps.", link: "/games/shellshock/" },
 
     { id: 0, title: "Subway Surfers San Francisco", link: "/games/subwaysurfers-sf/" },
     { id: 0, title: "Subway Surfers Beijing", link: "/games/subway-surfers-beijing/" },
@@ -187,6 +190,10 @@ const gameData = [
     { id: 0, title: "Stickman Hook", link: "/games/stickman-hook/" },
     { id: 0, title: "Stick Merge", link: "/games/stick-merge/" },
     { id: 0, title: "Tabs", link: "/games/tabs/tabs" },
+    { id: 0, title: "Tactical Weapon Pack", link: "/games/twp" },
+    { id: 0, title: "Tactical Weapon Pack 2", link: "/games/twp2" },
+
+
     { id: 0, title: "Thermomorph", link: "/games/thermomorph/" },
     { id: 0, title: "Thwack", link: "/games/thwack/" },
     { id: 0, title: "There is no Game", link: "/games/there-is-no-game/" },
@@ -267,6 +274,8 @@ const gameData = [
     { id: 0, title: "Angry Birds", link: "/games/flash/?swf=Angry%20Birds%20HD.swf" },
     { id: 0, title: "Angry Birds | Halloween", link: "/games/flash/?swf=Angry%20Birds%20HD%20Halloween.swf" },
     { id: 0, title: "Age Of War", link: "/games/flash/?swf=Age_of_war.swf" },
+    { id: 0, title: "Binding Of Issac", link: "/games/flash/?swf=boi.swf" },
+
     { id: 0, title: "Bloxors", link: "/games/flash/?swf=bloxorz.swf" },
     { id: 0, title: "Burgeria", link: "/games/flash/?swf=burgeria.swf" },
     { id: 0, title: "Formula Racer 2012", link: "/games/flash/?swf=FormulaRacer2012.swf" },
@@ -290,6 +299,8 @@ const gameData = [
     { id: 0, title: "Papas Cupcakeria", link: "/games/flash/?swf=papascupcakeria.swf" },
     { id: 0, title: "Raft Wars", link: "/games/flash/?swf=raftwars.swf'" },
     { id: 0, title: "Raft Wars 2", link: "/games/flash/?swf=raftwars2.swf" },
+    { id: 0, title: "The Great War of Prefacturs", link: "/games/flash/?swf=prefacture.swf" },
+
     { id: 1, title: "IO Games", link: "/games/2048/" },
     { id: 0, title: "Surviv IO", link: "/games/starve.io/" },
     { id: 0, title: "Paper IO 2", link: "/games/paperio2/" },

@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Tactical Weapon Pack</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+    <!-- Libraries -->
+    <script src="lib/phaser.min.js"></script>
+    <script src="lib/box2d/box2d-plugin-full.min.js"></script>
+    <!-- API files -->
+    <script src="lib/phaser-ads.min.js"></script>
+    <script src="lib/api/ng/newgroundsio.min.js"></script>
+    <script src="lib/api/ag/ag.min.js"></script>
+    <script src='https://cdn1.kongregate.com/javascripts/kongregate_api.js'></script>
+    <!-- Game files -->
+    <script src="TacticalWeaponPack.js"></script>
+    <style>
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+            font-family: Play;
+        }
+
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+            background-color: lightgrey;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+            blockquote:before, blockquote:after,
+            q:before, q:after {
+                content: '';
+                content: none;
+            }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="content"></div>
+</body>
+</html>
+<script>
+    window.onload = new function()
+    {
+        var game = new TacticalWeaponPack.Engine();
+        Phaser.Device.whenReady(function ()
+        {
+            //----------------------------
+            var bUseAds = false;
+            var api = "newgrounds";
+            if (api == "newgrounds")
+            {
+                if (location.hostname.indexOf("armorgames") >= 0)
+                {
+                    api = "armor_games";
+                    console.log("Armor Games detected");
+                }
+                if (location.hostname.indexOf("kongregate") >= 0)
+                {
+                    api = "kongregate";
+                    console.log("Kongregate detected");
+                }
+            }
+            if (api == "kongregate")
+            {
+                bUseAds = false;
+            }
+            game.desiredAPI = api;
+            //----------------------------
+            if (bUseAds)
+            {
+                game.plugins.add(PhaserAds.AdManager);
+                var provider = new PhaserAds.AdProvider.GameDistributionAds(
+                    game,
+                    "926de5668494488bb44d77dcc8f5a285",
+                    "ABD36C6C-E74B-4BA7-BE87-0AB01F98D30D-s1"
+                );
+                game.ads.setAdProvider(provider);
+                window["GD_OPTIONS"] = {
+                    "gameId": "926de5668494488bb44d77dcc8f5a285",
+                    "onEvent": function (event)
+                    {
+                        game.onEvent(event.name);
+                    }
+                };
+            }
+            if (api == "armor_games")
+            {
+                document.domain = "armorgames.com";
+                var ag = null;
+                var agiChecks = 0;
+                function checkForAGI()
+                {
+                    if (agiChecks > 50 || game.ag != null)
+                    {
+                        return;
+                    }
+                    try
+                    {
+                        if (typeof parent.agi !== "undefined")
+                        {
+                            console.log("AGI loaded!");
+                            ag = new ArmorGames({
+                                user_id: parent.apiAuth.user_id,
+                                auth_token: parent.apiAuth.auth_token,
+                                game_id: parent.apiAuth.game_id,
+                                api_key: "D6F6D145-215B-459B-B1D4-977406EE3AE7",
+                                agi: parent.agi
+                            });
+                            game.ag = ag;
+                        }
+                        else
+                        {
+                            agiChecks++;
+                            window.setTimeout(checkForAGI, 250);
+                        }
+                    }
+                    catch (err)
+                    {
+                        agiChecks++;
+                        window.setTimeout(checkForAGI, 250);
+                        console.error(err);
+                    }
+                }
+                checkForAGI();
+            }
+            else if (api == "newgrounds")
+            {
+                game.ngio = new Newgrounds.io.core("48313:8rglXceA", "NJZaZx54kcn4Ppw4BPFc1Q==");
+            }
+            else if (api == "kongregate")
+            {
+                console.log(kongregateAPI);
+                function kongConnect()
+                {
+                    console.log("kong connect");
+                    kongregateAPI.loadAPI(function ()
+                    {
+                        window.kongregate = kongregateAPI.getAPI();
+                        game.kong = window.kongregate;
+                        game.initAPI();
+                    });
+                }
+                window.setTimeout(kongConnect, 1000);
+            }
+        });
+    }
+</script>
