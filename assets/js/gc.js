@@ -190,6 +190,7 @@ const gameData = [
     { id: 0, title: "Stickman Hook", link: "/games/stickman-hook/" },
     { id: 0, title: "Stick Merge", link: "/games/stick-merge/" },
     { id: 0, title: "Tabs", link: "/games/tabs/tabs" },
+    { id: 0, title: "Tanuki Sunset", link: "/games/ts/" },
     { id: 0, title: "Tactical Weapon Pack", link: "/games/twp" },
     { id: 0, title: "Tactical Weapon Pack 2", link: "/games/twp2" },
 
@@ -299,6 +300,7 @@ const gameData = [
     { id: 0, title: "Papas Cupcakeria", link: "/games/flash/?swf=papascupcakeria.swf" },
     { id: 0, title: "Raft Wars", link: "/games/flash/?swf=raftwars.swf'" },
     { id: 0, title: "Raft Wars 2", link: "/games/flash/?swf=raftwars2.swf" },
+    { id: 0, title: "Siegius Arena", link: "/games/flash/?swf=s.swf'" },
     { id: 0, title: "The Great War of Prefacturs", link: "/games/flash/?swf=prefacture.swf" },
 
     { id: 1, title: "IO Games", link: "/games/2048/" },
