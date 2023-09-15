@@ -276,6 +276,10 @@ const gameData = [
     { id: 0, title: "Angry Birds | Halloween", link: "/games/flash/?swf=Angry%20Birds%20HD%20Halloween.swf" },
     { id: 0, title: "Age Of War", link: "/games/flash/?swf=Age_of_war.swf" },
     { id: 0, title: "Binding Of Issac", link: "/games/flash/?swf=boi.swf" },
+    { id: 0, title: "Bloons", link: "/games/flash/?swf=bloons.swf" },
+    { id: 1, title: "Bloons 2 and Player Pack 2 coming soon.", link: "/games/flash/?swf=bloxorz.swf" },
+
+    { id: 0, title: "Bloons Player Pack 1", link: "/games/flash/?swf=bloonspp1.swf" },
 
     { id: 0, title: "Bloxors", link: "/games/flash/?swf=bloxorz.swf" },
     { id: 0, title: "Burgeria", link: "/games/flash/?swf=burgeria.swf" },
