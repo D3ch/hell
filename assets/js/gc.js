@@ -183,6 +183,8 @@ const gameData = [
     { id: 0, title: "Slope", link: "/games/slope/" },
     { id: 0, title: "Slope 2", link: "/games/slope-2/" },
     { id: 0, title: "Smash Karts", link: "/games/smashkarts-main/" },
+    { id: 1, title: "Stumble Guys is located in apps.", link: "/games/snow-rider3d/" },
+
     { id: 0, title: "Snow Rider 3D", link: "/games/snow-rider3d/" },
     { id: 0, title: "Soccer Heads", link: "/games/soccerheads/" },
     { id: 0, title: "Super Auto Pets", link: "/games/supauto/" },
