@@ -2,7 +2,7 @@
 const gameData = [
     { id: 0, title: "Recommendation", link: "/" },
     { id: 1, title: "Made a recommendation? Check both apps and games.", link: "/games/2048/" },
-    { id: 1, title: "I'M NOT ADDING FORNITE", link: "/games/2048/" },
+    { id: 1, title: "I'M NOT ADDING ROBLOX. Fornite is in apps.", link: "/games/2048/" },
 
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },
@@ -50,7 +50,7 @@ const gameData = [
     { id: 0, title: "Cut The Rope", link: "/games/ctr/" },
     { id: 0, title: "Cut The Rope | Time Travel", link: "/games/cuttherope-timetravel/" },
     { id: 0, title: "Cookie Clicker Alt", link: "/games/cookieclickeralt/" },
-    { id: 0, title: "Cookie Clicker", link: "/games/cookieclicker/" },
+    { id: 0, title: "Cookie Clicker", link: "/games/cookie-clicker/" },
     { id: 0, title: "Chill Radio", link: "/games/chill-radio/" },
     { id: 0, title: "Clicker Heroes", link: "/games/clicker-heroes/" },
     { id: 0, title: "Cluster Rush", link: "/games/cluster-rush/" },
@@ -187,6 +187,8 @@ const gameData = [
 
     { id: 0, title: "Snow Rider 3D", link: "/games/snow-rider3d/" },
     { id: 0, title: "Soccer Heads", link: "/games/soccerheads/" },
+    { id: 0, title: "Soccer Random", link: "/games/sr/" },
+
     { id: 0, title: "Super Auto Pets", link: "/games/supauto/" },
 
     { id: 0, title: "Stickman Hook", link: "/games/stickman-hook/" },
