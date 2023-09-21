@@ -2,7 +2,7 @@
 const gameData = [
     { id: 0, title: "Recommendation", link: "/" },
     { id: 1, title: "Made a recommendation? Check both apps and games.", link: "/games/2048/" },
-    { id: 1, title: "I'M NOT ADDING ROBLOX. Fornite is in apps.", link: "/games/2048/" },
+    { id: 1, title: "Mike Tyson Punch out is already added.", link: "/games/2048/" },
 
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },

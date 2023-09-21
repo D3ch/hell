@@ -48,13 +48,13 @@ Made a link and wanna share it? Post it [Here!](https://forms.gle/gwxTCDRzZQRo5t
 
 game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, and classroom 6x
 
-proxy source - tiw (source code) titanium network, and ultraviolet.
+proxy source - tiw (source code) titanium network, and ultraviolet. tomp.app for bare
 
 code - vs code, github, and codepen (frontend).
 
 inspiration - 3kh0 and interstellar
 
-Thank you for all the support!
+support - all of you! 
 
 
 
