@@ -71,7 +71,7 @@ const gameData = [
     { id: 0, title: "Earth Taken 3", link: "/games/earthtaken3/" },
     { id: 0, title: "Earn to Die", link: "/games/earntodie/" },
     { id: 0, title: "Edge Not Found", link: "/games/edgenotfound/" },
-    { id: 0, title: "Eaglercraft 1.5.2", link: "/games/eagl1.5.2/" },
+    { id: 0, title: "Eaglercraft 1.5.2", link: "/games/eag1.5.2/" },
     { id: 0, title: "Elasticman", link: "/games/elasticman/" },
     { id: 0, title: "Evil Glitch", link: "/games/evilglitch/" },
     { id: 0, title: "Fear the Spotlight", link: "/games/fearthespotlight/" },
@@ -133,6 +133,7 @@ const gameData = [
     { id: 0, title: "Mandalin Stunt Cars 2", link: "/games/mandalin-stunt-cars-2/" },
     { id: 0, title: "Mandalin Stutn Cars 3", link: "/games/mandalin-stunt-cars-3/" },
     { id: 0, title: "Minecraft", link: "/games/minecraft-18/" },
+    { id: 0, title: "Want Minecraft Singleplayer? Browse up to Eaglercraft.", link: "/games/minecraft-18/" },
     
 
     { id: 0, title: "Moto x3m", link: "/games/motox3m/" },
