@@ -46,7 +46,8 @@ Made a link and wanna share it? Post it [Here!](https://forms.gle/gwxTCDRzZQRo5t
 
 # Credits 
 
-game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, and classroom 6x
+game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, VyperGroup
+and classroom 6x
 
 proxy source - tiw (source code) titanium network, and ultraviolet. tomp.app for bare
 

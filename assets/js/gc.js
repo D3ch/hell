@@ -133,7 +133,7 @@ const gameData = [
     { id: 0, title: "Mandalin Stunt Cars 2", link: "/games/mandalin-stunt-cars-2/" },
     { id: 0, title: "Mandalin Stutn Cars 3", link: "/games/mandalin-stunt-cars-3/" },
     { id: 0, title: "Minecraft", link: "/games/minecraft-18/" },
-    { id: 0, title: "Want Minecraft Singleplayer? Browse up to Eaglercraft.", link: "/games/minecraft-18/" },
+    { id: 1, title: "Want Minecraft Singleplayer? Browse up to Eaglercraft.", link: "/games/minecraft-18/" },
     
 
     { id: 0, title: "Moto x3m", link: "/games/motox3m/" },
@@ -163,6 +163,8 @@ const gameData = [
     { id: 0, title: "Pixel Gun Survival", link: "/games/pixel-gun-survival/" },
     { id: 0, title: "Push The Square", link: "/games/push-the-square/" },
     { id: 0, title: "Pixel Gun Apocalypse 2", link: "/games/pixelgun/" },
+    { id: 1, title: "Roblox and Solar Smash is located in apps.", link: "/games/raftwars/" },
+
     { id: 0, title: "Raft Wars", link: "/games/raftwars/" },
     { id: 0, title: "Riddle School", link: "/games/riddleschool/" },
     { id: 0, title: "Riddle School 2", link: "/games/riddleschool2/" },

@@ -28,10 +28,9 @@
     background-color: black;
   }
   
-  /* Add a line when h1 elements don't fit the screen */
   @media screen and (max-width: 220px) {
     h1 {
       display: block;
-      margin-bottom: 10px; /* Add a line between h1 elements */
+      margin-bottom: 10px; /*line i think between h1 elements */
     }
   }

@@ -2,19 +2,18 @@ body {
     background: black;
   }
   
-  
-  /* Hover effect for the game card */
+/*How did you get here??*/  
   .game-card:hover {
     background-color: #444;
   }
   
-  /* Style for the game title */
+  /* for the game title */
   .game-title {
     font-size: 24px;
     font-weight: bold;
   }
   
-  /* Style for the play button */
+  /* blue ish play button */
   .play-button {
     background-color: #007BFF;
     color: #fff;
@@ -27,14 +26,14 @@ body {
   
   
   
-  /* Style for the game card container */
+  /* game card container size and gaps */
   .game-card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
   }
   
-  /* Style for each individual game card */
+  /*  each individual game card */
   .game-card {
     width: 200px;
     border: 1px solid #333;
@@ -47,18 +46,17 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  /* Hover effect for the game card */
   .game-card:hover {
     background-color: #444;
   }
   
-  /* Style for the game title */
+  /* for the game title */
   .game-title {
     font-size: 24px;
     font-weight: bold;
   }
   
-  /* Style for the play button */
+  /* for the play button */
   .play-button {
     background-color:blue;
     color: #fff;
@@ -69,7 +67,7 @@ body {
     font-size: 18px;
   }
   
-  /* Style for the search bar */
+  /* for the search bar */
   .search-bar {
     width: 50%;
     padding: 10px;
@@ -80,7 +78,7 @@ body {
     color:white;
   }
   
-  /* Style for the hidden button */
+  /* for the hidden button */
   .hide-button {
     display: none;
   }
