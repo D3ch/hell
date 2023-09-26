@@ -163,7 +163,7 @@ const gameData = [
     { id: 0, title: "Pixel Gun Survival", link: "/games/pixel-gun-survival/" },
     { id: 0, title: "Push The Square", link: "/games/push-the-square/" },
     { id: 0, title: "Pixel Gun Apocalypse 2", link: "/games/pixelgun/" },
-    { id: 1, title: "Roblox and Solar Smash is located in apps.", link: "/games/raftwars/" },
+    { id: 1, title: "Roblox and Solar Smash are currently down.", link: "/games/raftwars/" },
 
     { id: 0, title: "Raft Wars", link: "/games/raftwars/" },
     { id: 0, title: "Riddle School", link: "/games/riddleschool/" },
