@@ -4,15 +4,7 @@
 
 Tired of games and searching being blocked?
 
-Then use Hell! With over 260+ unblocked games and even a working
-
-ultraviolet proxy, bypassing has never been so much easier. It has almost
-
-everything you would want in a game site! 
-
-
-
-
+Then use Hell! With over 260+ unblocked games and even a working ultraviolet proxy, bypassing has never been so much easier. It has almost everything you would want in a game site! 
 
 # Why hell?
 
@@ -35,7 +27,7 @@ everything you would want in a game site!
 
 [Most instances/alternative links here.](https://instances.d3ch.repl.co)
 
-Made a link and wanna share it? Post it [Here!](https://forms.gle/gwxTCDRzZQRo5toH7)
+Did you make a link and would like to share it? Post it [here!](https://forms.gle/gwxTCDRzZQRo5toH7)
 
 
 ## Self Deploy
@@ -46,21 +38,12 @@ Made a link and wanna share it? Post it [Here!](https://forms.gle/gwxTCDRzZQRo5t
 
 # Credits 
 
-game sources - itch io, scratch, 3ch0, binbashbanana, lbannana, VyperGroup
-and classroom 6x
+game sources - itch.io, scratch, 3kh0, binbashbanana, lbannana, VyperGroup and classroom 6x
 
 proxy source - tiw (source code) titanium network, and ultraviolet. tomp.app for bare
 
-code - vs code, github, and codepen (frontend).
+code - VS code, GitHub, and CodePen (frontend).
 
 inspiration - 3kh0 and interstellar
 
-support - all of you! 
-
-
-
-
-
-
-
-
+support - all of you!
