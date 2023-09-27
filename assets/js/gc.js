@@ -39,6 +39,8 @@ const gameData = [
     { id: 0, title: "Bloons TD 2", link: "/games/bloonstd2" },
     { id: 0, title: "Bloons TD 6", link: "/games/external/b6" },
     { id: 0, title: "Bloxors", link: "/games/bloxors/" },
+    { id: 0, title: "Burrito Bison Launcha Libre", link: "/games/bb/" },
+
     { id: 0, title: "Bob The Robber", link: "/games/bobtherobber/" },
     { id: 0, title: "Bottle Flip 3D", link: "/games/bottle-flip-3d/" },
     { id: 0, title: "Cannon Basketball 4", link: "/games/cannon-basketball-4/" },
@@ -71,7 +73,7 @@ const gameData = [
     { id: 0, title: "Earth Taken 3", link: "/games/earthtaken3/" },
     { id: 0, title: "Earn to Die", link: "/games/earntodie/" },
     { id: 0, title: "Edge Not Found", link: "/games/edgenotfound/" },
-    { id: 0, title: "Eaglercraft 1.5.2", link: "/games/eag1.5.2/" },
+    { id: 0, title: "Eaglercraft 1.5.2 (Fixed)", link: "/games/eagl152/" },
     { id: 0, title: "Elasticman", link: "/games/elasticman/" },
     { id: 0, title: "Evil Glitch", link: "/games/evilglitch/" },
     { id: 0, title: "Fear the Spotlight", link: "/games/fearthespotlight/" },
