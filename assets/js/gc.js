@@ -130,7 +130,7 @@ const gameData = [
     { id: 0, title: "Learn to Fly 2", link: "/games/learntofly2/" },
     { id: 0, title: "Make Sure It's Closed", link: "/games/makesureitsclosed/" },
     { id: 0, title: "Mario 64", link: "/games/mario64/sm64/" },
-    { id: 0, title: "Mario Kart 64", link: "/games/external/mk64" },
+    { id: 0, title: "Mario Kart 64", link: "/games/external/mario/mk64" },
 
     { id: 0, title: "Mandalin Stunt Cars 2", link: "/games/mandalin-stunt-cars-2/" },
     { id: 0, title: "Mandalin Stutn Cars 3", link: "/games/mandalin-stunt-cars-3/" },
@@ -160,6 +160,8 @@ const gameData = [
     { id: 0, title: "Ovo", link: "/games/ovo/" },
     { id: 0, title: "Ovo 2", link: "/games/ovo2/" },
     { id: 0, title: "Pandemic 2", link: "/games/pandemic2/" },
+    { id: 0, title: "Paper Mario 64", link: "/games/external/mario/pm64" },
+
     { id: 0, title: "Particle Clicker", link: "/games/particleclicker/" },
     { id: 0, title: "Picohot", link: "/games/picohot/" },
     { id: 0, title: "Pixel Gun Survival", link: "/games/pixel-gun-survival/" },
@@ -313,10 +315,10 @@ const gameData = [
     { id: 0, title: "Papas Bakeria", link: "/games/flash/?swf=papasbakeria.swf" },
     { id: 0, title: "Papas Cheeseria", link: "/games/flash/?swf=papascheeseria.swf" },
     { id: 0, title: "Papas Cupcakeria", link: "/games/flash/?swf=papascupcakeria.swf" },
-    { id: 0, title: "Raft Wars", link: "/games/flash/?swf=raftwars.swf'" },
+    { id: 0, title: "Raft Wars", link: "/games/flash/?swf=raftwars.swf" },
     { id: 0, title: "Raft Wars 2", link: "/games/flash/?swf=raftwars2.swf" },
-    { id: 0, title: "Siegius Arena", link: "/games/flash/?swf=s.swf'" },
-    { id: 0, title: "The Great War of Prefacturs", link: "/games/flash/?swf=prefacture.swf" },
+    { id: 0, title: "Siegius Arena", link: "/games/flash/?swf=s.swf" },
+    { id: 0, title: "The Great War of Prefacturs", link: "/games/flash/?swf=prefecture.swf" },
 
     { id: 1, title: "IO Games", link: "/games/2048/" },
     { id: 0, title: "Surviv IO", link: "/games/starve.io/" },
