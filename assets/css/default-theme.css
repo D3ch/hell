@@ -1,23 +1,4 @@
-/** 
 
-NOT ALL THIS IS MY CODE
-
-Nav bar and the <li> and <ul> css code
-came from w3schools. 
-
-Others came from other sites that i forgot about.
-The only thing thats mine is the body + html css.
-
-The search css came from Hypersite-v2. Check
-that site out on replit.
-
-sorry for skidding ur code if u happen to 
-recognize it
-
--dachxd
-
-
-**/
 #white{
   color:white;
 }
@@ -58,23 +39,7 @@ recognize it
     outline: none;
     margin-left:10px;
   }
-  .block {
-        display: block;
-        width: 50%;
-        border: none;
-        background-color: #000000;
-        color: white;
-        padding: 14px 28px;
-        font-size: 24px;
-        cursor: pointer;
-        text-align: center;
-      }
-  .block:hover {
-    color:#383838;
-    background-color:#181818;
-    opacity: 0.3;
-    transition: 0.7s;
-  }
+  
   h1{
     color: white;
   }
@@ -95,29 +60,6 @@ recognize it
   
   
   
-   .search {
-       width: 800px;
-       height: 57px;
-       border-radius: 5px;
-       background: transparent;
-       border: none;
-       color: white;
-       font-size: 18px;
-       outline: none;
-       margin-left:10px;
-       
-       
-     }
-    ::placeholder {
-      width: 50%;
-    padding: 10px;
-    border:white;
-    background-color: #181818	;
-    border-radius: 40px;
-    margin-bottom: 70px;
-    color:white;
-    }
-  
   .submit-button {
       background: transparent;
       border: none;
@@ -127,17 +69,6 @@ recognize it
     margin-left:5px;
   }
   
-  .searchbox{
-    width: 50%;
-    padding: 10px;
-    border:white;
-    background-color: #181818	;
-    border-radius: 40px;
-    margin-bottom: 70px;
-    color:white;
-   
-    
-  }
   
   
   body {

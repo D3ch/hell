@@ -1,4 +1,3 @@
-// Sample data for game cards (customize as needed)
 const gameData = [
     { id: 0, title: "Recommendation", link: "/" },
     { id: 1, title: "Made a recommendation? Check both apps and games.", link: "/games/2048/" },
@@ -167,7 +166,7 @@ const gameData = [
     { id: 0, title: "Pixel Gun Survival", link: "/games/pixel-gun-survival/" },
     { id: 0, title: "Push The Square", link: "/games/push-the-square/" },
     { id: 0, title: "Pixel Gun Apocalypse 2", link: "/games/pixelgun/" },
-    { id: 1, title: "Roblox and Solar Smash are currently down.", link: "/games/raftwars/" },
+    { id: 1, title: "I cannot add roblox.", link: "/games/raftwars/" },
 
     { id: 0, title: "Raft Wars", link: "/games/raftwars/" },
     { id: 0, title: "Riddle School", link: "/games/riddleschool/" },
@@ -336,7 +335,7 @@ function generateGameCards() {
     gameData.forEach((game) => {
         const card = document.createElement("div");
         card.className = "game-card";
-        card.setAttribute("data-id", game.id); // Add a data-id attribute
+        card.setAttribute("data-id", game.id); //data-id attribute thin
         card.innerHTML = `
             <h1 class="game-title">${game.title}</h1>
             <a href="${game.link}" class="play-button ${game.id === 1 ? 'hide-button' : ''}">Play Now</a>
@@ -348,7 +347,7 @@ function generateGameCards() {
 
 generateGameCards();
 
-// Add search functionality
+// working search!
 document.getElementById("searchInput").addEventListener("input", function () {
     const searchTerm = this.value.toLowerCase();
     const cards = document.querySelectorAll(".game-card");
