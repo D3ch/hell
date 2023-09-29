@@ -8,17 +8,13 @@ Then use Hell! With over 260+ unblocked games and even a working ultraviolet pro
 
 # Why hell?
 
-- Over 260 games [🎮] (don't believe that? count it yourself)
-- Gameboy, flash, and html5 Games
-- No annoying ads and no cookies (probably). [🚫]
-- Easy to navigate [✔]
-- Easily Deployable [🔽]
-- Working Static Ultraviolet Proxy [🔎]
-- Open Source [🚪]
-- Site cloaking [🙈]
-- About Blank Embedder [⬜]
-- Bookmarklets and Cheats [📚]
-- Dark background and simple looks [⬛]
+- Over 260 games 
+- Easy to navigate
+- Easily Deployable
+- Working Static Ultraviolet Proxy
+- Site cloaking 
+- Bookmarklets and Cheats
+- Dark background and simple looks 
 
 ![site](https://github.com/D3ch/hell/assets/106717421/6977a3b1-82d6-4efc-a164-06324bf090a7)
 
