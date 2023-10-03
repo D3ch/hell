@@ -27,7 +27,7 @@ const gameData = [
     { id: 0, title: "Basketball Stars", link: "/games/basketball-stars/" },
     { id: 0, title: "Basketball Legends 2020", link: "/games/bbl/" },
 
-    { id: 0, title: "Basketbros IO", link: "/games/bascketbros-io/" },
+    { id: 0, title: "Basketbros IO", link: "/games/basketbros-io/" },
     { id: 0, title: "Baldis Basics", link: "/games/baldis-basics/" },
 
     { id: 0, title: "Burger and Frights", link: "/games/burger-and-frights/" },
@@ -163,6 +163,8 @@ const gameData = [
 
     { id: 0, title: "Particle Clicker", link: "/games/particleclicker/" },
     { id: 0, title: "Picohot", link: "/games/picohot/" },
+    { id: 1, title: "Pizza Tower is located in Apps.", link: "/games/picohot/" },
+
     { id: 0, title: "Pixel Gun Survival", link: "/games/pixel-gun-survival/" },
     { id: 0, title: "Push The Square", link: "/games/push-the-square/" },
     { id: 0, title: "Pixel Gun Apocalypse 2", link: "/games/pixelgun/" },

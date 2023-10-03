@@ -1,18 +1,21 @@
 .content {
     min-height: calc(100vh - 60px);
     padding-bottom: 60px;
+    background-color:black;
 }
 
 .footer {
-    padding: 20px;
+    padding: 1px;
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    background-color:black;
 }
 p{
     color:grey;
+    background-color: black;
 }
 strong{
     color:white;
