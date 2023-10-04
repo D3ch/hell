@@ -1,4 +1,4 @@
-![Hell v3 Img](https://github.com/D3ch/hell/assets/pages/v3off.png)
+![v3 img](https://github.com/D3ch/hell/assets/106717421/b68d49de-68a2-4c37-a020-9a5f37b9fc11)
 
 # Hell
 
