@@ -1,7 +1,7 @@
 const gameData = [
     { id: 0, title: "Recommendation", link: "/" },
     { id: 1, title: "Made a recommendation? Check both apps and games.", link: "/games/2048/" },
-    { id: 1, title: "Mike Tyson Punch out is already added.", link: "/games/2048/" },
+    { id: 1, title: "Mike Tyson Punch out & Monkey Mart is already added.", link: "/games/2048/" },
 
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },
@@ -64,6 +64,8 @@ const gameData = [
     { id: 0, title: "Defend The Tank", link: "/games/defend-the-tank/" },
     { id: 0, title: "Dead Trigger 2", link: "/games/dead-trigger-2/" },
     { id: 0, title: "DOOMORI", link: "/games/doomori/" },
+    { id: 0, title: "Doge Miner", link: "/games/dogeminer/" },
+
     { id: 0, title: "Drive Mad", link: "/games/drive-mad/" },
     { id: 0, title: "Doodle Jump", link: "/games/doodle-jump/" },
     { id: 0, title: "Doom 2", link: "/games/external/doom2" },
@@ -326,6 +328,7 @@ const gameData = [
     { id: 0, title: "Raft Wars 2", link: "/games/flash/?swf=raftwars2.swf" },
     { id: 0, title: "Siegius Arena", link: "/games/flash/?swf=s.swf" },
     { id: 0, title: "The Great War of Prefacturs", link: "/games/flash/?swf=prefecture.swf" },
+    { id: 0, title: "Upgrade Complete", link: "/games/flash/?swf=uc.swf" },
 
     { id: 1, title: "IO Games", link: "/games/2048/" },
     { id: 0, title: "Surviv IO", link: "/games/starve.io/" },
