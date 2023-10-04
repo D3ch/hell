@@ -20,8 +20,9 @@ const subtitles = [
     "chat is this real???",
     "chat this has over 260+ games",
     "this is randomized everytime you load it",
-    "fffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "hell hits dif",
     "no im not adding roblox.",
+    "did you pray today?",
 ];
 
 function xd() {

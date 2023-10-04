@@ -23,6 +23,8 @@ const gameData = [
     { id: 0, title: "Bad Ice Cream", link: "/games/bad-ice-cream/" },
     { id: 0, title: "Bad Ice Cream 2", link: "/games/bad-ice-cream-2/" },
     { id: 0, title: "Bad Ice Cream 3", link: "/games/bad-ice-cream-3/" },
+    { id: 1, title: "Baldi's Basics cannot be added. (too big files)", link: "/games/baldis-ultimate/" },
+
     { id: 0, title: "Bacon May Die 2016", link: "/games/bacon-may-die/" },
     { id: 0, title: "Basketball Stars", link: "/games/basketball-stars/" },
     { id: 0, title: "Basketball Legends 2020", link: "/games/bbl/" },
@@ -52,6 +54,8 @@ const gameData = [
     { id: 0, title: "Cut The Rope | Time Travel", link: "/games/cuttherope-timetravel/" },
     { id: 0, title: "Cookie Clicker Alt", link: "/games/cookieclickeralt/" },
     { id: 0, title: "Cookie Clicker", link: "/games/cookie-clicker/" },
+    { id: 0, title: "Chainsaw Dance", link: "/games/chainsaw-dance/" },
+
     { id: 0, title: "Chill Radio", link: "/games/chill-radio/" },
     { id: 0, title: "Clicker Heroes", link: "/games/clicker-heroes/" },
     { id: 0, title: "Cluster Rush", link: "/games/cluster-rush/" },
@@ -182,6 +186,8 @@ const gameData = [
     { id: 0, title: "Plants vs Zombies 1", link: "/games/pvz1/" },
     { id: 0, title: "Rooftop Snipers", link: "/games/rooftopsnipers-master/" },
     { id: 0, title: "Retro Bowl", link: "/games/retro/" },
+    { id: 0, title: "Retro Bowl Hacked", link: "/games/retro-hacked/" },
+
     { id: 1, title: "Shell Shockers have been moved to apps.", link: "/games/shellshock/" },
 
     { id: 0, title: "Subway Surfers San Francisco", link: "/games/subwaysurfers-sf/" },
