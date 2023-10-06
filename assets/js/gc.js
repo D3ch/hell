@@ -1,7 +1,7 @@
 const gameData = [
     { id: 0, title: "Recommendation", link: "/" },
     { id: 1, title: "Made a recommendation? Check both apps and games.", link: "/games/2048/" },
-    { id: 1, title: "Mike Tyson Punch out & Monkey Mart is already added.", link: "/games/2048/" },
+    { id: 1, title: "Gun Mayhem 2 & Monkey Mart is already added.", link: "/games/2048/" },
 
     { id: 0, title: "1v1 lol", link: "/games/1v1lol" },
     { id: 2, title: "1", link: "/games/1" },
@@ -38,7 +38,7 @@ const gameData = [
     { id: 0, title: "Backrooms 2d", link: "/games/backrooms2d/backrooms2d" },
     { id: 0, title: "Bloons TD 1", link: "/games/bloonstd1/" },
     { id: 0, title: "Bloons TD 2", link: "/games/bloonstd2" },
-    { id: 0, title: "Bloons TD 6", link: "/games/external/b6" },
+    { id: 0, title: "Bloons TD 6", link: "https://scratch.mit.edu/projects/575112909/embed" },
     { id: 0, title: "Bloxors", link: "/games/bloxors/" },
     { id: 0, title: "Burrito Bison Launcha Libre", link: "/games/bb/" },
 
@@ -106,11 +106,11 @@ const gameData = [
     { id: 0, title: "Henry Stickmin | Fleeing the Complex", link: "/games/henrystickmin/fleeingthecomp" },
     { id: 0, title: "Gimme The Airpod", link: "/games/gimme-the-airpod/" },
     { id: 0, title: "Geometry Dash Classic", link: "https://scratch.mit.edu/projects/105500895/embed" },
-    { id: 0, title: "Geometry Dash Subzero", link: "/games/external/subzero" },
+    { id: 0, title: "Geometry Dash Subzero", link: "https://scratch.mit.edu/projects/216343253/embed" },
     { id: 0, title: "Gun Spin", link: "/games/gunspinn/" },
     { id: 0, title: "Gun Master", link: "/games/gun-master/" },
     { id: 0, title: "Gun Mayhem 1", link: "/games/gunmayhem1/" },
-    { id: 0, title: "Gun Mayhem 2", link: "/games/gunmayhem2/" },
+    { id: 0, title: "Gun Mayhem 2", link: "/games/flash/?swf=gm2.swf" },
     { id: 0, title: "Gun Night", link: "/games/gun-night/html/35224996/" },
     { id: 0, title: "HackerType", link: "/games/hackertype/" },
     { id: 0, title: "Hex GL", link: "/games/hexgl/" },
@@ -206,6 +206,7 @@ const gameData = [
     { id: 0, title: "Soccer Random", link: "/games/sr/" },
 
     { id: 0, title: "Super Auto Pets", link: "/games/supauto/" },
+    { id: 0, title: "Super Punch Out", link: "/games/external/mario/spo" },
 
     { id: 0, title: "Stickman Hook", link: "/games/stickman-hook/" },
     { id: 0, title: "Stick Merge", link: "/games/stick-merge/" },
