@@ -1,6 +1,64 @@
 <html>
   <link rel="stylesheet" href = "/assets/css/default-theme.css">
   <link rel="stylesheet" href = "/assets/css/style.css">
+  <style>
+          body {
+        font-family: arial;
+        color: #fff;
+        background-color: #000000;
+        background-size: cover;
+      }
+      a {
+        color: #fff;
+        padding-bottom: 10px;
+        text-decoration: none;
+      }
+       a:link {
+      text-decoration: none;
+}
+
+a:visited {
+      text-decoration: none;
+}
+
+a:hover {
+      text-decoration: none;
+}
+
+a:active {
+      text-decoration: none;
+}
+      * {
+        margin: auto;
+        text-align: center;
+      }
+      #reason {
+        padding-top: 20%;
+        padding-bottom: 20px;
+      }
+      h1 {
+        font-size: 120px;
+      }
+    </style>
+     <style>
+
+        .button {
+  background-color: transparent; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  text-decoration:underline;
+           
+} 
+     </style>
+  </style>
 
   <title>404 | v3</title>
   <body>
@@ -22,6 +80,56 @@
     <h2>
        404
     </h2>
+      <h2>
+      This page doesn't exist. If you believe you shouldn't have gotten this
+      error, contact us, or go back to the main page below.
+    </h2>
+         <center>
+     <u>
+            <button class="button" onclick="statsForNerds()">Stats for nerds</button>
+     </u>
+    </center>
+
+    <div id="sfn" style="display: none;" class="message">
+      Please make a issue about this happening on the <a href="https://github.com/d3ch/hell/issues">Github issue tracker</a>. Requested URL: <span id="full">Fetching...</span><br />
+      Referrer: <span id="ref">Fetching...</span><br />
+      Title: <span id="title">Fetching...</span><br />
+      Screen height: <span id="height">Fetching...</span><br />
+      Screen width: <span id="width">Fetching...</span><br />
+      Window height: <span id="winheight">Fetching...</span><br />
+      Window width: <span id="winwidth">Fetching...</span><br />
+      Cookies: <span id="cookie">Fetching...</span><br />
+      User agent: <span id="ua">Fetching...</span><br />
+      OS platform: <span id="plat">Fetching...</span><br />
+      Online: <span id="online">Fetching...</span><br />
+      Error code: 404<br />
+    </div>
+
+    <script>
+      function statsForNerds() {
+        var x = document.getElementById("sfn");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          console.log("[ℹ️] Showing the stats for nerds!");
+        } else {
+          x.style.display = "none";
+          console.log("[ℹ️] Hiding the stats for nerds!");
+        }
+      }
+      document.getElementById("full").innerText = window.location.href;
+      document.getElementById("ref").innerHTML = document.referrer;
+      document.getElementById("title").innerText = document.title;
+      document.getElementById("height").innerHTML = screen.height + "px";
+      document.getElementById("width").innerHTML = screen.width + "px";
+      document.getElementById("winheight").innerHTML = window.innerHeight + "px";
+      document.getElementById("winwidth").innerHTML = window.innerWidth + "px";
+      document.getElementById("cookie").innerText = navigator.cookieEnabled;
+      document.getElementById("ua").innerHTML = navigator.userAgent;
+      document.getElementById("plat").innerHTML = navigator.platform;
+      document.getElementById("online").innerHTML = navigator.onLine;
+    </script>
+    <br />
+    <a href="/index.html">Home Page</a>
     <a href="https://forms.gle/uE357bpzg3AnWL1W6" target ="_blank">
                     <button class="block"><b>Suggest here.</b></button>
             </a>
