@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/pricedown');
+@import url('https://fonts.cdnfonts.com/css/Pricedown');
 #white{
   color:white;
 }
@@ -12,7 +12,7 @@
     height: auto;
     width: 100%;
     background-size: 100%;
-    font-family: Pricedown;
+    font-family: 'Pricedown Bl Bl', sans-serif;
     
   }
   body, ul {
@@ -50,12 +50,12 @@
   p1{
     color:grey;
     Background-color:Black;
-    font-family: "Pricedown", sans-serif;
+    font-family: "Pricedown Bl", sans-serif;
   }
   p{
     color:grey;
     Background-color:Black;
-    font-family: "Pricedown", sans-serif;
+    font-family: "Pricedown Bl", sans-serif;
   }
 
   
