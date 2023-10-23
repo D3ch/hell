@@ -1,4 +1,4 @@
-
+@import url('https://fonts.cdnfonts.com/css/pricedown');
 #white{
   color:white;
 }
@@ -49,12 +49,12 @@
   p1{
     color:grey;
     Background-color:Black;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Pricedown", sans-serif;
   }
   p{
     color:grey;
     Background-color:Black;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Pricedown", sans-serif;
   }
 
   
