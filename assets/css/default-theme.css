@@ -11,7 +11,8 @@
   html, body {
     height: auto;
     width: 100%;
-    background-size: 100%; 
+    background-size: 100%;
+    font-family: Pricedown;
     
   }
   body, ul {
