@@ -20,7 +20,7 @@ Then use Hell! With over 260+ unblocked games and even a working ultraviolet pro
 ## Links / Mirrors
 
 
-[Most instances/alternative links here.](https://instances.d3ch.repl.co)
+[All links in instances will go down soon. New link in description.](https://instances.d3ch.repl.co)
 
 Did you make a link and would like to share it? Post it [here!](https://forms.gle/gwxTCDRzZQRo5toH7)
 
